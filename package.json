@@ -1,5 +1,5 @@
 {
-  "name": "vanilla-app-template",
+  "name": "main_command_project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,7 +12,7 @@
     "vite": "^4.0.0",
     "glob": "^8.1.0"
   },
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Dmytro Kozlovskyi <dnfdim@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "vite-plugin-full-reload": "^1.0.5",
