@@ -1,11 +1,11 @@
 {
-  "name": "main_command_project",
+  "name": "command_project_mimino",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/main_command_project/",
+    "build": "vite build --base=/command_project_mimino/",
     "preview": "vite preview"
   },
   "devDependencies": {
