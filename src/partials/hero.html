@@ -1,0 +1,123 @@
+<section class="hero">
+    <div class="container">
+      <h1 class="hero-title">Mimino</h1>
+      <div class="hero-btn">
+          <button data-modal-open class="button-black" >book a room</button>
+          <button data-modal-open2 class="button-black">book a table</button>
+      </div>
+      <div class="hero-prg">
+      <p class="hero-text">Whether you're in the mood for a hearty breakfast,
+           a light lunch, <i>or a romantic dinner</i> ,
+            our menu has something for everyone.</p>
+      <p class="hero-text">At Hotel Mimino, <i>we believe</i>  that great food should be available to everyone,
+           no matter the time of day.</p>
+          </div>
+  
+          <!-- modal window book a room-->
+  
+          <div class="backdrop is-hidden" data-modal>
+              <div class="window-room">
+                <button data-modal-close class="close-win" type="button">
+                 <svg class="cross" width="32" height="32">
+                  <use href="./images/icons.svg#icon-close_white"></use>
+                 </svg></button> 
+      
+              <p class="group-header">BOOK A room</p>
+      
+                <form class="form js-speaker-form">
+                  
+                  <div class="form__group field">
+                      <input required="" placeholder="Name" class="form__field" type="input">
+                      <label class="form__label" for="name">Your name</label>
+                  </div>
+                  <p class="prg-form">Who should book a table for?</p>
+  
+                  <div class="form__group field">
+                      <input required="" placeholder="Number" class="form__field" type="input">
+                      <label class="form__label" for="number">+38()</label>
+                  </div>
+                  <p class="prg-form">Phone number</p>
+  
+       
+                  <select name="number" autofocus class="select-css">
+                      <option disabled="disabled" selected="selected">Today</option>
+                      <option>Tomorrow</option>
+                      <option>Day after tomorrow</option>
+                      <option>After the day after tomorrow</option>
+                  </select>
+                  <p class="prg-form">Check-in date</p>
+  
+  
+                  <input type="date" id="start" name="trip-start" class="select-css"
+                  value="2023-04-25"
+                  min="2023-04-01" max="2023-12-31">
+                  <p class="prg-form">Check-in date</p>
+  
+                  <select name="number" autofocus class="select-css">
+                      <option disabled="disabled" selected="selected">Double suite</option>
+                      <option>DOUBLE LUXURY ROOM</option>
+                      <option>Triple Room</option>
+                      <option>Four-seater room</option>
+                  </select>
+                  <p class="prg-form">Number category</p>
+                 
+                  <button data-modal-close type="submit" class="form-send"> <span class="resrvation">MAKE A RESERVATION</span> </button>
+  
+             </form>
+            
+                
+               </div>
+             </div>
+  
+                 <!-- modal window book a table-->
+  
+                 <div class="backdrop is-hidden2" data-modal2>
+                  <div class="window-table">
+                    <button data-modal-close2 class="close-win" type="button">
+                     <svg class="cross" width="32" height="32">
+                      <use href="./images/icons.svg#icon-close_white"></use>
+                     </svg></button> 
+          
+                  <p class="group-header">BOOK A TABLE</p>
+          
+                    <form class="form js-speaker-form">
+                      
+                      <div class="form__group field">
+                          <input required="" placeholder="Name" class="form__field" type="input">
+                          <label class="form__label" for="name">Your name</label>
+                      </div>
+                      <p class="prg-form">Who should book a table for?</p>
+  
+                            
+  
+                      <select name="number" autofocus class="select-css">
+                          <option disabled="disabled" selected="selected">number of people</option>
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                      </select>
+                     
+      
+      
+                      <select name="number" autofocus class="select-css">
+                          <option disabled="disabled" selected="selected">Today</option>
+                          <option>Tomorrow</option>
+                          <option>Day after tomorrow</option>
+                          <option>After the day after tomorrow</option>
+                      </select>
+                      <p class="prg-form">What date to book?</p>
+  
+                      <div class="form__group field">
+                          <input required="" placeholder="Number" class="form__field" type="input">
+                          <label class="form__label" for="number">+38()</label>
+                      </div>
+                      <p class="prg-form">Phone number</p>
+  
+                      <button data-modal-close2 type="submit" class="form-send"> <span class="resrvation">MAKE A RESERVATION</span> </button>
+                 </form>
+                
+                    
+                   </div>
+                 </div>
+                </div>
+  </section>
