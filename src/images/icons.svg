@@ -16,5 +16,13 @@
 <symbol id="icon-facebook" viewBox="0 0 32 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M24 2.667h-4c-3.682 0-6.667 2.985-6.667 6.667v0 4h-4v5.333h4v10.667h5.333v-10.667h4l1.333-5.333h-5.333v-4c0-0.736 0.597-1.333 1.333-1.333v0h4v-5.333z"></path>
 </symbol>
+<symbol id="icon-slide-left" viewBox="0 0 18 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4" d="M16 30l-14-14 14-14"></path>
+</symbol>
+<symbol id="icon-slide-right" viewBox="0 0 18 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4" d="M2 30l14-14-14-14"></path>
+</symbol>
 </defs>
 </svg>
+
+
