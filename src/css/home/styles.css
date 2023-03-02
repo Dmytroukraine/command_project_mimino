@@ -4,13 +4,11 @@
   | default @import url()
   |============================
 */
-@import url('./reset.css');
-@import url('./base.css');
-@import url('./variables.css');
+
 @import url('/css/home/header.css');
 @import url('/css/home/hero.css');
 
-@import url('/css/home/footer.css');
+
 
 
 
