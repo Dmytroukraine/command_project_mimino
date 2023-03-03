@@ -60,7 +60,7 @@
   justify-content: center;
   column-gap: 14px;
 }
-.booking-light-btn {
+/* .booking-light-btn {
   display: flex;
   padding: 8px 14px;
   text-transform: uppercase;
@@ -68,7 +68,21 @@
   border: 0.8px solid rgba(246, 246, 246, 1);
   background-color: rgba(18, 18, 18, 1);
   color: rgba(246, 246, 246, 1);
-}
+} */
+
+.booking-light-btn {padding: 8px 18px;
+                    border: 0.8px solid #f7f7f7;
+                    border-radius: 32px;
+                    font-family: inherit;
+                    font-size: 14px;
+                    line-height: 1.71;
+                    letter-spacing: -0.02em;
+                    text-transform: uppercase;
+                    background-color: transparent;
+                    color: #f6f6f6;
+                    cursor: pointer;}
+
+
 .booking-light-btn:hover,
 .booking-light-btn:focus {
   background-color: rgba(246, 246, 246, 1);
