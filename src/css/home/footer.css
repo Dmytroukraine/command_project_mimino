@@ -16,7 +16,7 @@
    align-items: flex-start;
    padding: 24px 22px 32px 20px;
    
-   border-top: 0.5px solid rgba(18, 18, 18, 0.3);
+   border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
    /*border-radius: 68px;*/
 }
 .div-footer-logo {
