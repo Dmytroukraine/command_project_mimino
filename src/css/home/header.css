@@ -179,6 +179,7 @@
       color: #f7f7f7;
       position: relative;
       display: block;
+      transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     
     .header-nav-link.current::after{
@@ -189,5 +190,8 @@
       position: absolute;
       bottom: -5px;
       right: 50%;
+    }
+    .header-nav-link:hover, .header-nav-link:focus{
+      transform: translateY(-5px);
     }
   }
