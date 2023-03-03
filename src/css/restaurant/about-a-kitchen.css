@@ -1,0 +1,16 @@
+:root {
+  --mobile-screen: 375px;
+  --tablet-screen: 768px;
+  --desktop-screen: 1440px;
+}
+
+.hidden-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  overflow: hidden;
+}
