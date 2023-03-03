@@ -18,7 +18,7 @@
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(/images/mobile/home/home_building_mobile@2x.webp);
+  background-image: url(/images/mobile/home/home_building_mobile.webp);
   width: 100%;
   min-height: 439px;
   background-repeat: no-repeat;
@@ -26,6 +26,14 @@
   background-size: cover;
   /* outline: 2px solid rebeccapurple; */
 }
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-background {
+    background-image: url(/images/mobile/home/home_building_mobile@2x.webp);
+  }
+}
+
 .hero-container {
   margin-left: auto;
   margin-right: auto;
