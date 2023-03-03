@@ -16,7 +16,7 @@
    align-items: flex-start;
    padding: 24px 22px 32px 20px;
    
-   border: 0.5px solid rgba(18, 18, 18, 0.3);
+   border-top: 0.5px solid rgba(18, 18, 18, 0.3);
    /*border-radius: 68px;*/
 }
 .div-footer-logo {
@@ -27,7 +27,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 20/24;
+    line-height: calc (20/24);
     letter-spacing: 0.18em;
     text-transform: uppercase;
 
@@ -36,13 +36,12 @@
     color: #121212;
 }
 .footer-text {
-    width: 149px;
     margin: 0;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 8px;
-    line-height: 8/10;
+    line-height: calc(8/10);
     letter-spacing: 0.18em;
     text-transform: uppercase;
     color: #121212;
@@ -61,4 +60,5 @@
 }
 .footer-svg {
     stroke: #121212;
+    fill: #f7f7f7;
 }
