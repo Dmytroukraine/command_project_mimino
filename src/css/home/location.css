@@ -1,0 +1,72 @@
+.loc-section{
+    margin: 64px 0;
+    background-color: #F6F6F6; 
+}
+
+.loc-container{
+    padding: 0 20px;
+    max-width: 375px;
+    min-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.loc-title{
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: calc(40 / 40);
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #121212;
+    margin-bottom: 32px;
+}
+
+
+.map{
+    width: 100%;
+    max-width: 335px;
+    max-height: 384px;
+    box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.2);
+    filter: grayscale(100%);
+    margin-bottom: 32px;
+}
+
+.loc-adr{
+    font-style: normal;
+}
+
+.loc-txt{
+    font-family: 'DM Sans';
+    font-size: 18px;
+    line-height: calc(24 / 18);
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 28px;
+}
+
+.loc-call-txt{
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(18 / 14);
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #121212;
+    margin-bottom: 12px;
+}
+
+.loc-item:not(:last-child){
+    margin-bottom: 4px;
+}
+
+.loc-link{
+    font-family: 'DM Sans';
+    font-size: 14px;
+    line-height: calc(18 / 14);
+    letter-spacing: -0.02em;
+    color: #121212;
+    padding: 2px 0;
+}
