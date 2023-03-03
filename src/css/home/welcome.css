@@ -1,6 +1,7 @@
 .welcome {
     padding-top: 64px;
     padding-bottom: 64px;
+    background-color: #F6F6F6;
 }
 
 /* 768px <= tab <= infinity */
@@ -12,24 +13,40 @@
 }
 
 /* 1200px <= desk <= infinity */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     .welcome {
     padding-top: 100px;
     padding-bottom: 100px;
 }
 }
 
+.welcome-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* 768px <= tab <= infinity */
+@media screen and (min-width: 768px) {
+    .container {
+    max-width: 704px;
+    }
+}
+
 /* 1200px <= desk <= infinity */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     .welcome-container {
     display: flex;
     flex-direction: row-reverse;
+    max-width: 1240px;
     gap: 32px;
 }
 }
 
 /* 1200px <= desk <= infinity */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     .welcome-wrap {
        position: relative;
     }
@@ -54,13 +71,6 @@
 }
 }
 
-/* 1200px <= desk <= infinity */
-@media screen and (min-width: 1200px) {
-    .welcome-title {
-      
-    }
-}
-
 .italic-w {
     font-style: italic;
 }
@@ -81,7 +91,7 @@
 }
 
 /* 1200px <= desk <= infinity */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     .welcome-list {
     flex-direction: column;
     gap: 24px;
@@ -105,7 +115,7 @@
 }
 
 /* 1200px <= desk <= infinity */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
    .welcome-one {
     width: 437px;
 }
@@ -123,7 +133,7 @@
 }
 
 /* 1200px <= desk <= infinity */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     .welcome-two {
     width: 437px;
 }
