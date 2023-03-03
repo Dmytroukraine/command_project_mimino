@@ -33,6 +33,7 @@
   .header-social-list {
     display: none;
   }
+
   
   .header-mobile-menu-icon {
   stroke: #f7f7f7;
@@ -176,5 +177,17 @@
       line-height: 18px;
       letter-spacing: 0.05em;
       color: #f7f7f7;
+      position: relative;
+      display: block;
+    }
+    
+    .header-nav-link.current::after{
+      content: ".";
+      display: block;
+      font-size: 40px;
+      color: #f7f7f7;
+      position: absolute;
+      bottom: -5px;
+      right: 50%;
     }
   }
