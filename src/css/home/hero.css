@@ -1,2 +1,92 @@
+.section {
+  /* outline: 2px solid red; */
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.hero-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgba(18, 18, 18, 1);
+  margin-right: auto;
+  margin-left: auto;
+}
+.hero-background {
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(/images/mobile/home/home_building_mobile.webp);
+  width: 100%;
+  min-height: 439px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  /* outline: 2px solid rebeccapurple; */
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-background {
+    background-image: url(/images/mobile/home/home_building_mobile@2x.webp);
+  }
+}
 
+.hero-container {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 320px;
+  max-width: 375px;
+  /* outline: 2px dashed yellowgreen; */
+  position: relative;
+}
 
+.hero-title {
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: rgba(246, 246, 246, 1);
+  text-align: center;
+  position: absolute;
+  top: 389px;
+  left: -50%;
+  right: -50%;
+}
+.hero-btn-list {
+  margin-top: 54px;
+  display: flex;
+  justify-content: center;
+  column-gap: 14px;
+}
+.booking-light-btn {
+  display: flex;
+  padding: 8px 18px;
+  text-transform: uppercase;
+  border-radius: 32px;
+  border: 0.8px solid rgba(246, 246, 246, 1);
+  background-color: rgba(18, 18, 18, 1);
+  color: rgba(246, 246, 246, 1);
+}
+.booking-light-btn:hover,
+.booking-light-btn:focus {
+  background-color: rgba(246, 246, 246, 1);
+  color: rgba(18, 18, 18, 1);
+  outline: transparent;
+}
+.hero-text-list {
+  margin-top: 66px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+.hero-text {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: 0.05em;
+  color: rgba(246, 246, 246, 1);
+  text-transform: uppercase;
+}
+.list-item > .hero-text > span {
+  font-style: italic;
+}
