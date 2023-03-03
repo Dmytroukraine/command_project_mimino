@@ -1,4 +1,7 @@
-
+/* фонт-фемилі тимчасово */
+* {
+  font-family: sans-serif;
+}
 .section {
   /* outline: 2px solid red; */
   padding-left: 20px;
@@ -62,6 +65,7 @@
 .booking-light-btn:focus {
   background-color: rgba(246, 246, 246, 1);
   color: rgba(18, 18, 18, 1);
+  outline: transparent;
 }
 .hero-text-list {
   margin-top: 66px;
