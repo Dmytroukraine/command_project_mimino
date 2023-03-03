@@ -1,4 +1,3 @@
-
 .section {
   /* outline: 2px solid red; */
   padding-left: 20px;
@@ -35,6 +34,7 @@
   margin-left: auto;
   margin-right: auto;
   min-width: 320px;
+  max-width: 375px;
   /* outline: 2px dashed yellowgreen; */
   position: relative;
 }
