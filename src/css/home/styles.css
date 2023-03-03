@@ -14,4 +14,8 @@
 @import url('/css/home/welcome.css');
 @import url('/css/home/hotel-detail.css');
 @import url('/css/home/location.css');
+@import url('/css/home/modal/view-room.css');
+@import url('/css/home/modal/book-a-room.css');
+@import url('/css/home/modal/book-a-table.css');
+@import url('/css/home/modal/view-a-menu.css');
 @import url('/css/home/footer.css');
