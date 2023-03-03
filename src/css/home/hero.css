@@ -37,6 +37,7 @@
 .hero-container {
   margin-left: auto;
   margin-right: auto;
+  min-width: 320px;
   /* outline: 2px dashed yellowgreen; */
   position: relative;
 }
