@@ -164,10 +164,11 @@
     .hotel-header-nav {
       margin-top: auto;
       margin-bottom: auto;
+      position: absolute;
+      top: 27px;
+      left: 32px;
     }
-    .hotel-header-social-list {
-      position: static;
-    }
+   
     .hotel-header-mobile-menu-btn {
       display: none;
     }

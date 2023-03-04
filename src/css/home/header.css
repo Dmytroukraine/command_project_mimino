@@ -157,10 +157,11 @@
     .header-nav {
       margin-top: auto;
       margin-bottom: auto;
+      position: absolute;
+      top: 27px;
+      left: 32px;
     }
-    .header-social-list {
-      position: static;
-    }
+    
     .header-mobile-menu-btn {
       display: none;
     }
