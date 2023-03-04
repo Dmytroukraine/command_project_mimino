@@ -75,12 +75,17 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: calc (18/24);
+    line-height: 18px;
     letter-spacing: -0.02em;
     text-transform: uppercase;
 
     color: #121212;
-
+    background-color: transparent;
+}
+.double-link:hover,
+.double-link:focus{
+    color: #fff;
+    background-color: #121212;
 }
 .double-btn {
     padding: 8px 18px;
@@ -91,10 +96,15 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: calc (18/24);
+    line-height: 18px;
     letter-spacing: -0.02em;
     text-transform: uppercase;
 
     color: #121212;
-    background-color: #ffff;
+    background-color: transparent;
+}
+.double-btn:hover,
+.double-btn:focus{
+    color: #fff;
+    background-color: #121212; 
 }
