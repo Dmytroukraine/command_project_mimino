@@ -157,10 +157,11 @@
     .header-nav {
       margin-top: auto;
       margin-bottom: auto;
+      position: absolute;
+      top: 27px;
+      left: 32px;
     }
-    .header-social-list {
-      position: static;
-    }
+    
     .header-mobile-menu-btn {
       display: none;
     }
@@ -179,6 +180,7 @@
       color: #f7f7f7;
       position: relative;
       display: block;
+      transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     
     .header-nav-link.current::after{
@@ -189,5 +191,8 @@
       position: absolute;
       bottom: -5px;
       right: 50%;
+    }
+    .header-nav-link:hover, .header-nav-link:focus{
+      transform: translateY(-5px);
     }
   }
