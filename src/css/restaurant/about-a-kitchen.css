@@ -4,6 +4,13 @@
   --desktop-screen: 1440px;
 }
 
+.about-kitchen {
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 64px 20px;
+}
+
 .hidden-title {
   position: absolute;
   width: 1px;
@@ -13,4 +20,25 @@
   padding: 0;
 
   overflow: hidden;
+}
+
+.kitchen-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.list-txt {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+
+  margin-top: 32px;
+
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+.italic {
+  font-style: italic;
 }
