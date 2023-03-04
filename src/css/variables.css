@@ -1,0 +1,11 @@
+:root {
+  --main-black-color: #121212;
+  --main-white-color: #ffffff;
+  --main-grey-color: #d8d8d8;
+  --accent-color: #d8d7d7;
+  --main-light-color: #f7f7f7;
+  --main-subtitle-color: #484848;
+  --primary-font: 'DM Sans', sans-serif;
+  --font-weight-title: 400;
+  --font-weight-bold: 700;
+}
