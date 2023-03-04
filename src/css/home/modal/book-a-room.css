@@ -89,3 +89,19 @@
   letter-spacing: 0.18em;
   color: #d8d7d7;
 }
+.modal-select {
+  display: block;
+  height: 36px;
+  width: 287px;
+  text-transform: uppercase;
+  background-color: rgba(18, 18, 18, 1);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #f7f7f7;
+  outline: none;
+  border: none;
+  border-bottom: 0.8px solid rgba(247, 247, 247, 0.2);
+  position: relative;
+}
