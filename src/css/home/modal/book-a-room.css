@@ -1,0 +1,91 @@
+.modal-book-room {
+  position: relative;
+  outline: 2px dashed red;
+  margin-left: auto;
+  margin-right: auto;
+  width: 335px;
+  height: 636px;
+  background-color: rgba(18, 18, 18, 1);
+  padding: 24px 24px 40px 24px;
+}
+.modal-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.36;
+  letter-spacing: -0.02em;
+}
+.modal-title > span {
+  font-style: italic;
+}
+.modal-close-btn {
+  position: absolute;
+  background-color: rgba(18, 18, 18, 1);
+  width: 28px;
+  height: 28px;
+  top: 14px;
+  right: 14px;
+}
+.close-modal-icon {
+  stroke: rgba(246, 246, 246, 1);
+}
+.form-book-room {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  row-gap: 32px;
+}
+.form-field {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.form-input {
+  height: 36px;
+  width: 287px;
+  border: none;
+  outline: none;
+  border-bottom: 0.8px solid rgba(247, 247, 247, 0.2);
+  background-color: rgba(18, 18, 18, 1);
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: white;
+  text-transform: none;
+}
+.form-field-label {
+  position: relative;
+}
+.booking-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.form-input:focus + .booking-label,
+.form-input:not(:placeholder-shown) + .booking-label {
+  transform-origin: center left;
+  transform: translateY(-100%);
+  scale: 0.9;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form-input:focus::placeholder {
+  opacity: 1;
+}
+
+::placeholder {
+  opacity: 0;
+  font-size: 8px;
+  line-height: 1.5;
+  letter-spacing: 0.18em;
+  color: #d8d7d7;
+  text-transform: uppercase;
+}
+.form-paragraph {
+  margin-top: 8px;
+  font-size: 8px;
+  line-height: 1.5;
+  letter-spacing: 0.18em;
+  color: #d8d7d7;
+}
