@@ -2,6 +2,18 @@
     padding-top: 64px;
     padding-bottom: 32px;
 }
+@media screen and (min-width: 768px) {
+    .footer{
+        padding-top: 80px;
+        padding-bottom: 48px;
+    }
+}
+@media screen and (min-width: 1440px){
+    .footer{
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+}
 .container {
     /* 320px <= phone screen<= infinity */
     max-width: 375px;
@@ -9,6 +21,18 @@
     padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
+}
+@media screen and (min-width:768px) {
+    .container{
+        max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+@media screen and (min-width: 1440px){
+    .container{
+        max-width: 1376px;
+    }
 }
 .div-footer{
    display: flex;
@@ -19,7 +43,54 @@
    border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
    /*border-radius: 68px;*/
 }
-.div-footer-logo {
+@media screen and (min-width:768px){
+    .div-footer{
+        padding: 32px; 
+    }
+}
+@media screen and (min-width: 1440px){
+    .div-footer{
+        padding: 32px 44px 32px 80px;
+
+    }
+}
+.footer-menu {
+    display: none;
+}
+@media screen and (min-width: 1440px){
+    .footer-menu {
+        margin-right: 370px;
+        display: flex;
+    }
+}
+.footer-list-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 0;
+    gap: 32px;
+}
+.ft-menu-link {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc (14/18);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    
+    color: #121212;
+}
+@media screen and (min-width: 1440px){
+    .div-footer-logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 3px;
+    }
 }
 .footer-logo {  
     padding: 0;
@@ -37,12 +108,14 @@
 }
 .footer-text {
     margin: 0;
+
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 8px;
     line-height: calc(8/10);
     letter-spacing: 0.18em;
+
     text-transform: uppercase;
     color: #121212;
 }
@@ -56,9 +129,18 @@
    margin: 0px;
    gap: 14px;
 }
-.footer-link {
+@media screen and (min-width:768px){
+    .footer-list{
+        gap: 16px;
+    }
 }
 .footer-svg {
     fill: #f7f7f7;
     stroke: #121212;
+}
+@media screen and (min-width: 768px){
+    .footer-svg{
+        min-width: 24px;
+        min-height: 24px;
+    }
 }
