@@ -61,6 +61,7 @@
     text-transform: uppercase;
     width: 335px;
     margin-bottom: 32px;
+    color: #000000;
 }
 
 /* 768px <= tab <= infinity */
@@ -80,6 +81,7 @@
     flex-direction: column;
     gap: 32px;
     margin-bottom: 32px;
+    color: #000000;
 }
 
 /* 768px <= tab <= infinity */
