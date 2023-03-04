@@ -1,6 +1,6 @@
 .modal-book-room {
   position: relative;
-  outline: 2px dashed red;
+  /* outline: 2px dashed red; */
   margin-left: auto;
   margin-right: auto;
   width: 335px;
@@ -29,17 +29,20 @@
   stroke: rgba(246, 246, 246, 1);
 }
 .form-book-room {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   margin-top: 40px;
-  row-gap: 32px;
+  /* row-gap: 32px; */
 }
 .form-field {
   display: flex;
   flex-direction: column;
   position: relative;
+  margin-bottom: 32px;
 }
-
+.form-field.select.nubmer {
+  margin-bottom: 40px;
+}
 .form-input {
   height: 36px;
   width: 287px;
@@ -105,4 +108,40 @@
   border-bottom: 0.8px solid rgba(247, 247, 247, 0.2);
   position: relative;
   appearance: none;
+  padding-bottom: 18px;
+}
+.form-field.select::after {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 0;
+  background-image: url('/images/chevron-down.svg');
+  background-size: contain;
+  background-origin: content-box;
+}
+
+.modal-submit-btn {
+  padding: 14px 48px;
+  border: 0.8px solid #f7f7f7;
+  border-radius: 32px;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #f6f6f6;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal-submit-btn:hover,
+.modal-submit-btn:focus {
+  background-color: rgba(246, 246, 246, 1);
+  color: rgba(18, 18, 18, 1);
+  outline: transparent;
 }
