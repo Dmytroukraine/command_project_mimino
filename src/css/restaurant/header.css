@@ -184,6 +184,7 @@
       text-align: center;
       gap: 32px;
     }
+
     .restaurant-header-nav-link {
       font-weight: 400;
       font-size: 14px;
@@ -204,6 +205,7 @@
       bottom: -5px;
       right: 50%;
     }
+    
     .restaurant-header-nav-link:hover, .restaurant-header-nav-link:focus{
       transform: translateY(-5px);
     }
