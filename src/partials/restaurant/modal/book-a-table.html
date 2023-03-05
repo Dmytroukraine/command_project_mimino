@@ -1,0 +1,65 @@
+<div class="modal" data-modal="2">
+    <div class="modal-book-room">
+      <h2 class="modal-title">book <span>a table</span></h2>
+      <button type="button" class="modal__cross js-modal-close">
+        <svg class="close-modal-icon" width="12" height="12">
+          <use href="/images/icons.svg#icon-menu-close"></use>
+        </svg>
+      </button>
+      <form class="form-book-room" name="form_book_room">
+        <div class="form-field">
+          <label for="user-name" class="form-field-label">
+            <input
+              minlength="2"
+              placeholder="Your name"
+              type="text"
+              class="form-input"
+              name="user-name"
+              id="user-name"
+              pattern=""
+            />
+            <span class="booking-label">Your name</span>
+          </label>
+          <p class="form-paragraph">who should book a table for?</p>
+        </div>
+        <div class="form-field">
+          <label for="user-phone" class="form-field-label"
+            ><input
+              minlength="2"
+              placeholder="+38(099)-999-99-99"
+              type="tel"
+              class="form-input"
+              name="user-phone"
+              id="user-phone"
+              pattern="[\+]\d{2}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+              minlength="13"
+              maxlength="13"
+            /><span class="booking-label">+38()</span>
+          </label>
+          <p class="form-paragraph">phone number</p>
+        </div>
+       
+        <div class="form-field select">
+          <label for="fav" class="form-field-label">number of people </label>
+          <input list="nmb_of_people" name="fav" id="fav" class="form-input"/>
+          <datalist id="nmb_of_people" class="datalist" >
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </datalist>
+        </div>
+        <div class="form-field select">
+          <select name="" id="" class="modal-select">
+            <option value="">today</option>
+            <option value="">tomorrow</option>
+            <option value="">day after tomorrow</option>
+          </select>
+          <p class="form-paragraph">check-in-date</p>
+        </div>
+        <button type="submit" class="modal-submit-btn">MAKE A RESERVATION</button>
+      </form>
+    </div>
+  </div>
+  
