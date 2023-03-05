@@ -73,7 +73,7 @@
 }
 
 /* 768px <= tab <= infinity */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1440px) {
    .sec-thr-wrap {
     flex-direction: column;
     margin-left: 32px;
@@ -82,6 +82,7 @@
     margin-bottom: 40px;
 }
 }
+
 
 .triple-second {
     display: block;
@@ -214,8 +215,8 @@ line-height: 44px;
 @media screen and (min-width: 768px) {
      .triple-text  {
      width: 355px;
-    font-size: 18px;
-      ine-height: 24px;
+     font-size: 18px;
+      line-height: 24px;
 
     }
 }
