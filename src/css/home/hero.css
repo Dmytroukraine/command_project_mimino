@@ -1,4 +1,6 @@
+/* МАРЖИН ТОП В ХЕРО-СЕКЦІЯ ТИМЧАСОВИЙ КОСТИЛЬ ЩОБ НЕ ЗАЛАЗИЛА СЕКЦІЯ ЗА ХЕДЕР */
 .hero-section {
+  margin-top: 71px;
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: rgba(18, 18, 18, 1);
@@ -15,14 +17,6 @@
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
-  /* outline: 2px solid rebeccapurple; */
-}
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .hero-background {
-    background-image: url(/images/mobile/home/home_building_mobile@2x.webp);
-  }
 }
 
 .hero-container {
@@ -30,11 +24,10 @@
   margin-right: auto;
   min-width: 320px;
   max-width: 375px;
-  /* outline: 2px dashed yellowgreen; */
   position: relative;
 }
 
-.hero-title {
+.hero-title-main {
   font-size: 80px;
   font-weight: 400;
   line-height: 1;
@@ -43,12 +36,11 @@
   color: rgba(246, 246, 246, 1);
   text-align: center;
   position: absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%, -50%);
+  top: 389px;
+  left: 50%;
+  transform: translate(-50%);
   right: -50%;
-  width: 283px;
-  
+  /* width: 283px; */
 }
 .hero-btn-list {
   margin-top: 54px;
@@ -56,28 +48,20 @@
   justify-content: center;
   column-gap: 14px;
 }
-/* .js-open-modal {
-  display: flex;
-  padding: 8px 14px;
-  text-transform: uppercase;
+
+.js-open-modal {
+  padding: 8px 18px;
+  border: 0.8px solid #f7f7f7;
   border-radius: 32px;
-  border: 0.8px solid rgba(246, 246, 246, 1);
-  background-color: rgba(18, 18, 18, 1);
-  color: rgba(246, 246, 246, 1);
-} */
-
-.js-open-modal {padding: 8px 18px;
-                    border: 0.8px solid #f7f7f7;
-                    border-radius: 32px;
-                    font-family: inherit;
-                    font-size: 14px;
-                    line-height: 1.71;
-                    letter-spacing: -0.02em;
-                    text-transform: uppercase;
-                    background-color: transparent;
-                    color: #f6f6f6;
-                    cursor: pointer;}
-
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #f6f6f6;
+  cursor: pointer;
+}
 
 .js-open-modal:hover,
 .js-open-modal:focus {
@@ -86,10 +70,12 @@
   outline: transparent;
 }
 .hero-text-list {
-  margin-top: 66px;
   display: flex;
   flex-direction: column;
   row-gap: 32px;
+}
+.hero-text-container {
+  margin-top: 66px;
 }
 
 .hero-text {
@@ -103,3 +89,54 @@
   font-style: italic;
 }
 
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-background {
+    background-image: url(/images/mobile/home/home_building_mobile@2x.webp);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-background {
+    background-image: url(/images/tablet/home/home_building_tablet.webp);
+    width: 542px;
+    height: 710px;
+  }
+  .hero-title-main {
+    font-size: 150px;
+    top: 478px;
+  }
+  .hero-section {
+    padding-top: 50px;
+    padding-bottom: 38px;
+  }
+
+  .hero-btn-list {
+    /* margin-top: 54px; */
+    position: absolute;
+    margin: 0;
+    top: 660px;
+    left: 50%;
+    transform: translate(-50%);
+    right: -50%;
+  }
+  .hero-text-container {
+    margin-top: 76px;
+  }
+  .hero-text-list {
+    flex-direction: row;
+    column-gap: 32px;
+  }
+  .hero-text-list > .list-item {
+    flex-basis: calc(100% / 2);
+  }
+}
+
+@media (min-device-pixel-ratio: 2) and (min-width: 768px),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-background {
+    background-image: url(/images/tablet/home/home_building_tablet@2x.webp);
+  }
+}
