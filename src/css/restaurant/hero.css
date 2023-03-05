@@ -10,18 +10,11 @@
   margin-left: auto;
 }
 
-@media screen (min-device-pixel-ratio: 2),
-  screen (min-resolution: 192dpi),
-  screen (min-resolution: 2dppx) and (max-width: 767px) {
-  .hero-background {
-    background-image: url(/images/mobile/scrol_restaurant/scrol_restaurant1_mobile@2x.webp);
-  }
-}
-
 .container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 540px;
+  max-width: 375px;
+  min-width: 320px;
   position: relative;
 }
 
@@ -41,7 +34,8 @@
   column-gap: 12px;
 }
 
-.btn {
+.btn,
+.nav-link {
   padding: 8px 18px;
   border-radius: 32px;
   background-color: transparent;
@@ -49,18 +43,22 @@
   color: var(--main-black-color);
   text-transform: uppercase;
   display: block;
-  font-family: inherit;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: var(--font-weight-title);
   line-height: calc(18 / 14);
   text-align: center;
-  font-size: 14px;
+  font-size: inherit;
   letter-spacing: -0.02em;
   cursor: pointer;
 }
 
 .btn:hover,
-.btn:focus {
-  background-color: var(--main-black-color);
-  color: var(--main-light-color);
+.btn:focus,
+.nav-link:hover,
+.nav-link:focus {
+  background-color: #121212;
+  color: #f7f7f7;
 }
 
 .restaurant-wrap {
