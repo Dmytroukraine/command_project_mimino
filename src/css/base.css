@@ -113,34 +113,40 @@ body {
 }
 
 .btn {
-  padding: 8px 24px;
+  padding: 8px 18px;
   border-radius: 32px;
   background-color: transparent;
-  border: 0.8px solid var(--main-light-color);
+  border: 0.8px solid var(--main-black-color);
   color: var(--main-light-color);
   text-transform: uppercase;
   display: block;
-  font-family: inherit;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: var(--font-weight-title);
   line-height: calc(18 / 14);
   text-align: center;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  cursor: pointer;
 }
 
 .btn:hover,
 .btn:focus {
-  background-color: var(--main-white-color);
-  color: var(--main-black-color);
+  background-color: var(--main-black-color);
+  color: var(--main-light-color);
 }
 
 .btn-dark {
-  color: var(--main-black-color);
-  border-color: var(--main-black-color);
+  color: var(--main-light-color);
+  border-color: var(--main-light-color);
 }
 
 .btn-dark:hover,
 .btn-dark:focus {
-  background-color: var(--main-black-color);
-  color: var(--main-light-color);
+  background-color: var(--main-white-color);
+  color: var(--main-black-color);
 }
+
 .paragraph {
   text-transform: uppercase;
 }
