@@ -61,7 +61,7 @@
   justify-content: center;
   column-gap: 14px;
 }
-/* .booking-light-btn {
+/* .js-open-modal {
   display: flex;
   padding: 8px 14px;
   text-transform: uppercase;
@@ -71,7 +71,7 @@
   color: rgba(246, 246, 246, 1);
 } */
 
-.booking-light-btn {padding: 8px 18px;
+.js-open-modal {padding: 8px 18px;
                     border: 0.8px solid #f7f7f7;
                     border-radius: 32px;
                     font-family: inherit;
@@ -84,8 +84,8 @@
                     cursor: pointer;}
 
 
-.booking-light-btn:hover,
-.booking-light-btn:focus {
+.js-open-modal:hover,
+.js-open-modal:focus {
   background-color: rgba(246, 246, 246, 1);
   color: rgba(18, 18, 18, 1);
   outline: transparent;

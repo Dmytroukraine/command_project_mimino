@@ -183,6 +183,22 @@
   }
 }
 
+.js-open-modal {
+  padding: 8px 18px;
+  border: 0.8px solid #f7f7f7;
+  border-radius: 32px;
+
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  background-color: transparent;
+  color: #f6f6f6;
+
+  cursor: pointer;
+}
+
 .hotel-btn {
   padding: 8px 18px;
   border: 0.8px solid #f7f7f7;
@@ -198,12 +214,26 @@
 
   cursor: pointer;
 }
+
+
+
+
+
 @media screen and (min-width: 768px) {
+  .js-open-modal {
+    padding: 8px 24px;
+  }
   .hotel-btn {
     padding: 8px 24px;
   }
+
 }
 @media screen and (min-width: 1440px) {
+  .js-open-modal {
+    padding: 9px 24px;
+    font-size: 18px;
+    line-height: 1.33;
+  }
   .hotel-btn {
     padding: 9px 24px;
     font-size: 18px;
