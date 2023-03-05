@@ -215,9 +215,11 @@
   cursor: pointer;
 }
 
-
-
-
+.hotel-btn_link:hover,
+.hotel-btn_link:focus {
+  background-color: #f6f6f6;
+  color: #121212;
+}
 
 @media screen and (min-width: 768px) {
   .js-open-modal {
@@ -226,8 +228,8 @@
   .hotel-btn {
     padding: 8px 24px;
   }
-
 }
+
 @media screen and (min-width: 1440px) {
   .js-open-modal {
     padding: 9px 24px;
