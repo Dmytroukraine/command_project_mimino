@@ -4,7 +4,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 335px;
-  height: 636px;
+  /* height: 636px; */
   background-color: rgba(18, 18, 18, 1);
   padding: 24px 24px 40px 24px;
 }
@@ -145,3 +145,4 @@
   color: rgba(18, 18, 18, 1);
   outline: transparent;
 }
+
