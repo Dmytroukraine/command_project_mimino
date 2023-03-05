@@ -10,81 +10,66 @@
   margin-left: auto;
 }
 
-.hero-background {
-  margin-top: 0;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: url(/images/mobile/scrol_restaurant/scrol_restaurant1_mobile.webp);
-  width: 100%;
-  min-height: 429px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-}
-
-@media screen (min-device-pixel-ratio: 2),
-  screen (min-resolution: 192dpi),
-  screen (min-resolution: 2dppx) and (max-width: 767px) {
-  .hero-background {
-    background-image: url(/images/mobile/scrol_restaurant/scrol_restaurant1_mobile@2x.webp);
-  }
-}
-
 .container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 540px;
+  max-width: 375px;
+  min-width: 320px;
   position: relative;
 }
 
 .hero-title {
+  font-family: var(--primary-font);
   font-size: 40px;
   font-weight: var(--font-weight-title);
   letter-spacing: -0.02em;
   line-height: 1;
   color: var(--main-black-color);
-  position: absolute;
-  top: 40px;
-  padding-left: 20px;
-  padding-right: 122px;
-  width: 233px;
+  margin-bottom: 24px;
 }
 
-.btn list {
+.btn-list {
   margin-top: 24px;
   display: flex;
-  padding-left: 20px;
-  padding-right: 92px;
   column-gap: 12px;
 }
 
-.btn {
-  display: flex;
+.btn,
+.nav-link {
   padding: 8px 18px;
   border-radius: 32px;
-  border: 0.8px solid var(--main-black-color);
   background-color: transparent;
+  border: 0.8px solid #121212;
   color: var(--main-black-color);
-}
-
-.btn {
-  display: flex;
-  padding: 8px 18px;
-  border: 0.8px solid var(--main-black-color);
-  border-radius: 32px;
-  font-family: inherit;
-  font-size: 14px;
-  line-height: 1.29;
+  text-transform: uppercase;
+  display: block;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: var(--font-weight-title);
+  line-height: calc(18 / 14);
+  text-align: center;
+  font-size: inherit;
   letter-spacing: -0.02em;
-  background-color: transparent;
-  color: var(--main-black-color);
   cursor: pointer;
 }
 
-.btn: hover, focus {
-  background-color: var(--main-black-color);
-  color: var(--main-light-color);
-  outline: transparent;
+.btn:hover,
+.btn:focus,
+.nav-link:hover,
+.nav-link:focus {
+  background-color: #121212;
+  color: #f7f7f7;
+}
+
+.restaurant-wrap {
+  margin-top: 40px;
+  margin-bottom: 100px;
+  display: flex;
+  gap: 20px;
+}
+
+.restaurant-text {
+  max-width: 338px;
 }
 
 .text {
@@ -92,4 +77,5 @@
   line-height: 1.29;
   letter-spacing: 0.05em;
   color: var(--main-black-color);
+  font-weight: var(--font-weight-title);
 }
