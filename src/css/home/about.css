@@ -117,7 +117,7 @@
   box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
 
   opacity: 0;
-  transition: opasity 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 @media screen and (min-width: 768px) {
@@ -130,6 +130,7 @@
 .main-about-photo-container:hover .main-review-container,
 .main-about-photo-container:focus .main-review-container {
   opacity: 100;
+  transition: 0.5s ease-in;
 }
 
 .main-review-img {
@@ -263,7 +264,7 @@
   box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
 
   opacity: 0;
-  transition: opasity 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 @media screen and (min-width: 768px) {
@@ -284,6 +285,7 @@
 .main-buisness-hotel-review:hover .main-review-container-sec,
 .main-buisness-hotel-review:focus .main-review-containe-sec {
   opacity: 100;
+  transition: 0.5s ease-in;
 }
 
 @media screen and (min-width: 768px) {
