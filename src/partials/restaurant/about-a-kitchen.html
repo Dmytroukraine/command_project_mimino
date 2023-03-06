@@ -1,57 +1,127 @@
 <section class="about-kitchen">
   <h2 class="hidden-title">About a kitchen</h2>
-  <ul class="kitchen-gallery">
-    <li list-img>
-      <img
-        srcset="
-          images/mobile/restaurant/restaurant_food1_mobile.webp    1x,
-          images/mobile/restaurant/restaurant_food1_mobile@2x.webp 2x
-        "
-        src="images/mobile/restaurant/restaurant_food1_mobile.jpg"
-        alt="Chef's cooking"
-        max-width="336"
-      />
-    </li>
-    <li>
-      <img
-        srcset="
-          images/mobile/restaurant/restaurant_food2_mobile.webp    1x,
-          images/mobile/restaurant/restaurant_food2_mobile@2x.webp 2x
-        "
-        src="images/mobile/restaurant/restaurant_food2_mobile.jpg"
-        alt="meet steaks"
-        width="158"
-      />
-    </li>
-    <li>
-      <img
-        srcset="
-          images/mobile/restaurant/restaurant_food3_mobile.webp    1x,
-          images/mobile/restaurant/restaurant_food3_mobile@2x.webp 2x
-        "
-        src="images/mobile/restaurant/restaurant_food3_mobile.jpg"
-        alt="meet steaks"
-        width="157"
-      />
-    </li>
-  </ul>
-
-  <ul class="list-txt">
-    <li>
-      <p>
-        At Mimino, we are experts in m<span class="italic">eat preparation</span
-        >. Our chefs use only the finest and freshest ingredients to
-        <span class="italic">create delicious dishes</span> that showcase the
-        flavors of premium cuts of meat.
-      </p>
-    </li>
-    <li>
-      <p>
-        Our <span class="italic">slow-cooking process</span> and expert
-        seasoning bring out the best in each dish, making for an unforgettable
-        dining experience. Come taste the magic
-        <span class="italic">of meat preparation at</span> Mimino.
-      </p>
-    </li>
-  </ul>
+  <div class="section-wrap">
+    <ul class="kitchen-gallery">
+      <li class="list-img">
+        <picture>
+          <source
+            media="(min-width: 1440px)"
+            srcset="
+              images/desktop/restaurant/restaurant1_desktop.jpg    1x,
+              images/desktop/restaurant/restaurant1_desktop@2x.jpg 2x
+            "
+            type="image/jpg"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              images/tablet/restaurant/restaurant_food3_tablet.jpg    1x,
+              images/tablet/restaurant/restaurant_food3_tablet@2x.jpg 2x
+            "
+            type="image/jpg"
+          />
+          <source
+            media="(max-width: 375px)"
+            srcset="
+              images/mobile/restaurant/restaurant_food1_mobile.jpg    1x,
+              images/mobile/restaurant/restaurant_food1_mobile@2x.jpg 2x
+            "
+            type="image/jpg"
+          />
+          <img
+            src="images/mobile/restaurant/restaurant_food1_mobile.jpg"
+            alt="Chef's cooking"
+            max-width="511"
+          />
+        </picture>
+      </li>
+      <div class="wrapper">
+        <li>
+          <picture>
+            <source
+              media="(min-width: 1440px)"
+              srcset="
+                images\desktop\restaurant\restaurant2_desktop.jpg    1x,
+                images\desktop\restaurant\restaurant2_desktop@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                images\tablet\restaurant\restaurant_food1_tablet.jpg    1x,
+                images\tablet\restaurant\restaurant_food1_tablet@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <source
+              media="(max-width: 375px)"
+              srcset="
+                images/mobile/restaurant/restaurant_food2_mobile.jpg    1x,
+                images/mobile/restaurant/restaurant_food2_mobile@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <img
+              src="images/mobile/restaurant/restaurant_food2_mobile.jpg"
+              alt="meet steaks"
+              max-width="334"
+            />
+          </picture>
+        </li>
+        <li>
+          <picture>
+            <source
+              media="(min-width: 1440px)"
+              srcset="
+                images\desktop\restaurant\restaurant3_desktop.jpg    1x,
+                images\desktop\restaurant\restaurant3_desktop@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                images\tablet\restaurant\restaurant_food2_tablet.jpg    1x,
+                images\tablet\restaurant\restaurant_food2_tablet@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                images/mobile/restaurant/restaurant_food3_mobile.jpg    1x,
+                images/mobile/restaurant/restaurant_food3_mobile@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <img
+              src="images/mobile/restaurant/restaurant_food3_mobile.jpg"
+              alt="a cup with coctail"
+              max-width="467"
+            />
+          </picture>
+        </li>
+      </div>
+    </ul>
+    <ul class="list-txt">
+      <li class="first">
+        <p>
+          At Mimino, we are experts in m<span class="italic"
+            >eat preparation</span
+          >. Our chefs use only the finest and freshest ingredients to
+          <span class="italic">create delicious dishes</span> that showcase the
+          flavors of premium cuts of meat.
+        </p>
+      </li>
+      <li class="second">
+        <p>
+          Our <span class="italic">slow-cooking process</span> and expert
+          seasoning bring out the best in each dish, making for an unforgettable
+          dining experience. Come taste the magic
+          <span class="italic">of meat preparation at</span> Mimino.
+        </p>
+      </li>
+    </ul>
+  </div>
 </section>
