@@ -1,0 +1,106 @@
+.section {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.hero-section {
+  padding-top: 40px;
+  padding-bottom: 0px;
+  background-color: var(--main-black-color);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hero-background {
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(/images/mobile/room/room_room2_mobile.webp);
+  width: 100%;
+  min-height: 439px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  /* outline: 2px solid rebeccapurple; */
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-background {
+    background-image: url(/images/mobile/room/room_room2_mobile@2x.webp);
+  }
+}
+
+.hero-container {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 320px;
+  max-width: 375px;
+  /* outline: 2px dashed yellowgreen; */
+  position: relative;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 375px;
+  min-width: 320px;
+}
+center .hero-title {
+  font-family: var(--primary-font);
+  font-size: 40px;
+  font-weight: var(--font-weight-title);
+  letter-spacing: -0.02em;
+  line-height: 1;
+  color: var(--main-black-color);
+  margin-bottom: 24px;
+}
+
+.list-item {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.js-open-modal-btn {
+  padding: 8px 18px;
+  border-radius: 32px;
+  background-color: transparent;
+  border: 0.8px solid var(--main-light-color);
+  color: var(--main-light-color);
+  text-transform: uppercase;
+  display: block;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: var(--font-weight-title);
+  line-height: calc(18 / 14);
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  cursor: pointer;
+  width: 175px;
+}
+
+.js-open-modal-btn:hover,
+.js-open-modal-btn:focus {
+  background-color: var(--main-white-color);
+  color: var(--main-black-color);
+}
+
+.amenities-wrap {
+  margin-top: 40px;
+  margin-bottom: 100px;
+  display: flex;
+  gap: 20px;
+}
+
+.restaurant-text {
+  max-width: 338px;
+}
+
+.text {
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  color: var(--main-light-color);
+  font-weight: var(--font-weight-title);
+}
