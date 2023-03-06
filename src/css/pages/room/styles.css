@@ -4,11 +4,6 @@
   | default @import url()
   |============================
 */
-
-
-
-@import url('/css/pages/room/header.css');
+@import url('/css/components/header/header-white.css'); 
 @import url('/css/pages/room/hero.css');
 @import url('/css/pages/room/amenities.css');
-@import url('/css/pages/room/footer.css');
-

@@ -4,11 +4,10 @@
   | default @import url()
   |============================
 */
-@import url('/css/pages/home/header.css');
+@import url('/css/components/header/header-black.css'); 
 @import url('/css/pages/home/hero.css');
 @import url('/css/pages/home/about.css');
 @import url('/css/pages/home/restaurant-detail.css');
 @import url('/css/pages/home/welcome.css');
 @import url('/css/pages/home/hotel-detail.css');
 @import url('/css/pages/home/location.css');
-@import url('/css/pages/home/footer.css');

@@ -4,13 +4,8 @@
   | default @import url()
   |============================
 */
-
-@import url('/css/pages/hotel/header.css');
+@import url('/css/components/header/header-white.css'); 
 @import url('/css/pages/hotel/hero.css');
 @import url('/css/pages/hotel/double-luxury-room.css');
 @import url('/css/pages/hotel/triple-room.css');
 @import url('/css/pages/hotel/four-seater-room.css');
-@import url('/css/pages/hotel/footer.css');
-
-
-
