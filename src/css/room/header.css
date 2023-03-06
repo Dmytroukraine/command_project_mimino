@@ -39,14 +39,16 @@
   .room-header-social-list {
     display: none;
   }
-
+  .header-container{
+    position: relative;
+  }
   
   .room-header-mobile-menu-icon {
   stroke: #121212;
   }
   .room-header-mobile-menu-btn {
     position: absolute;
-    top: 25px;
+    top: 5px;
     left: 20px;
     border: none;
     background-color: transparent;
@@ -125,9 +127,13 @@
     */
   
   @media screen and (min-width: 768px) {
+    .header-container{
+      width: 100%;
+      position: relative;
+    }
     .room-header-social-list {
       position: absolute;
-      top: 27px;
+      top: 5px;
       right: 32px;
       display: flex;
       align-items: center;
@@ -166,12 +172,19 @@
       padding-left: 32px;
       padding-right: 32px;
     }
+    .header-container {
+      width: 100%;
+      position: relative;
+    }
     .room-header-nav {
       margin-top: auto;
       margin-bottom: auto;
       position: absolute;
-      top: 27px;
-      left: 32px;
+      top: 5px;
+      left: 0;
+    }
+    .room-header-social-list{
+      right: 0;
     }
    
     .room-header-mobile-menu-btn {
