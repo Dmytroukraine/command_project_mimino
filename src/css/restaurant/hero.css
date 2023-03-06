@@ -50,21 +50,12 @@
   cursor: pointer;
 }
 
-<<<<<<< Updated upstream
 .js-open-modal:hover,
 .js-open-modal:focus,
 .rest-hero-nav-link:hover,
 .rest-hero-nav-link:focus {
   background-color: #121212;
   color: #f7f7f7;
-=======
-.btn:hover,
-.btn:focus,
-.nav-link:hover,
-.nav-link:focus {
-  background-color: var(--main-black-color);
-  color: var(--main-light-color);
->>>>>>> Stashed changes
 }
 
 .rest-hero-wrap {
