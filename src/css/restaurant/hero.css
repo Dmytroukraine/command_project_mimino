@@ -1,24 +1,21 @@
-.section {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.hero-section {
+.rest-hero-section {
   padding-top: 40px;
   padding-bottom: 0px;
   background-color: var(--main-light-color);
   margin-right: auto;
   margin-left: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.container {
+.rest-hero-container {
   margin-left: auto;
   margin-right: auto;
   max-width: 375px;
   min-width: 320px;
-  position: relative;
 }
 
-.hero-title {
+.rest-hero-title {
   font-family: var(--primary-font);
   font-size: 40px;
   font-weight: var(--font-weight-title);
@@ -28,14 +25,14 @@
   margin-bottom: 24px;
 }
 
-.btn-list {
+.rest-hero-btn-list {
   margin-top: 24px;
   display: flex;
   column-gap: 12px;
 }
 
-.btn,
-.nav-link {
+.js-open-modal,
+.rest-hero-nav-link {
   padding: 8px 18px;
   border-radius: 32px;
   background-color: transparent;
@@ -45,34 +42,34 @@
   display: block;
   font-family: 'DM Sans';
   font-style: normal;
-  font-weight: var(--font-weight-title);
+  font-weight: 400px;
   line-height: calc(18 / 14);
   text-align: center;
-  font-size: inherit;
+  font-size: 14px;
   letter-spacing: -0.02em;
   cursor: pointer;
 }
 
-.btn:hover,
-.btn:focus,
-.nav-link:hover,
-.nav-link:focus {
+.js-open-modal:hover,
+.js-open-modal:focus,
+.rest-hero-nav-link:hover,
+.rest-hero-nav-link:focus {
   background-color: #121212;
   color: #f7f7f7;
 }
 
-.restaurant-wrap {
+.rest-hero-wrap {
   margin-top: 40px;
   margin-bottom: 100px;
   display: flex;
   gap: 20px;
 }
 
-.restaurant-text {
+.rest-hero-text-ul {
   max-width: 338px;
 }
 
-.text {
+.rest-hero-text {
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: 0.05em;
