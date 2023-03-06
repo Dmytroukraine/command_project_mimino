@@ -70,7 +70,16 @@
     padding: 0px;
     margin: 0;
     gap: 32px;
+   
 }
+.footer-item{
+transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-item:hover,
+.footer-item:focus{
+  transform: translateY(-5px);  
+}
+
 .ft-menu-link {
     font-family: 'DM Sans';
     font-style: normal;
