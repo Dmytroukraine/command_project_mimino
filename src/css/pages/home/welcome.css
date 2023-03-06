@@ -20,30 +20,6 @@
 }
 }
 
-.welcome-container {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 375px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-/* 768px <= tab <= infinity */
-@media screen and (min-width: 768px) {
-    .container {
-    max-width: 704px;
-    }
-}
-
-/* 1200px <= desk <= infinity */
-@media screen and (min-width: 1440px) {
-    .welcome-container {
-    display: flex;
-    flex-direction: row-reverse;
-    max-width: 1240px;
-    gap: 32px;
-}
-}
 
 /* 1200px <= desk <= infinity */
 @media screen and (min-width: 1440px) {

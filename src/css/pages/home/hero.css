@@ -19,13 +19,6 @@
   background-size: cover;
 }
 
-.hero-container {
-  margin-left: auto;
-  margin-right: auto;
-  min-width: 320px;
-  max-width: 375px;
-  position: relative;
-}
 
 .hero-title-main {
   font-size: 80px;
