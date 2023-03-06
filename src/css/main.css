@@ -1,0 +1,5 @@
+@import url(./base/variables.css);
+@import url(./base/reset.css);
+@import url(./base/base.css);
+@import url(./components/buttons/main_btn.css);
+@import url(./components/modals/main-modals.css);

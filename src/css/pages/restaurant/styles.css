@@ -1,0 +1,14 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+
+@import url('/css/pages/restaurant/header.css');
+@import url('/css/pages/restaurant/hero.css');
+@import url('/css/pages/restaurant/about-a-kitchen.css');
+@import url('/css/pages/restaurant/restaurant-menu.css');
+@import url('/css/pages/restaurant/footer.css');
+
+
