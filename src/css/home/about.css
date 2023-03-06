@@ -51,6 +51,12 @@
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .main-about-photo-container {
+    margin-bottom: 0;
+  }
+}
+
 .section-title-invisible {
   display: none;
 }
@@ -76,6 +82,16 @@
 
   .main-about-rest-hotel-img {
     position: absolute;
+    top: 209px;
+    left: 300px;
+    z-index: 2;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .main-about-rest-hotel-img {
+    position: absolute;
+    width: 439px;
     top: 209px;
     left: 300px;
     z-index: 2;
@@ -158,6 +174,14 @@
     margin-bottom: 80px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .main-rest-hotel-container {
+    width: 439px;
+    margin-left: 434px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
 
 .main-rest-hotel-title {
   margin-bottom: 18px;
@@ -202,15 +226,21 @@
 
 .main-buisness-hotel-review {
   position: relative;
-  padding-bottom: 54px;
+  margin-bottom: 54px;
 }
 
 @media screen and (min-width: 768px) {
   .main-buisness-hotel-review {
-    padding-bottom: 40px;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     align-items: end;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .main-buisness-hotel-review {
+    margin-bottom: 0;
   }
 }
 
@@ -243,6 +273,14 @@
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .main-review-container-sec {
+    left: -107px;
+
+    bottom: 128px;
+  }
+}
+
 .main-buisness-hotel-review:hover .main-review-container-sec,
 .main-buisness-hotel-review:focus .main-review-containe-sec {
   opacity: 100;
@@ -256,14 +294,28 @@
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .main-business-hotel-container {
+    height: 309px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+
+    margin-top: 127px;
+    margin-right: 82px;
+  }
+}
+
 .main-business-hotel-text-container {
   max-width: 263px;
   margin-bottom: 40px;
-  margin-left: 32px;
 }
 
 @media screen and (min-width: 768px) {
   .main-business-hotel-text-container {
+    margin-bottom: 0;
+    margin-left: 32px;
   }
 }
 
@@ -284,5 +336,13 @@
   .main-about-rest-hotel-wrapper {
     display: flex;
     flex-direction: row;
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .main-about-buisness-hotel-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
   }
 }
