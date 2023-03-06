@@ -1,6 +1,4 @@
-/* МАРЖИН ТОП В ХЕРО-СЕКЦІЯ ТИМЧАСОВИЙ КОСТИЛЬ ЩОБ НЕ ЗАЛАЗИЛА СЕКЦІЯ ЗА ХЕДЕР */
 .hero-section {
-  margin-top: 71px;
   padding-top: 429px;
   padding-bottom: 40px;
   background-color: rgba(18, 18, 18, 1);
@@ -15,6 +13,7 @@
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-position-y: 40px;
+  background-size: 335px 439px;
 }
 
 .hero-title-main {
@@ -24,7 +23,6 @@
   letter-spacing: -0.02em;
   color: var(--main-light-color);
   text-align: center;
-  
 }
 .hero-btn-list {
   margin-top: 24px;
@@ -73,40 +71,42 @@
   font-style: italic;
 }
 
-@media (min-device-pixel-ratio: 2),
+@media (min-device-pixel-ratio: 2) and (max-width: 375px),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  .hero-background {
-    background-image: url(/images/mobile/home/home_building_mobile@2x.webp);
+  .hero-section {
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 70.73%,
+        #121212 98.51%
+      ),
+      url(/images/mobile/home/home_building_mobile@2x.webp);
+    background-size: 335px 439px;
   }
 }
-
 @media screen and (min-width: 768px) {
-  .hero-background {
-    background-image: url(/images/tablet/home/home_building_tablet.webp);
-    width: 542px;
-    height: 710px;
+  .hero-section {
+    padding-top: 528px;
+    padding-bottom: 38px;
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 70.73%,
+        #121212 98.51%
+      ),
+      url(/images/tablet/home/home_building_tablet.webp);
+    background-repeat: no-repeat;
+    background-size: 542px 710px;
   }
+
   .hero-title-main {
     font-size: 150px;
-    top: 478px;
-  }
-  .hero-section {
-    padding-top: 50px;
-    padding-bottom: 38px;
   }
 
   .hero-btn-list {
-    /* margin-top: 54px; */
-    position: absolute;
-    margin: 0;
-    top: 660px;
-    left: 50%;
-    transform: translate(-50%);
-    right: -50%;
+    margin-top: 32px;
   }
   .hero-text-wrap {
-    margin-top: 76px;
+    margin-top: 86px;
   }
   .hero-text-list {
     flex-direction: row;
@@ -120,7 +120,70 @@
 @media (min-device-pixel-ratio: 2) and (min-width: 768px),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  .hero-background {
-    background-image: url(/images/tablet/home/home_building_tablet@2x.webp);
+  .hero-section {
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 70.73%,
+        #121212 98.51%
+      ),
+      url(/images/tablet/home/home_building_tablet@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-section {
+    padding-top: 274px;
+    padding-bottom: 48px;
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 70.73%,
+        #121212 98.51%
+      ),
+      url(/images/desktop/home/home_building_desktop.webp);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 0px;
+  }
+
+  @media (min-device-pixel-ratio: 2) and (min-width: 1440px),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-section {
+      background-image: linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 0) 70.73%,
+          #121212 98.51%
+        ),
+        url(/images/desktop/home/home_building_desktop@2x.jpg);
+    }
+  }
+
+  .hero-title-main {
+    font-size: 150px;
+    margin-bottom: 196px;
+    text-align: left;
+  }
+  .wrap-hero-ul {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .hero-btn-list {
+    margin-top: 0;
+    margin-right: 74px;
+  }
+  .hero-text-wrap {
+    margin-top: 0;
+  }
+  .hero-text-list {
+    flex-direction: row;
+    column-gap: 32px;
+  }
+  .hero-text-list > .list-item {
+    flex-basis: calc(684px / 2);
+  }
+
+  .hero-btn-list > .list-item > button {
+    height: 42px;
+    width: 171px;
   }
 }
