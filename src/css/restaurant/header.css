@@ -40,13 +40,15 @@
     display: none;
   }
 
-  
+  .header-container{
+    position: relative;
+  }
   .restaurant-header-mobile-menu-icon {
   stroke: #121212;
   }
   .restaurant-header-mobile-menu-btn {
     position: absolute;
-    top: 25px;
+    top: 5px;
     left: 20px;
     border: none;
     background-color: transparent;
@@ -125,9 +127,13 @@
     */
   
   @media screen and (min-width: 768px) {
+    .header-container{
+      width: 100%;
+      position: relative;
+    }
     .restaurant-header-social-list {
       position: absolute;
-      top: 27px;
+      top: 5px;
       right: 32px;
       display: flex;
       align-items: center;
@@ -166,12 +172,19 @@
       padding-left: 32px;
       padding-right: 32px;
     }
+    .header-container {
+      width: 100%;
+      position: relative;
+    }
     .restaurant-header-nav {
       margin-top: auto;
       margin-bottom: auto;
       position: absolute;
-      top: 27px;
-      left: 32px;
+      top: 5px;
+      left: 0;
+    }
+    .restaurant-header-social-list{
+      right: 0;
     }
    
     .restaurant-header-mobile-menu-btn {
@@ -191,7 +204,7 @@
       line-height: 18px;
       letter-spacing: 0.05em;
       color: #121212;
-      position: absolute;
+      position: relative;
       display: block;
       transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
