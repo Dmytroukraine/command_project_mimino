@@ -39,6 +39,17 @@ ul {
   margin-bottom: 0;
 }
 
+.body {
+  overflow-x: hidden;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.286;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  min-width: 375px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -77,38 +88,17 @@ body {
   margin-right: auto;
 }
 
-@media screen and (min-width: 374.98px) and (max-width: 767px) {
+@media screen and (min-width: 768px) and (max-width: 1439.98px) {
   .container {
-    width: 374.98px;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1439px) {
-  .container {
-    width: 704px;
+    max-width: 767.98px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .container {
-    width: 1376px;
-  }
-}
-
-.section {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-@media screen and (min-width: 768px) {
-  .section {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .section {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    max-width: 1400px;
   }
 }
 
