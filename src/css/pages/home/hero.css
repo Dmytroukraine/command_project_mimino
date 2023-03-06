@@ -170,6 +170,7 @@
   .hero-btn-list {
     margin-top: 0;
     margin-right: 74px;
+    position: absolute;
   }
   .hero-text-wrap {
     margin-top: 0;
@@ -180,10 +181,5 @@
   }
   .hero-text-list > .list-item {
     flex-basis: calc(684px / 2);
-  }
-
-  .hero-btn-list > .list-item > button {
-    height: 42px;
-    width: 171px;
   }
 }
