@@ -21,19 +21,18 @@
 }
 
 
-
-.main-about-photo-container {
+.main-about-photo {
   padding-bottom: 32px;
 }
 
 @media screen and (min-width: 768px) {
-  .main-about-photo-container {
+  .main-about-photo {
     position: relative;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .main-about-photo-container {
+  .main-about-photo {
     margin-bottom: 0;
   }
 }
@@ -79,7 +78,7 @@
   }
 }
 
-.main-review-container {
+.main-review-wrapper {
   display: flex;
   width: 212px;
   height: 61px;
@@ -102,22 +101,32 @@
 }
 
 @media screen and (min-width: 768px) {
-  .main-review-container {
+  .main-review-wrapper {
     top: 176px;
     right: -100px;
   }
 }
 
-.main-about-photo-container:hover .main-review-container,
-.main-about-photo-container:focus .main-review-container {
+.main-about-photo:hover .main-review-wrapper,
+.main-about-photo:focus .main-review-wrapper {
   opacity: 100;
+  transition: 0.5s ease-in;
 }
+
+@media screen and (min-width: 1440px) {
+  .main-about-rest-hotel-wrapper:hover .main-review-wrapper,
+.main-about-rest-hotel-wrapper:focus .main-review-wrapper {
+  opacity: 100;
+  transition: 0.5s ease-in;
+}
+}
+
 
 .main-review-img {
   border-radius: 50%;
 }
 
-.main-review-text-container {
+.main-review-text-wrapper {
   margin-left: 12px;
 }
 
@@ -145,18 +154,18 @@
   color: #575757;
 }
 
-.main-rest-hotel-container {
+.main-rest-hotel-wrapper {
   margin-bottom: 64px;
 }
 
 @media screen and (min-width: 768px) {
-  .main-rest-hotel-container {
+  .main-rest-hotel-wrapper {
     width: 472px;
     margin-bottom: 80px;
   }
 }
 @media screen and (min-width: 1440px) {
-  .main-rest-hotel-container {
+  .main-rest-hotel-wrapper {
     width: 439px;
     margin-left: 434px;
     margin-top: auto;
@@ -225,7 +234,7 @@
   }
 }
 
-.main-review-container-sec {
+.main-review-wrapper-sec {
   display: flex;
   width: 212px;
   height: 61px;
@@ -248,27 +257,38 @@
 }
 
 @media screen and (min-width: 768px) {
-  .main-review-container-sec {
+  .main-review-wrapper-sec {
     left: 67px;
     bottom: 128px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .main-review-container-sec {
+  .main-review-wrapper-sec {
     left: -107px;
 
     bottom: 128px;
   }
 }
 
-.main-buisness-hotel-review:hover .main-review-container-sec,
-.main-buisness-hotel-review:focus .main-review-containe-sec {
+.main-buisness-hotel-review:hover .main-review-wrapper-sec,
+.main-buisness-hotel-review:focus .main-review-wrapper-sec {
   opacity: 100;
+  transition: 0.5s ease-in;
 }
 
+@media screen and (min-width: 1440px) {
+  .main-about-buisness-hotel-wrapper:hover .main-review-wrapper-sec,
+.main-about-buisness-hotel-wrapper:focus .main-review-wrapper-sec {
+  opacity: 100;
+  transition: 0.5s ease-in;
+}
+}
+
+
+
 @media screen and (min-width: 768px) {
-  .main-business-hotel-container {
+  .main-business-hotel-wrapper {
     display: flex;
     flex-direction: row-reverse;
     justify-content: start;
@@ -276,7 +296,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .main-business-hotel-container {
+  .main-business-hotel-wrapper {
     height: 309px;
 
     display: flex;
@@ -288,13 +308,13 @@
   }
 }
 
-.main-business-hotel-text-container {
+.main-business-hotel-text-wrapper {
   max-width: 263px;
   margin-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
-  .main-business-hotel-text-container {
+  .main-business-hotel-text-wrapper {
     margin-bottom: 0;
     margin-left: 32px;
   }
