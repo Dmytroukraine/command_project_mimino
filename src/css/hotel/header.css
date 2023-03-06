@@ -9,6 +9,11 @@
     padding-bottom: 20px;
     background-color: #ffffff;
     border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
   }
   .hotel-logo {
     display: flex;
@@ -92,7 +97,7 @@
   }
   
   .hotel-header-mobile-menu-links {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 18px;
     line-height: 24px;
     letter-spacing: 0.05em;
@@ -164,10 +169,11 @@
     .hotel-header-nav {
       margin-top: auto;
       margin-bottom: auto;
+      position: absolute;
+      top: 27px;
+      left: 32px;
     }
-    .hotel-header-social-list {
-      position: static;
-    }
+   
     .hotel-header-mobile-menu-btn {
       display: none;
     }
