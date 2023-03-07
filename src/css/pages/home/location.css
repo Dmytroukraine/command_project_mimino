@@ -1,7 +1,23 @@
 .loc-section{
-    margin: 64px 0;
+    padding: 64px 0;
     background-color: #F6F6F6; 
 }
+
+@media screen and (min-width: 768px) {
+    .loc-section {
+            padding-top: 80px;
+            padding-bottom: 0;
+        }
+}
+
+/* @media screen and (min-width: 1440px) {
+    .hotel-hero-section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        position: relative;
+    }
+} */
+
 
 
 .loc-title{
@@ -15,6 +31,21 @@
     margin-bottom: 32px;
 }
 
+@media screen and (min-width: 768px) {
+    .loc-title {
+        font-size: 68px;
+        margin-bottom: 40px;
+        }
+}
+
+/* @media screen and (min-width: 1440px) {
+    .hotel-hero-section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        position: relative;
+    }
+} */
+
 
 .map{
     width: 100%;
@@ -24,6 +55,26 @@
     filter: grayscale(100%);
     margin-bottom: 32px;
 }
+
+@media screen and (min-width: 768px) {
+    .map {
+        max-width: 704px;
+        max-height: 576px;
+        width: 704px;
+        height: 576px;
+        margin-bottom: 32px;
+        }
+}
+
+/* @media screen and (min-width: 1440px) {
+    .hotel-hero-section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        position: relative;
+    }
+} */
+
+
 
 .loc-adr{
     font-style: normal;
@@ -39,6 +90,14 @@
     margin-bottom: 28px;
 }
 
+@media screen and (min-width: 768px) {
+.loc-txt {
+        margin-bottom: 0;
+    }
+}
+
+
+
 .loc-call-txt{
     font-family: 'DM Sans';
     font-weight: 500;
@@ -50,9 +109,26 @@
     margin-bottom: 12px;
 }
 
+@media screen and (min-width: 768px) {
+    .loc-adr {
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+}
+
+
 .loc-item:not(:last-child){
     margin-bottom: 4px;
 }
+
+@media screen and (min-width: 768px) {
+    .loc-item:not(:last-child) {
+            margin-bottom: 2px;
+        }
+}
+
+
 
 .loc-link{
     font-family: 'DM Sans';
@@ -61,4 +137,12 @@
     letter-spacing: -0.02em;
     color: #121212;
     padding: 2px 0;
+}
+
+@media screen and (min-width: 768px) {
+    .loc-link {
+        font-size: 18px;
+        line-height: calc(24 / 18);
+        padding: 1px 0;
+        }
 }
