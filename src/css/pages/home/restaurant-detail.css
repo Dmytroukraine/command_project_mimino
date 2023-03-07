@@ -155,7 +155,7 @@
 .restaurant-slider-item:hover,
 .restaurant-slider-item:focus {
     background-color: rgba(0, 0, 0, 0.25);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    
     stroke: var(--main-black-color);
 
 }
@@ -213,7 +213,7 @@
     font-size: 18px;
     letter-spacing: -0.02em;
     cursor: pointer;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    
 }
 
 @media screen and (min-width: 768px) {
@@ -222,8 +222,8 @@
     .restaurant-link {
         padding: 8px 24px;
         /* height: 40px; */
-        font-size: 14px;
-        line-height: calc(24 / 14);
+        font-size: 16px;
+        line-height: 1.33;
     }
 }
 
@@ -234,7 +234,7 @@
         padding: 9px 24px;
         height: 42px;
         font-size: 18px;
-        line-height: calc(24 / 18);
+        line-height: 1.33;
     }
 }
 
