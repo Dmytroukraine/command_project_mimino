@@ -242,3 +242,28 @@
     line-height: 1.33;
   }
 }
+
+
+
+/* slider */ 
+
+.hotel-detail-slider-wrapper {
+  position: relative;
+}
+
+
+.hotel-detail-slider-img {
+position: relative;
+width: 100%;
+height: 100%;
+transition: all 0.7s ease-in-out;}
+
+
+
+.hotel-detail-slider-img picture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.7s ease-in-out;}
+
+.hotel-detail-slider-wrapper:hover .hotel-detail-slider-img {transform: scale(1.1);}
