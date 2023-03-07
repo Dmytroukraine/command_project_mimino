@@ -169,6 +169,10 @@
       padding-right: 32px;
       background-color: transparent;
     }
+    .header.no-transparency{
+      background-color: rgba(48, 48, 48, 0.3);
+      backdrop-filter: blur(2px);
+    }
     .header-container {
       width: 100%;
       position: relative;
