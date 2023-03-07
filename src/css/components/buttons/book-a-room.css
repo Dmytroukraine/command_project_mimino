@@ -1,4 +1,3 @@
-
 /*    BUTTONS   */
 
 .modal__cross.js-modal-close {
@@ -8,22 +7,22 @@
   height: 28px;
   top: 14px;
   right: 14px;
-   padding: 8.17px;
+  padding: 8.17px;
 }
 
 @media screen and (min-width: 768px) {
   .modal__cross.js-modal-close {
-     width: 32px;
-  height: 32px;
-   top: 24px;
-  right: 24px;
+    width: 32px;
+    height: 32px;
+    top: 24px;
+    right: 24px;
     padding: 9.33px;
-  }}
+  }
+}
 
 .close-modal-icon {
   stroke: rgba(246, 246, 246, 1);
 }
-
 
 .modal-submit-btn {
   padding: 14px 48px;
@@ -43,27 +42,19 @@
 }
 
 @media screen and (min-width: 768px) {
-.modal-submit-btn  {
- width: 399px;
-height: 52px;
-padding: 14px 130px;
-  
-}}
+  .modal-submit-btn {
+    width: 399px;
+    height: 52px;
+    padding: 14px 130px;
+  }
+}
 
- 
 .modal-submit-btn:hover,
 .modal-submit-btn:focus {
   background-color: rgba(246, 246, 246, 1);
   color: rgba(18, 18, 18, 1);
   outline: transparent;
 }
-
-
-
-
-
-
-
 
 /*  STYLES FOR ALL MODALS  */
 
@@ -72,42 +63,39 @@ padding: 14px 130px;
   /* Скрываем подложку  */
   opacity: 0;
   visibility: hidden;
-  
+
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: 200;
   transition: 0.3s all;
   overflow-y: scroll;
 }
 
-
 /* Стили для модальных окон */
 .modal {
-  
   /* Скрываем окна  */
   opacity: 0;
   visibility: hidden;
-  
+
   /*  Установаем ширину окна  */
- 
+
   /*  Центрируем и задаем z-index */
-  position: fixed; 
-  top: 50%; 
+  position: fixed;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 300; /* Должен быть выше чем у подложки*/
-  
+
   /*  Побочные стили   */
-  box-shadow: 0 3px 10px -.5px rgba(0, 0, 0, .2); 
+  box-shadow: 0 3px 10px -0.5px rgba(0, 0, 0, 0.2);
   text-align: center;
   border-radius: 3px;
   transition: 0.3s all;
 }
-
 
 /* Стили для активных классов подложки и окна */
 .modal.active,
@@ -116,33 +104,26 @@ padding: 14px 130px;
   visibility: visible;
 }
 
-
-
-
-/*  STYLES FOR BOOK A ROOM  */ 
-
+/*  STYLES FOR BOOK A ROOM  */
 
 .modal-book-room {
-  position: relative; 
+  position: relative;
   /* outline: 2px dashed red; */
   margin-left: auto;
   margin-right: auto;
-  width: 335px; 
+  width: 335px;
   /*height: 636px; */
   background-color: rgba(18, 18, 18, 1);
   padding: 24px 24px 40px 24px;
 }
 
-
-
 @media screen and (min-width: 768px) {
   .modal-book-room {
     width: 628px;
-height: 572px;
-padding: 32px 32px 60px 32px;
-
-  }}
-
+    height: 572px;
+    padding: 32px 32px 60px 32px;
+  }
+}
 
 .modal-title {
   font-weight: 500;
@@ -157,13 +138,12 @@ padding: 32px 32px 60px 32px;
   .modal-title {
     font-size: 36px;
     margin-bottom: 60px;
-    
-  }}
+  }
+}
 
 .modal-title > span {
   font-style: italic;
 }
-
 
 .form-book-room {
   /* display: flex;
@@ -180,20 +160,21 @@ padding: 32px 32px 60px 32px;
 }
 
 @media screen and (min-width: 768px) {
-.form-field {
-  width: 266px;
-  margin-bottom: 40;
-}}
+  .form-field {
+    width: 266px;
+    margin-bottom: 40;
+  }
+}
 
 .form-field.select.nubmer {
   margin-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
-.form-field.select.nubmer {
-  margin-bottom: 80px;
-}}
-
+  .form-field.select.nubmer {
+    margin-bottom: 80px;
+  }
+}
 
 .form-input {
   height: 36px;
@@ -210,9 +191,10 @@ padding: 32px 32px 60px 32px;
   text-transform: none;
 }
 @media screen and (min-width: 768px) {
-.form-input {
-  width: 266px;
-}}
+  .form-input {
+    width: 266px;
+  }
+}
 
 .form-field-label {
   position: relative;
@@ -272,11 +254,11 @@ padding: 32px 32px 60px 32px;
   padding-right: auto;
 }
 
-
 @media screen and (min-width: 768px) {
-.modal-select {
-  width: 266px;
-}}
+  .modal-select {
+    width: 266px;
+  }
+}
 
 /*
 .form-field.select::after {
@@ -291,37 +273,31 @@ padding: 32px 32px 60px 32px;
   background-origin: content-box;
 }*/
 
+@media screen and (min-width: 768px) {
+  .book-room-name-tel-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+  }
+}
 
 @media screen and (min-width: 768px) {
-.book-room-name-tel-wrapper {
-  display: flex;
-  flex-direction: row;
-  gap: 32px;
- 
-}}
+  .book-chek-in-date-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+  }
+}
 
-
-@media screen and (min-width: 768px) {
-.book-chek-in-date-wrapper {
-  display: flex;
-  flex-direction: row;
-  gap: 32px;
-}}
-
-
-
-/* ICON   */ 
+/* ICON   */
 
 .form-field-icon-wrapper {
   position: absolute;
   top: 0;
   right: 0;
-  z-index: 100;} 
-
-
-.form-field-icon {fill: #d8d7d7;
+  z-index: 100;
 }
 
-
-
-
+.form-field-icon {
+  fill: #d8d7d7;
+}
