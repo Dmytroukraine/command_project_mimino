@@ -1,91 +1,147 @@
-.section {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.hero-section {
+.amen-sect {
   padding-top: 40px;
-  padding-bottom: 0px;
-  background-color: var(--main-black-color);
-  margin-right: auto;
-  margin-left: auto;
+  padding-bottom: 64px;
+  background-color: #121212;
+  min-width: 375px;
+  margin-top: 40px;
 }
-
-.hero-background {
-  margin-top: 0;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: url(/images/mobile/room/room_room2_mobile.webp);
-  width: 100%;
-  min-height: 439px;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: cover;
-  /* outline: 2px solid rebeccapurple; */
-}
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .hero-background {
-    background-image: url(/images/mobile/room/room_room2_mobile@2x.webp);
+@media screen and (min-width: 768px) and (max-width: 1439.98px) {
+  .amen-sect {
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 }
-
-center .hero-title {
-  font-family: var(--primary-font);
-  font-size: 40px;
-  font-weight: var(--font-weight-title);
-  letter-spacing: -0.02em;
-  line-height: 1;
-  color: var(--main-black-color);
-  margin-bottom: 24px;
+@media screen and (min-width: 1440px) {
+  .amen-sect {
+    padding-top: 94px;
+    padding-bottom: 100px;
+  }
 }
-
-.list-item {
-  margin-top: 32px;
+.amen-list {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 64px;
 }
-
-.js-open-modal-btn {
-  padding: 8px 18px;
-  border-radius: 32px;
-  background-color: transparent;
-  border: 0.8px solid var(--main-light-color);
-  color: var(--main-light-color);
+@media screen and (min-width: 768px) {
+  .amen-list {
+    margin-bottom: 122px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .amen-list {
+    margin-bottom: 0;
+    gap: 100px 70px;
+  }
+}
+.amen-item {
+  width: 100%;
+  max-width: 633px;
+}
+.amen-text-title {
+  font-size: 28px;
+  line-height: calc(32 / 28);
+  letter-spacing: -0.02em;
   text-transform: uppercase;
-  display: block;
-  font-family: 'DM Sans';
-  font-style: normal;
-  font-weight: var(--font-weight-title);
-  line-height: calc(18 / 14);
-  text-align: center;
+  color: #f7f7f7;
+  margin-bottom: 28px;
+  font-weight: var(--font-weight-bold);
+}
+
+@media screen and (min-width: 768px) {
+  .amen-text-title {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+}
+.amen-text-list {
+  list-style: disc;
+  padding-left: 22px;
+}
+.amen-text {
   font-size: 14px;
+  line-height: 18px;
   letter-spacing: -0.02em;
-  cursor: pointer;
-  width: 175px;
+  text-transform: uppercase;
 }
-
-.js-open-modal-btn:hover,
-.js-open-modal-btn:focus {
-  background-color: var(--main-white-color);
-  color: var(--main-black-color);
+@media screen and (min-width: 768px) {
+  .amen-text {
+    font-size: 18px;
+    line-height: calc(24 / 18);
+  }
 }
-
-.amenities-wrap {
-  margin-top: 40px;
-  margin-bottom: 100px;
+.amen-wrapp {
+  max-width: 848px;
   display: flex;
-  gap: 20px;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  margin-left: auto;
 }
 
-.restaurant-text {
-  max-width: 338px;
+@media screen and (min-width: 1440px) {
+  .amen-wrapp {
+    margin-top: -120px;
+  }
+}
+.amen-thumb {
+  position: relative;
+}
+.amen-img {
+  width: 239px;
+  height: 333px;
+  margin-left: auto;
+}
+@media screen and (min-width: 768px) {
+  .amen-img {
+    width: 408px;
+    height: 525px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .amen-img {
+    width: 496px;
+    height: 636px;
+  }
+}
+.amen-position-img {
+  position: absolute;
+  top: 144px;
+  width: 207px;
+  height: 103px;
+  left: -76px;
+}
+@media screen and (min-width: 768px) {
+  .amen-position-img {
+    width: 365px;
+    height: 182px;
+    top: 157px;
+    left: -296px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .amen-position-img {
+    width: 439px;
+    height: 219px;
+    top: 208px;
+    left: -352px;
+  }
+}
+.btn-dark {
+  display: block;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.text {
-  font-size: inherit;
-  line-height: inherit;
-  letter-spacing: inherit;
-  color: var(--main-light-color);
-  font-weight: var(--font-weight-title);
+@media screen and (min-width: 768px) {
+  .btn-dark {
+    margin-top: 371px;
+    margin-left: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .btn-dark {
+    margin-top: 459px;
+  }
 }
