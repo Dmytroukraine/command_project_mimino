@@ -1,0 +1,50 @@
+/**
+    |============================
+    | ---------ROOM HERO STYLES ----------
+    |============================
+  */
+.room-hero-container {
+  padding-top: 118px;
+}
+.room-hero-title {
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  color: var(--main-black-color);
+  margin-bottom: 25px;
+  width: 270px;
+}
+.italic-txt {
+  font-style: italic;
+}
+.room-btn {
+  margin-bottom: 32px;
+}
+.room-hero-txt {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  color: var(--main-black-color);
+  max-width: 289px;
+}
+.temporary{
+    margin-bottom: 100px;
+}
+
+
+/**
+      |============================
+      | ---------ROOM HERO TABLET STYLES ----------
+      |============================
+    */
+@media screen and (min-width: 768px) {
+}
+
+/**
+      |============================
+      | ---------ROOM HERO DESKTOP STYLES ----------
+      |============================
+    */
+
+@media screen and (min-width: 1440px) {
+}
