@@ -8,21 +8,47 @@
   padding-right: 20px;
 }
 
-
 .rest-hero-title {
-  font-family: var(--primary-font);
+  margin-top: 40px;
   font-size: 40px;
-  font-weight: var(--font-weight-title);
   letter-spacing: -0.02em;
   line-height: 1;
   color: var(--main-black-color);
   margin-bottom: 24px;
 }
 
+@media screen and (min-width: 768px) {
+  .rest-hero-section {
+    margin-bottom: 32px;
+    font-size: 80px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .rest-hero-section {
+    padding-left: 32px;
+    padding-right: 32px;
+    font-size: 90px;
+  }
+}
+
 .rest-hero-btn-list {
-  margin-top: 24px;
   display: flex;
   column-gap: 12px;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .rest-hero-btn-list {
+    gap: 14px;
+  }
+  .rest-hero-btn-list {
+    margin-bottom: 54px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .rest-hero-btn-list {
+    margin-bottom: 204px;
+  }
 }
 
 .js-open-modal,
@@ -30,9 +56,11 @@
   padding: 8px 18px;
   border-radius: 32px;
   background-color: transparent;
-  border: 0.8px solid #121212;
+  transition: color linear 250ms, background-color linear 250ms;
+  border: 0.8px solid var(--main-black-color);
   color: var(--main-black-color);
   text-transform: uppercase;
+  text-align: center;
   display: block;
   font-family: 'DM Sans';
   font-style: normal;
@@ -48,18 +76,50 @@
 .js-open-modal:focus,
 .rest-hero-nav-link:hover,
 .rest-hero-nav-link:focus {
-  background-color: #121212;
-  color: #f7f7f7;
+  background-color: var(--main-black-color);
+  color: var(--main-light-color);
 }
 
-.rest-hero-wrap {
-  margin-top: 40px;
-  margin-bottom: 100px;
-  display: flex;
-  gap: 20px;
+@media screen and (min-width: 768px) {
+  .js-open-modal,
+  .rest-hero-nav-link {
+    padding: 8px 24px;
+    line-height: 1.71;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .js-open-modal,
+  .rest-hero-nav-link {
+    padding: 9px 24px;
+    font-size: 18px;
+    line-height: 1.33;
+  }
 }
 
-.rest-hero-text-ul {
+.hidden {
+  overflow: hidden;
+}
+.rest-hero-wrap-1 {
+  position: relative;
+}
+
+.hero-item-img:first-child {
+  margin-right: 85px;
+}
+
+.rest-hero-wrap-2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(-30%);
+}
+
+.rest-hero-wrap-1 {
+  max-width: 526px;
+  margin-top: 174px;
+}
+
+.rest-hero-text-box {
   max-width: 338px;
 }
 
@@ -69,4 +129,11 @@
   letter-spacing: 0.05em;
   color: var(--main-black-color);
   font-weight: var(--font-weight-title);
+}
+
+@media screen and (min-width: 768px) {
+  .rest-hero-text {
+    max-width: 338px;
+    order: -1;
+  }
 }
