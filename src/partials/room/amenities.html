@@ -1,36 +1,135 @@
-<section class="section hero-section">
+<section class="amen-sect">
   <div class="container">
-    <h1 class="hero-title">Hidden</h1>
-    <ul class="restaurant-text">
-      <li class="text">
-        24-hour front desk service Daily housekeeping Free Wi-Fi throughout the
-        hotel Elevator access Luggage storage Non-smoking rooms available
-        Meeting rooms for business and events On-site parking (surcharge)
-        Concierge services
+    <h2 class="visually-hidden">Amenities</h2>
+    <ul class="amen-list">
+      <li class="amen-item">
+        <h3 class="amen-text-title">General Amenities & Facilities:</h3>
+        <ul class="amen-text-list">
+          <li class="amen-text">24-hour front desk service</li>
+          <li class="amen-text">Daily housekeeping</li>
+          <li class="amen-text">Free Wi-Fi throughout the hotel</li>
+          <li class="amen-text">Elevator access</li>
+          <li class="amen-text">Luggage storage</li>
+          <li class="amen-text">Non-smoking rooms available</li>
+          <li class="amen-text">Meeting rooms for business and events</li>
+          <li class="amen-text">On-site parking (surcharge)</li>
+          <li class="amen-text">Concierge services</li>
+        </ul>
+      </li>
+      <li class="amen-item">
+        <h3 class="amen-text-title">Bathroom:</h3>
+        <ul class="amen-text-list">
+          <li class="amen-text">Private bathroom with shower</li>
+          <li class="amen-text">Complimentary toiletries</li>
+          <li class="amen-text">Hair dryer</li>
+          <li class="amen-text">Fresh towels daily</li>
+          <li class="amen-text">Deluxe bathrobes (in some room categories)</li>
+        </ul>
+      </li>
+      <li class="amen-item">
+        <h3 class="amen-text-title">Bedroom:</h3>
+        <ul class="amen-text-list">
+          <li class="amen-text">Comfortable beds with high-quality linens</li>
+          <li class="amen-text">Blackout curtains</li>
+          <li class="amen-text">
+            Climate control (air conditioning and heating)
+          </li>
+          <li class="amen-text">Safe for valuables</li>
+          <li class="amen-text">Writing desk and chair</li>
+          <li class="amen-text">Flat-screen TV with cable channels</li>
+        </ul>
+      </li>
+      <li class="amen-item">
+        <h3 class="amen-text-title">Kitchen:</h3>
+        <ul class="amen-text-list">
+          <li class="amen-text">
+            In-room kitchenette (in some room categories)
+          </li>
+          <li class="amen-text">Refrigerator</li>
+          <li class="amen-text">Microwave</li>
+          <li class="amen-text">Electric kettle</li>
+          <li class="amen-text">Cooking utensils and cutlery</li>
+          <li class="amen-text">Dining table and chairs</li>
+        </ul>
+      </li>
+      <li class="amen-item">
+        <h3 class="amen-text-title">Media:</h3>
+        <ul class="amen-text-list">
+          <li class="amen-text">Flat-screen TV with cable channels</li>
+          <li class="amen-text">High-speed Wi-</li>
+          <li class="amen-text">iPod docking station</li>
+          <li class="amen-text">Speaker system</li>
+          <li class="amen-text">Electrical outlets for charging devices.</li>
+        </ul>
       </li>
     </ul>
-  </div>
-  <section class="amenities-wrap">
-    <div class="container">
-      <ul class="pic-list">
-        <li>
+    <div class="amen-wrapp">
+      <div class="amen-thumb">
+        <picture>
           <source
-            media="(min-width: 1200px)"
+            media="(min-width: 1440px)"
             srcset="
-              /images/desktop/room/home_room1_desktop.webp    1x,
-              /images/desktop/room/home_room1_desktop@2x.webp 2x
+              images/desktop/room/home_room2_desktop.jpg    1x,
+              images/desktop/room/home_room2_desktop@2x.jpg 2x
             "
-            type="image/webp"
           />
-        </li>
-        <li>картинка</li>
-      </ul>
-    </div>
-  </section>
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              images/tablet/room/room2_tablet.jpg    1x,
+              images/tablet/room/room2_tablet@2x.jpg 2x
+            "
+          />
+          <source
+            media="(max-width: 768px)"
+            srcset="
+              images/mobile/room/room_room2_mobile.jpg    1x,
+              images/mobile/room/room_room2_mobile@2x.jpg 2x
+            "
+          />
 
-  <ul class="btn-list">
-    <li class="list-item">
-      <button type="button" class="js-open-modal js-open-modal-btn" data-modal="1">book a room</button> 
-    </li>
-  </ul>
+          <img
+            class="amen-img"
+            src="images/desktop/room/room_room2_desktop.jpg    1x"
+            alt=""
+            width="496"
+            height="636"
+            loading="lazy"
+          />
+        </picture>
+        <picture>
+          <source
+            media="(min-width: 1440px)"
+            srcset="
+              images/desktop/room/home_room1_desktop.png    1x,
+              images/desktop/room/home_room1_desktop@2x.png 2x
+            "
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              images/tablet/room/room1_tablet.png    1x,
+              images/tablet/room/room1_tablet@2x.png 2x
+            "
+          />
+          <source
+            media="(max-width: 768px)"
+            srcset="
+              images/mobile/room/room_room2_mobile.png    1x,
+              images/mobile/room/room_room2_mobile@2x.png 2x
+            "
+          />
+          <img
+            class="amen-position-img"
+            src="images/desktop/room/home_room1_desktop.png  1x"
+            alt=""
+            width="439"
+            height="219"
+            loading="lazy"
+          />
+        </picture>
+      </div>
+      <button class="amen-btn btn-dark">book a room</button>
+    </div>
+  </div>
 </section>
