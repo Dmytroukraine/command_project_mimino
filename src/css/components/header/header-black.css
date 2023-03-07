@@ -108,6 +108,7 @@
   }
   .header-social-list-icon {
     stroke: var(--main-light-color);
+    fill: transparent;
   }
   .header-mobile-menu-social-list {
     display: flex;
@@ -166,6 +167,7 @@
     .header {
       padding-left: 32px;
       padding-right: 32px;
+      background-color: transparent;
     }
     .header-container {
       width: 100%;
