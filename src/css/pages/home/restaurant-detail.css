@@ -195,10 +195,10 @@
     }
 }
 
-.js-open-modal,
+.js-open-modal.white,
 .restaurant-link {
     padding: 8px 18px;
-    height: 34px;
+    /* height: 34px; */
     border-radius: 32px;
     background-color: transparent;
     border: 0.8px solid #121212;
@@ -208,9 +208,9 @@
     font-family: var(--primary-font);
     font-style: normal;
     font-weight: 400px;
-    line-height: calc(18 / 14);
+    line-height: 1.33;
     text-align: center;
-    font-size: 14px;
+    font-size: 18px;
     letter-spacing: -0.02em;
     cursor: pointer;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -221,7 +221,7 @@
     .js-open-modal,
     .restaurant-link {
         padding: 8px 24px;
-        height: 40px;
+        /* height: 40px; */
         font-size: 14px;
         line-height: calc(24 / 14);
     }
