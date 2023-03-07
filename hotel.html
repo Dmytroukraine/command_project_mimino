@@ -27,13 +27,16 @@
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
      <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
+      <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
      
      
-  <script type="module" crossorigin src="/command_project_mimino/assets/modals-2aa6bc0a.js"></script>
-  <link rel="stylesheet" href="/command_project_mimino/assets/modals-37950637.css">
-  <link rel="stylesheet" href="/command_project_mimino/assets/hotel-f0577103.css">
+  <script type="module" crossorigin src="/command_project_mimino/assets/slider-c54c6303.js"></script>
+  <link rel="stylesheet" href="/command_project_mimino/assets/slider-37950637.css">
+  <link rel="stylesheet" href="/command_project_mimino/assets/hotel-03f80d48.css">
 </head>
   <body>
     <header class="header header-white">
@@ -142,7 +145,185 @@
     <main>
 
       <!-- Loads the specified .html file -->
-      
+      <section class="hotel-hero-section">
+  <div class="container hotel-hero-container">
+    <h1 class="hotel-hero-title animate__animated animate__backInRight">
+      Hotel
+    </h1>
+    <ul class="hotel-hero-btn-list">
+      <li><button class="hotel-hero-btn" type="button">book a room</button></li>
+      <li><button class="hotel-hero-btn" type="button">View prices</button></li>
+    </ul>
+
+    <div class="hotel-slider-wrapper">
+      <div class="variable-width">
+        <div class="item">
+          <picture>
+            
+            <!-- desktop -->
+             <source
+              media="(min-width: 1440px)"
+              srcset="/command_project_mimino/assets/building1_desktop-83016020.webp 1x, /command_project_mimino/assets/building1_desktop@2x-f5160631.webp 2x"
+              type="image/webp"
+            />
+    
+            <source
+              media="(min-width: 1440px)"
+              srcset="/command_project_mimino/assets/building1_desktop-2873dec1.jpg 1x, /command_project_mimino/assets/building1_desktop@2x-595cdd42.jpg 2x"
+              type="image/jpeg"
+              />
+
+              <!-- tablet -->
+              <source
+                media="(min-width: 767px)"
+                srcset="/command_project_mimino/assets/scrol_hotel_building1_tablet-e12b8c21.webp 1x, /command_project_mimino/assets/scrol_hotel_building1_tablet@2x-e71a94ae.webp 2x"
+                type="image/webp"
+              />
+  
+              <source
+                media="(min-width: 768px)"
+                srcset="/command_project_mimino/assets/scrol_hotel_building1_tablet-232271b3.jpg 1x, /command_project_mimino/assets/scrol_hotel_building1_tablet@2x-1dd49f52.jpg 2x"
+                type="image/jpeg"
+              />
+
+            <!-- mobile -->
+            <source
+            media="(max-width: 767px)"
+            srcset="/command_project_mimino/assets/scrol_building1_mobile-8940712c.webp 1x, /command_project_mimino/assets/scrol_building1_mobile@2x-f617b3d2.webp 2x"
+              type="image/webp"
+            />
+
+            <source
+              media="(max-width: 767px)"
+              srcset="/command_project_mimino/assets/scrol_building1_mobile-694da355.jpg 1x, /command_project_mimino/assets/scrol_building1_mobile@2x-d0488045.jpg 2x"
+              type="image/jpeg"
+            />
+
+            <img
+              src="/images/mobile/hotel/scrol_building/scrol_building1_mobile.jpg"
+              alt="front of the building"
+              loading="lazy"
+            />
+          </picture>
+        </div>
+
+
+
+        <div class="item">
+
+          <picture>
+            
+            <!-- desktop -->
+             <source
+              media="(min-width: 1440px)"
+              srcset="/command_project_mimino/assets/building2_desktop-5460bc9d.webp 1x, /command_project_mimino/assets/building2_desktop@2x-573c9e88.webp 2x"
+              type="image/webp"
+            />
+    
+            <source
+              media="(min-width: 1440px)"
+              srcset="/command_project_mimino/assets/building2_desktop-5bd88aae.jpg 1x, /command_project_mimino/assets/building2_desktop@2x-c1668271.jpg 2x"
+              type="image/jpeg"
+              />
+
+              <!-- tablet -->
+              <source
+                media="(min-width: 767px)"
+                srcset="/command_project_mimino/assets/scrol_hotel_building2_tablet-998afbe0.webp 1x, /command_project_mimino/assets/scrol_hotel_building2_tablet@2x-e5392cb0.webp 2x"
+                type="image/webp"
+              />
+  
+              <source
+                media="(min-width: 768px)"
+                srcset="/command_project_mimino/assets/scrol_hotel_building2_tablet-906ec53b.jpg 1x, /command_project_mimino/assets/scrol_hotel_building2_tablet@2x-eab3c97e.jpg 2x"
+                type="image/jpeg"
+              />
+
+            <!-- mobile -->
+            <source
+            media="(max-width: 767px)"
+            srcset="/command_project_mimino/assets/scrol_building2_mobile-3fe50faa.webp 1x, /command_project_mimino/assets/scrol_building2_mobile@2x-8d48ecae.webp 2x"
+              type="image/webp"
+            />
+
+            <source
+              media="(max-width: 767px)"
+              srcset="/command_project_mimino/assets/scrol_building2_mobile-47a1b9e5.jpg 1x, /command_project_mimino/assets/scrol_building2_mobile@2x-d23daa5e.jpg 2x"
+              type="image/jpeg"
+            />
+
+             <img
+            src="/command_project_mimino/assets/scrol_building2_mobile-47a1b9e5.jpg"
+            alt="side of the building"
+              loading="lazy"
+          />
+          </picture>
+
+         
+        </div>
+
+
+        <div class="item">
+
+          <picture>
+            
+            <!-- desktop -->
+             <source
+              media="(min-width: 1440px)"
+              srcset="/command_project_mimino/assets/building3_desktop-fff4e656.webp 1x, /command_project_mimino/assets/building3_desktop@2x-b1f69b9a.webp 2x"
+              type="image/webp"
+            />
+    
+            <source
+              media="(min-width: 1440px)"
+              srcset="/command_project_mimino/assets/building3_desktop-070ccebf.jpg 1x, /command_project_mimino/assets/building3_desktop@2x-e61fd42a.jpg 2x"
+              type="image/jpeg"
+              />
+
+              <!-- tablet -->
+              <source
+                media="(min-width: 767px)"
+                srcset="/command_project_mimino/assets/scrol_hotel_building3_tablet-fc15ec32.webp 1x, /command_project_mimino/assets/scrol_hotel_building3_tablet@2x-83ff6b4d.webp 2x"
+                type="image/webp"
+              />
+  
+              <source
+                media="(min-width: 768px)"
+                srcset="/command_project_mimino/assets/scrol_hotel_building3_tablet-e576c871.jpg 1x, /command_project_mimino/assets/scrol_hotel_building3_tablet@2x-7b90eea6.jpg 2x"
+                type="image/jpeg"
+              />
+
+            <!-- mobile -->
+            <source
+            media="(max-width: 767px)"
+            srcset="/command_project_mimino/assets/scrol_building3_mobile-0026692c.webp 1x, /command_project_mimino/assets/scrol_building3_mobile@2x-f26b1dd7.webp 2x"
+              type="image/webp"
+            />
+
+            <source
+              media="(max-width: 767px)"
+              srcset="/command_project_mimino/assets/scrol_building3_mobile-6599a175.jpg 1x, /command_project_mimino/assets/scrol_building3_mobile@2x-edc75fae.jpg 2x"
+              type="image/jpeg"
+            />
+
+             <img
+            src="/command_project_mimino/assets/scrol_building3_mobile-6599a175.jpg"
+            alt="side of the building"
+              loading="lazy"
+          />
+          </picture>
+
+        </div>
+      </div>
+    </div>
+
+    <p class="hotel-hero-txt">
+      Whether you're in the mood for a hearty breakfast, a light lunch, or a
+      romantic dinner, our menu has something for everyone.
+    </p>
+  </div>
+</section>
+
       <section class="double-section">
     <div class="conteiner">
         <div class="picture-list">
@@ -871,6 +1052,7 @@
       type="text/javascript"
       src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
+     <script type="text/javascript" src="./slider.js"></script>
     
 
   
