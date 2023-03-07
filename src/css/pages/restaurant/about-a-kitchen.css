@@ -75,7 +75,6 @@ li {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  max-height: 389px;
 }
 
 @media screen and (min-width: 768px) {

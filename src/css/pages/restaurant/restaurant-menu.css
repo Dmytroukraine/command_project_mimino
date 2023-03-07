@@ -13,8 +13,20 @@
 }
 @media screen and (min-width: 1440px) {
   .section_restourant-menu {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    display: none;
+  }
+}
+
+.section_restourant-menu_desktop {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  background-color: #121212;
+  color: #f6f6f6;
+}
+@media screen and (max-width: 1440px) {
+  .section_restourant-menu_desktop {
+    display: none;
   }
 }
 
@@ -78,14 +90,14 @@
   }
 }
 
-.list-wrapper_restourant-menu + .list-wrapper_restourant-menu {
+/* .list-wrapper_restourant-menu + .list-wrapper_restourant-menu {
   display: none;
 }
 @media screen and (min-width: 1440px) {
   .list-wrapper_restourant-menu + .list-wrapper_restourant-menu {
     display: block;
   }
-}
+} */
 
 .list-title {
   margin-bottom: 32px;
@@ -107,13 +119,11 @@
 }
 
 .list-restourant-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
 }
-.list-restourant-menu > .list-item {
-  margin-bottom: 14px;
-}
-.list-restourant-menu > .list-item:last-child {
-  margin-bottom: 0;
-}
+
 .list-restourant-menu > .list-item::after {
   content: '';
   display: block;
@@ -283,4 +293,39 @@
 .menu-btn:focus {
   background-color: rgba(246, 246, 246, 1);
   color: #121212;
+}
+
+/* slider */
+
+.slider {
+  max-width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+/* Анимация слайдов */
+.slider .item {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
