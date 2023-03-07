@@ -23,7 +23,22 @@
   letter-spacing: -0.02em;
   color: var(--main-light-color);
   text-align: center;
+  animation: hero 3s 1;
 }
+/* animation hero title */
+
+@keyframes hero {
+  0% {
+    color: transparent;
+  }
+  50% {
+    letter-spacing: 0.1em;
+  }
+  100% {
+    color: var(--main-light-color);
+  }
+}
+
 .hero-btn-list {
   margin-top: 24px;
   display: flex;
