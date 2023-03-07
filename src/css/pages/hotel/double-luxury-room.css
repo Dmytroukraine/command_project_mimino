@@ -13,7 +13,7 @@
         padding-top: 100px;
     }
 }
-/*
+
 .conteiner {
     max-width: 375px;
     padding-left: 20px;
@@ -32,7 +32,7 @@
     .conteiner{
         max-width: 1376px;
     }
-}*/
+}
 @media screen and (min-width:768px) and (max-width: 1439px){
     .picture-list{
         display: flex;
@@ -224,11 +224,13 @@ display: none;
 }
 @media screen and (min-width:768px) {
     .double-link{
+        line-height: 24px;
         padding: 8px 24px;
     }
 }
 @media screen and (min-width:768px) {
     .double-link{
+        font-size: 18px;
         padding: 9px 24px;
     }
 }
@@ -268,11 +270,13 @@ display: none;
 }
 @media screen and (min-width:768px){
     .double-btn {
+        line-height: 24px;
         padding: 8px 24px;
     }
 }
 @media screen and (min-width:1440px){
     .double-btn {
+        font-size: 18px;
         padding: 9px 24px;
     }
 }
