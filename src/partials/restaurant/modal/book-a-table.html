@@ -16,12 +16,79 @@
               class="form-input"
               name="user-name"
               id="user-name"
-              pattern=""
+               pattern="[a-zA-Zа-яА-я]{2,20}"
+            title="Username should only contain lowercase letters"
             />
             <span class="booking-label">Your name</span>
           </label>
           <p class="form-paragraph">who should book a table for?</p>
         </div>
+<<<<<<< Updated upstream
+=======
+
+        <div class="form-field select">
+        
+
+          <select
+            name="number-of-people"
+            id="number-of-people"
+            class="modal-select"
+          >
+            <option value="">number of people</option>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+            <option value="">6</option>
+          </select>
+          <p class="form-paragraph">number of people</p>
+
+          <!-- <label for="user-name" class="form-field-label">
+          <input
+            minlength="2"
+            placeholder="1-6 person"
+            type="text"
+            class="form-input"
+            name="user-name"
+            id="user-name"
+            pattern=""
+          />
+    
+          <span class="booking-label">number of people</span>
+        </label>  -->
+
+          <!--
+<label for="user-name" class="form-field-label">
+          <input type="number" name="age" value="0" min="18" max="120" />
+          <span class="booking-label">number of people</span>
+        </label> -->
+
+          <!-- 
+        <label for="fav" class="form-field-label">number of people </label>
+        <input list="nmb_of_people" name="fav" id="fav" class="form-input datalist"/>
+        <datalist id="nmb_of_people" class="datalist" >
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </datalist> -->
+        </div>
+      </div>
+
+      <div class="table-chek-in-date-wrapper">
+        <div class="form-field select">
+          
+          <select name="date-first" id="date-first" class="modal-select">
+            <option value="">today</option>
+            <option value="">tomorrow</option>
+            <option value="">day after tomorrow</option>
+          </select>
+          <p class="form-paragraph">check-in-date</p>
+        </div>
+
+>>>>>>> Stashed changes
         <div class="form-field">
           <label for="user-phone" class="form-field-label"
             ><input
