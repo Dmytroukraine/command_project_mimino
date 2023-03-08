@@ -3,7 +3,7 @@
 
 <b>Dmytro Kozlovskyi</b>  - TeamLead
 
-<b>Dmitry Kozhukhar - ScrumMaster 
+<b>Dmitry Kozhukhar</b> - ScrumMaster 
 Page Home -section  Hero + animation + adaptation for desktop/tablet/mobile
 modal win - Book a Room + Book a table - styles + position
 
