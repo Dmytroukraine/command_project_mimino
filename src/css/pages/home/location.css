@@ -1,5 +1,5 @@
 .loc-section{
-    padding: 64px 0;
+    padding-top: 64px;
     background-color: #F6F6F6; 
 }
 
@@ -10,23 +10,25 @@
         }
 }
 
-/* @media screen and (min-width: 1440px) {
-    .hotel-hero-section {
-        padding-top: 30px;
-        padding-bottom: 30px;
-        position: relative;
+@media screen and (min-width: 1440px) {
+    .loc-section {
+            padding-top: 100px;
+        }
+}
+
+@media screen and (min-width: 1440px) {
+    .loc-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
     }
-} */
-
-
+}
 
 .loc-title{
-    font-family: 'DM Sans';
     font-weight: 500;
     font-size: 40px;
     line-height: calc(40 / 40);
     letter-spacing: -0.02em;
-    text-transform: uppercase;
     color: #121212;
     margin-bottom: 32px;
 }
@@ -38,17 +40,15 @@
         }
 }
 
-/* @media screen and (min-width: 1440px) {
-    .hotel-hero-section {
-        padding-top: 30px;
-        padding-bottom: 30px;
-        position: relative;
+@media screen and (min-width: 1440px) {
+    .loc-title {
+        margin-bottom: 0;
     }
-} */
+}
 
 
 .map{
-    width: 100%;
+    /* width: 100%; */
     max-width: 335px;
     max-height: 384px;
     box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.2);
@@ -66,29 +66,38 @@
         }
 }
 
-/* @media screen and (min-width: 1440px) {
-    .hotel-hero-section {
-        padding-top: 30px;
-        padding-bottom: 30px;
-        position: relative;
-    }
-} */
-
+@media screen and (min-width: 1440px) {
+    .map {
+        max-width: 640px;
+        max-height: 524px;
+        width: 640px;
+        height: 524px;
+        margin: 0 32px;
+   
+        order: -1;
+        }
+}
 
 
 .loc-adr{
     font-style: normal;
 }
 
+@media screen and (min-width: 1440px) {
+    .loc-adr {
+        align-self: flex-end;
+        margin-left: -322px;
+    }
+}
+
 .loc-txt{
-    font-family: 'DM Sans';
     font-size: 18px;
     line-height: calc(24 / 18);
     letter-spacing: -0.02em;
-    text-transform: uppercase;
     color: #000000;
     margin-bottom: 28px;
 }
+
 
 @media screen and (min-width: 768px) {
 .loc-txt {
@@ -96,18 +105,30 @@
     }
 }
 
+@media screen and (min-width: 1440px) {
+    .loc-adr-wrapper {
+        display: flex;
+        margin-left: 70px;
+    }
+}
 
 
 .loc-call-txt{
-    font-family: 'DM Sans';
     font-weight: 500;
     font-size: 14px;
     line-height: calc(18 / 14);
     letter-spacing: -0.02em;
-    text-transform: uppercase;
     color: #121212;
     margin-bottom: 12px;
 }
+
+@media screen and (min-width: 1440px) {
+    .loc-call-txt {
+        margin-right: 12px;
+        font-weight: 700;
+    }
+}
+
 
 @media screen and (min-width: 768px) {
     .loc-adr {
@@ -131,7 +152,6 @@
 
 
 .loc-link{
-    font-family: 'DM Sans';
     font-size: 14px;
     line-height: calc(18 / 14);
     letter-spacing: -0.02em;
