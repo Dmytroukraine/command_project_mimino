@@ -7,7 +7,9 @@
       </svg>
     </button>
     <form class="form-book-room" name="form_book_room">
+      <div class="book-room-name-tel-wrapper"> 
       <div class="form-field">
+
         <label for="user-name" class="form-field-label">
           <input
             minlength="2"
@@ -20,45 +22,75 @@
           />
           <span class="booking-label">Your name</span>
         </label>
-        <p class="form-paragraph">who should book a table for?</p>
+        <p class="form-paragraph">who should book a room for?</p>
       </div>
       <div class="form-field">
         <label for="user-phone" class="form-field-label"
           ><input
-            minlength="2"
             placeholder="+38(099)-999-99-99"
             type="tel"
             class="form-input"
             name="user-phone"
             id="user-phone"
             pattern="[\+]\d{2}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
-            minlength="13"
-            maxlength="13"
-          /><span class="booking-label">+38()</span>
+            minlength="15"
+            maxlength="15"
+          /><span class="booking-label">+ 38 ()</span>
         </label>
         <p class="form-paragraph">phone number</p>
-      </div>
+      </div></div>
+
+      <div class="book-chek-in-date-wrapper"> 
       <div class="form-field select">
-        <select name="" id="" class="modal-select">
+
+              <!--      icon       -->
+       <div class="form-field-icon-wrapper">
+                <svg class="form-field-icon"  width="10px" height="5px">
+                  <use href="./images/icons.svg#chevron-down"></use>
+                </svg>
+              </div> 
+         <!--     icon     -->
+ 
+ 
+        <select name="date-first" id="date-first" class="modal-select">
           <option value="">today</option>
           <option value="">tomorrow</option>
           <option value="">day after tomorrow</option>
         </select>
         <p class="form-paragraph">check-in-date</p>
+        
       </div>
+
       <div class="form-field select">
-        <select name="" id="" class="modal-select">
+              
+                <!--      icon       -->
+       <div class="form-field-icon-wrapper"> 
+                 <svg class="form-field-icon"  width="10px" height="5px">
+                  <use href="./images/icons.svg#chevron-down"></use>
+                </svg> </div> 
+         <!--     icon     -->
+
+        <select name="date-second" id="date-second" class="modal-select">
           <option value="">25/04/2023</option>
           <option value="">26/04/2023</option>
           <option value="">27/04/2023</option>
           <option value="">28/04/2023</option>
           <option value="">29/04/2023</option>
           <option value="">30/04/2023</option>
-        </select>
+        </select> 
         <p class="form-paragraph">check-in-date</p>
-      </div>
+      </div> </div> 
+
       <div class="form-field select nubmer">
-        <select name="" id="" class="modal-select">
+              
+                <!--      icon       -->
+        <div class="form-field-icon-wrapper">
+                <svg class="form-field-icon"  width="10px" height="5px">
+                  <use href="./images/icons.svg#chevron-down"></use>
+                </svg>
+              </div>
+         <!--     icon     -->
+        <select name="room" id="room" class="modal-select">
           <option value="">double suite</option>
           <option value="">triple suite</option>
           <option value="">four -seater suite</option>

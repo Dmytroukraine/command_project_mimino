@@ -22,6 +22,9 @@
 <symbol id="icon-slide-right" viewBox="0 0 18 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4" d="M2 30l14-14-14-14"></path>
 </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 8" id="chevron-down">
+    <path d="M1 1.5L6 6.5L11 1.5" stroke="#F7F7F7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
 </defs>
 </svg>
 

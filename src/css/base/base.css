@@ -90,9 +90,12 @@ body {
 
 @media screen and (min-width: 1440px) {
   .container {
+
     max-width: 1439.98px;
     padding-left: 32px;
     padding-right: 32px;
+    max-width: 1440px;
+
   }
 }
 

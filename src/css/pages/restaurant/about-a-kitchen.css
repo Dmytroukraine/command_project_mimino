@@ -1,0 +1,143 @@
+/* :root {
+  --mobile-screen: 375px;
+  --tablet-screen: 768px;
+  --desktop-screen: 1440px; */
+
+  /* 
+  cooker 336/672, 388/776, 511/1022 
+  steaks 158/316, 284/568, 334/668
+  coctail 467/934, 284/568, 157/314 
+  */
+/*}
+ li {
+  display: inline;
+}
+
+.about-kitchen {
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 64px 20px;
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .about-kitchen {
+    max-width: 768px;
+    padding: 80px 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-kitchen {
+    max-width: 1440px;
+    padding: 100px 32px;
+  }
+}
+
+.section-wrap {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hidden-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  overflow: hidden;
+}
+
+.kitchen-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .kitchen-gallery {
+    flex-direction: row-reverse;
+    gap: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .kitchen-gallery {
+    flex-direction: row;
+  }
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    gap: 16px;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .wrapper {
+    gap: 32px;
+    flex-direction: row;
+  }
+}
+
+.list-txt-kitchen {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+
+  margin-top: 32px;
+  color: #000000;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+@media screen and (min-width: 768px) {
+  .list-txt-kitchen {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 32px;
+
+    margin-top: 32px;
+
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .list-txt-kitchen {
+    position: absolute;
+    left: 543px;
+    top: 389px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .first-txt {
+    max-width: 334px;
+    max-height: 144px;
+  }
+  .second-txt {
+    max-width: 453px;
+    max-height: 120px;
+  }
+}
+
+.italic {
+  font-style: italic;
+} */

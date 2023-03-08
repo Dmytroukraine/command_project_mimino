@@ -1,4 +1,7 @@
+
+
 .hero-section {
+  /* margin-top: 70px; */
   padding-top: 429px;
   padding-bottom: 40px;
   background-color: rgba(18, 18, 18, 1);
@@ -23,7 +26,22 @@
   letter-spacing: -0.02em;
   color: var(--main-light-color);
   text-align: center;
+  animation: hero 3s 1;
 }
+/* animation hero title */
+
+@keyframes hero {
+  0% {
+    color: transparent;
+  }
+  50% {
+    letter-spacing: 0.1em;
+  }
+  100% {
+    color: var(--main-light-color);
+  }
+}
+
 .hero-btn-list {
   margin-top: 24px;
   display: flex;
@@ -132,6 +150,7 @@
 
 @media screen and (min-width: 1440px) {
   .hero-section {
+     margin-top: 0;
     padding-top: 274px;
     padding-bottom: 48px;
     background-image: linear-gradient(
