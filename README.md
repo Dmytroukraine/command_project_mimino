@@ -1,4 +1,4 @@
-<p align="center"><em><h1> Display: Goose; </h1></em></p>![https://img.shields.io/badge/Display-Goose-yellowgreen](https://img.shields.io/badge/Display-Goose-yellowgreen)
+<p align="center"><em><h1> Display: Goose;![https://img.shields.io/badge/Display-Goose-yellowgreen](https://img.shields.io/badge/Display-Goose-yellowgreen) </h1></em></p>
 
 <img src="https://github.com/Dmytroukraine/command_project_mimino/blob/main/src/images/photo_2023-03-09_00-41-40.jpg"  alt="goose" width=100/>
 
