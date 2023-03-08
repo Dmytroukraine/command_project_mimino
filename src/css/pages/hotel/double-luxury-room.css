@@ -1,6 +1,5 @@
 .double-section {
     padding-top: 64px;
-    padding-bottom: 64px;
     background-color: var(--main-light-color);
 }
 @media screen and (min-width:768px) {
