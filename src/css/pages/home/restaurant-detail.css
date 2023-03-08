@@ -1,16 +1,30 @@
 .restaurant {
-    /* padding-top: 32px;
-    padding-bottom: 32px; */
-    background-color: #F7F7F7;
+   background-color: #F7F7F7;
 }
 
-
-@media screen and (min-width: 1440px) {
-    .restaurant {
-        position: relative;
-      
+.for-btn-position {
+    min-width: 320px;
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1439.98px) {
+    .for-btn-position {
+      max-width: 767.98px;
+      padding-left: 32px;
+      padding-right: 32px;
     }
-}
+  }
+  
+  @media screen and (min-width: 1440px) {
+    .for-btn-position {
+      position: relative;
+      max-width: 1439.98px;
+    }
+  }
 
 @media screen and (min-width: 768px) {
     .restaurant-description {
