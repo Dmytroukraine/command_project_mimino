@@ -18,7 +18,7 @@ Page Home - section About + adaptation for desktop/tablet/mobile
 Adaptation all modal win
 Animation for img on page Home + Hotel
 
-<b>Natalia</b>-
+<b>Natalia Danylchak</b>-
 Base styles
 Variables styles
 Reset styles
