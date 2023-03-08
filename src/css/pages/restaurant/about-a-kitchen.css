@@ -1,22 +1,23 @@
 .about-about-kitchen {
-  max-width: 375px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 64px 20px;
-  display: flex;
+  background-color: #f7f7f7;
+}
+
+.about-about-kitchen .container {
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 @media screen and (min-width: 768px) {
-  .about-about-kitchen {
-    max-width: 768px;
-    padding: 80px 32px;
+  .about-about-kitchen .container {
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .about-about-kitchen {
-    max-width: 1440px;
-    padding: 100px 32px;
+  .about-about-kitchen .container {
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 }
 
