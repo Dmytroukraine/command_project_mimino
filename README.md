@@ -8,10 +8,10 @@ Page Home -section  Hero + animation + adaptation for desktop/tablet/mobile
 modal win - Book a Room + Book a table - styles + position
 
 <b>Vitalina Shpir</b>-
-Header for all pages + adaptation for desktop/tablet/mobile + animation + script for desktop
+Header for all pages + adaptation for desktop/tablet/mobile + animation + script for desktop</br>
 Mobile menu + script
 Page Room - section Hero + slider + script + adaptation for desktop/tablet/mobile
-Surprise/Secret work - TeamPage + adaptation for desktop/tablet/mobile
+</br>Surprise/Secret work - TeamPage + adaptation for desktop/tablet/mobile
 
 <b>Anastasiia Bezzubova</b>- 
 Page Home - section About + adaptation for desktop/tablet/mobile
