@@ -1,6 +1,5 @@
 .double-section {
     padding-top: 64px;
-    padding-bottom: 64px;
     background-color: var(--main-light-color);
 }
 @media screen and (min-width:768px) {
@@ -68,10 +67,12 @@
 }
 }
 .img-second {
+    display: block;
     width: 158px;
     height: 149px;
 }
 .img-third {
+    display: block;
     width: 158px;
     height: 149px;
 }
