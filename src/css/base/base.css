@@ -39,17 +39,6 @@ ul {
   margin-bottom: 0;
 }
 
-.body {
-  overflow-x: hidden;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 14px;
-  line-height: 1.286;
-  font-weight: 400;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  min-width: 375px;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -75,8 +64,11 @@ body {
   font-family: DM Sans, sans-serif;
   font-style: normal;
   font-weight: 400;
+  font-size: 14px;
   text-transform: uppercase;
   color: var(--main-light-color);
+  line-height: 1.286;
+  min-width: 375px;
 }
 
 .container {
@@ -90,7 +82,7 @@ body {
 
 @media screen and (min-width: 768px) and (max-width: 1439.98px) {
   .container {
-    max-width: 767.98px;
+    max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
   }
@@ -99,6 +91,8 @@ body {
 @media screen and (min-width: 1440px) {
   .container {
     max-width: 1439.98px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 }
 
