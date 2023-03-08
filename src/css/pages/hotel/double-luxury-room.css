@@ -68,10 +68,12 @@
 }
 }
 .img-second {
+    display: block;
     width: 158px;
     height: 149px;
 }
 .img-third {
+    display: block;
     width: 158px;
     height: 149px;
 }
