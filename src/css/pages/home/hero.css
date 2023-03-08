@@ -148,6 +148,7 @@
   }
 }
 
+
 @media screen and (min-width: 1440px) {
   .hero-section {
      margin-top: 0;
@@ -188,8 +189,9 @@
   }
   .hero-btn-list {
     margin-top: 0;
-    margin-right: 74px;
+    /* margin-right: 74px; */
     position: absolute;
+    right: 96px;
   }
   .hero-text-wrap {
     margin-top: 0;
