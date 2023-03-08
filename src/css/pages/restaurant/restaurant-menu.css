@@ -244,6 +244,7 @@
   gap: 30px;
   justify-content: center;
   margin-bottom: 35px;
+  margin-top: 15px;
 }
 @media screen and (min-width: 1440px) {
   .switches_restourant-menu {
@@ -299,11 +300,16 @@
 
 .slider {
   max-width: 100%;
+  min-height: 505px;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+  .slider {
+    min-height: 533px;
+  }
 }
 
 /* Анимация слайдов */
