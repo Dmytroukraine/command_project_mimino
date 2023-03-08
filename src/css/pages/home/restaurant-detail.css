@@ -19,7 +19,7 @@
     }
 }
 
-.for-position {
+.for-btns-position {
     min-width: 320px;
     max-width: 375px;
     padding-left: 20px;
@@ -29,7 +29,7 @@
   }
   
   @media screen and (min-width: 768px) and (max-width: 1439.98px) {
-    .for-position {
+    .for-btns-position {
       max-width: 767.98px;
       padding-left: 32px;
       padding-right: 32px;
@@ -37,7 +37,7 @@
   }
   
   @media screen and (min-width: 1440px) {
-    .for-position {
+    .for-btns-position {
       position: relative;
       max-width: 1439.98px;
     }
