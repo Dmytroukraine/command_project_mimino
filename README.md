@@ -1,4 +1,4 @@
-<center> <h1> Display: Goose; </h1> </center>
+<h1> Display: Goose; </h1> 
 
 
 <b>Dmytro Kozlovskyi</b>  - TeamLead
