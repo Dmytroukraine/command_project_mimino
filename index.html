@@ -32,7 +32,7 @@
      
      
   <script type="module" crossorigin src="/command_project_mimino/assets/input-mask-b45a795f.js"></script>
-  <link rel="stylesheet" href="/command_project_mimino/assets/input-mask-83f2627e.css">
+  <link rel="stylesheet" href="/command_project_mimino/assets/input-mask-bbbf18cc.css">
   <link rel="stylesheet" href="/command_project_mimino/assets/index-9591675e.css">
 </head>
 <body class="body">
@@ -1112,14 +1112,15 @@
 
         <label for="user-name" class="form-field-label">
           <input
-            minlength="2"
-            placeholder="Your name"
-            type="text"
-            class="form-input"
-            name="user-name"
-            id="user-name"
-            pattern=""
-          />
+              minlength="2"
+              placeholder="Your name"
+              type="text"
+              class="form-input"
+              name="user-name"
+              id="user-name"
+              pattern="[a-zA-Zа-яА-я]{2,20}"
+            title="Username should only contain lowercase letters"
+            />
           <span class="booking-label">Your name</span>
         </label>
         <p class="form-paragraph">who should book a room for?</p>
@@ -1142,16 +1143,7 @@
 
       <div class="book-chek-in-date-wrapper"> 
       <div class="form-field select">
-
-              <!--      icon       -->
-       <div class="form-field-icon-wrapper">
-                <svg class="form-field-icon"  width="10px" height="5px">
-                  <use href="/command_project_mimino/assets/icons-c213c9dd.svg#chevron-down"></use>
-                </svg>
-              </div> 
-         <!--     icon     -->
- 
- 
+    
         <select name="date-first" id="date-first" class="modal-select">
           <option value="">today</option>
           <option value="">tomorrow</option>
@@ -1163,12 +1155,6 @@
 
       <div class="form-field select">
               
-                <!--      icon       -->
-       <div class="form-field-icon-wrapper"> 
-                 <svg class="form-field-icon"  width="10px" height="5px">
-                  <use href="/command_project_mimino/assets/icons-c213c9dd.svg#chevron-down"></use>
-                </svg> </div> 
-         <!--     icon     -->
 
         <select name="date-second" id="date-second" class="modal-select">
           <option value="">25/04/2023</option>
@@ -1182,14 +1168,7 @@
       </div> </div> 
 
       <div class="form-field select nubmer">
-              
-                <!--      icon       -->
-        <div class="form-field-icon-wrapper">
-                <svg class="form-field-icon"  width="10px" height="5px">
-                  <use href="/command_project_mimino/assets/icons-c213c9dd.svg#chevron-down"></use>
-                </svg>
-              </div>
-         <!--     icon     -->
+             
         <select name="room" id="room" class="modal-select">
           <option value="">double suite</option>
           <option value="">triple suite</option>
@@ -1223,7 +1202,8 @@
               class="form-input"
               name="user-name"
               id="user-name"
-              pattern=""
+               pattern="[a-zA-Zа-яА-я]{2,20}"
+            title="Username should only contain lowercase letters"
             />
             <span class="booking-label">Your name</span>
           </label>
@@ -1231,13 +1211,7 @@
         </div>
 
         <div class="form-field select">
-          <!--      icon       -->
-          <div class="form-field-icon-wrapper">
-            <svg class="form-field-icon" width="10px" height="5px">
-              <use href="/command_project_mimino/assets/icons-c213c9dd.svg#chevron-down"></use>
-            </svg>
-          </div>
-          <!--     icon     -->
+        
 
           <select
             name="number-of-people"
@@ -1289,13 +1263,7 @@
 
       <div class="table-chek-in-date-wrapper">
         <div class="form-field select">
-          <!--      icon       -->
-          <div class="form-field-icon-wrapper">
-            <svg class="form-field-icon" width="10px" height="5px">
-              <use href="/command_project_mimino/assets/icons-c213c9dd.svg#chevron-down"></use>
-            </svg>
-          </div>
-          <!--     icon     -->
+          
           <select name="date-first" id="date-first" class="modal-select">
             <option value="">today</option>
             <option value="">tomorrow</option>
