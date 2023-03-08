@@ -8,7 +8,7 @@
 </br>modal win - Book a Room + Book a table - styles + position
 
 <b>Vitalina Shpir</b>
-</br>Header for all pages + adaptation for desktop/tablet/mobile + animation + script for desktop</br>
+</br>Header for all pages + adaptation for desktop/tablet/mobile + animation + script for desktop
 </br>Mobile menu + script
 </br>Page Room - section Hero + slider + script + adaptation for desktop/tablet/mobile
 </br>Surprise/Secret work - TeamPage + adaptation for desktop/tablet/mobile
