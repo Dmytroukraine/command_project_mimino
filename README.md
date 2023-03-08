@@ -1,6 +1,8 @@
-<p align="center"><em><h1> Display: Goose;</h1></em></p> ![https://img.shields.io/badge/Display-Goose-yellowgreen]
+<h1 align="center"><em> Display: Goose;</em>
 
-<img src="https://github.com/Dmytroukraine/command_project_mimino/blob/main/src/images/photo_2023-03-09_00-41-40.jpg"  alt="goose" width=100/>
+<img src="https://github.com/Dmytroukraine/command_project_mimino/blob/main/src/images/photo_2023-03-09_00-41-40.jpg"  alt="goose" width=100/></h1>
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=We+are+the+best+!+!+!)](https://git.io/typing-svg)
 
 <b>Dmytro Kozlovskyi</b>  - `TeamLead` :smiling_imp:
 
