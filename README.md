@@ -34,21 +34,21 @@
 </br>Buttons
 </br>Animated title for Page's Hotel/Restaurant/Room 
 
-<b>Khrystyna Nahailo</b>
+<b>Khrystyna Nahailo</b>:innocent:
 </br>Footer for all page + adaptation for desktop/tablet/mobile + animation
 </br>Page Hotel - section Double room + adaptation for desktop/tablet/mobile
 </br>Page Hotel - section Four seater room + adaptation for desktop/tablet/mobile
 
-<b>Albina Vinnikova</b>
+<b>Albina Vinnikova</b>:blush:
 </br>Page Home - section Welcome + adaptation for desktop/tablet/mobile
 </br>Page Hotel - section Triple room + adaptation for desktop/tablet/mobile
 
-<b>Vladyslav Aleksyn</b>
+<b>Vladyslav Aleksyn</b>:sunglasses:
 </br>Page Home - section Hotel detail's + adaptation for desktop/tablet/mobile
 </br>Page Restaurant - section Restaurant Menu + slider + adaptation for desktop/tablet/mobile
 
-<b>Dmytro Kyianov</b>
+<b>Dmytro Kyianov</b>:smirk:
 </br>Page Home - section Restaurant without slide + adaptation for desktop/tablet/mobile
 
-<b>Volodymyr Nikolaychuk</b>
+<b>Volodymyr Nikolaychuk</b>:grin:
 </br>Page Restaurant - section About a kitchen + adaptation for desktop/tablet/mobile + modal win </br>View Prices
