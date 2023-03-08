@@ -31,6 +31,7 @@ Page Home - section Restaurant => slider
 Page Hotel - section Hero + slider + adaptation for desktop/tablet/mobile + animation
 Fixed slider on Page Room - section Hero
 Buttons
+Animated title for Page's Hotel/Restaurant/Room 
 
 <b>Khrystyna Nahailo</b>-
 Footer for all page + adaptation for desktop/tablet/mobile + animation
