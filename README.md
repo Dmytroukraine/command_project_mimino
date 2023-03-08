@@ -1,5 +1,6 @@
 <em><h1> Display: Goose; </h1></em> 
 
+<img src="./images/photo_2023-03-09_00-41-40.jpg"  alt="goose" width=50px />
 
 <b>Dmytro Kozlovskyi</b>  - TeamLead
 
