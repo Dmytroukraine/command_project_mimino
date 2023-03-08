@@ -2,9 +2,9 @@
 
 <img src="https://github.com/Dmytroukraine/command_project_mimino/blob/main/src/images/photo_2023-03-09_00-41-40.jpg"  alt="goose" width=100/></center>
 
-<b>`Dmytro Kozlovskyi`</b>  - TeamLead :smiling_imp:
+<b>Dmytro Kozlovskyi</b>  - `TeamLead` :smiling_imp:
 
-<b>Dmitry Kozhukhar</b> - ScrumMaster :smile:
+<b>Dmitry Kozhukhar</b> - `ScrumMaster` :smile:
 </br>Page Home -section  Hero + animation + adaptation for desktop/tablet/mobile
 </br>modal win - Book a Room + Book a table - styles + position
 
