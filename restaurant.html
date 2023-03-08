@@ -33,8 +33,8 @@
      
   <script type="module" crossorigin src="/command_project_mimino/assets/restaurant-1fb5b4a7.js"></script>
   <link rel="modulepreload" crossorigin href="/command_project_mimino/assets/input-mask-b45a795f.js">
-  <link rel="stylesheet" href="/command_project_mimino/assets/input-mask-6815203e.css">
-  <link rel="stylesheet" href="/command_project_mimino/assets/restaurant-a408c5db.css">
+  <link rel="stylesheet" href="/command_project_mimino/assets/input-mask-83f2627e.css">
+  <link rel="stylesheet" href="/command_project_mimino/assets/restaurant-8d5a243f.css">
 </head>
   <body>
     <header class="header header-white">
@@ -146,7 +146,7 @@
       
 <section class="rest-hero-section">
   <div class="cont hidden">
-    <div class="rest-hero-wrapp-1">
+    <div class="hero-1-wrapper">
       <h1 class="rest-hero-title">Restaurant</h1>
       <ul class="rest-hero-btn-list">
         <li class="rest-hero-item-btn">
@@ -155,69 +155,111 @@
           </button>
         </li>
         <li class="rest-hero-item-btn">
-          <a href="./restaurant.html" class="rest-hero-nav-link link"
-            >view a menu</a
-          >
+          <a class="rest-hero-nav-link" href="#">view a menu</a>
         </li>
       </ul>
     </div>
-    <div class="rest-hero-wrapp-2">
-      <ul class="rest-hero-pic">
+    <div class="hero-2-wrapper">
+      <ul class="hero-list-img">
         <li class="hero-item-img">
-          <!-- desctop -->
-          <picture>
+          <picture class="picc">
+            <!-- desktop -->
             <source
               media="(min-width: 1440px)"
               srcset="/command_project_mimino/assets/scrol_restaurant1_desktop-b9fd986f.webp 1x, /command_project_mimino/assets/scrol_restaurant1_desktop@2x-60ea9b31.webp 2x"
-              type="image/webp"
+              type="image/jpg"
             />
             <source
               media="(min-width: 1440px)"
-              srcset="/command_project_mimino/assets/scrol_restaurant1_desktop-bb624eed.jpg 1x, /command_project_mimino/assets/scrol_restaurant1_desktop@2x-04178258.jpg 2x"
+              srcset="
+                /images/desktop/restaurant/scrol_restaurant/scrol_restaurant1_desktop.jpj    1x,
+                /images/desktop/restaurant/scrol_restaurant/scrol_restaurant1_desktop@2x.jpg 2x
+              "
               type="image/jpg"
             />
-
+            <!-- tablet -->
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                /images/tablet/restaurant/scrol_restaurant_tablet/scrol_restaurant1_tablet.webp    1x,
+                /images/tablet/restaurant/scrol_restaurant_tablet/scrol_restaurant1_tablet@2x.webp 2x
+              "
+              type="image/jpg"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                /images/tablet/restaurant/scrol_restaurant_tablet/scrol_restaurant1_tablet.jpg    1x,
+                /images/tablet/restaurant/scrol_restaurant_tablet/scrol_restaurant1_tablet@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
             <!-- mobile -->
             <source
-              media="(max-width: 767px)"
+              media="(max-width: 767x)"
               srcset="/command_project_mimino/assets/scrol_restaurant1_mobile-35c587d2.webp 1x, /command_project_mimino/assets/scrol_restaurant1_mobile@2x-9b26b9a8.webp 2x"
-              type="image/webp"
+              type="image/jpg"
             />
             <source
               media="(max-width: 767px)"
               srcset="/command_project_mimino/assets/scrol_restaurant1_mobile-d785fab8.jpg 1x, /command_project_mimino/assets/scrol_restaurant1_mobile@2x-1fa0800f.jpg 2x"
               type="image/jpg"
             />
-
-            <!-- tablet -->
-            <source
-              media="(min-width: 768px)"
-              srcset="/command_project_mimino/assets/scrol_restaraunt1_tablet-2245ad65.webp 1x, /command_project_mimino/assets/scrol_restaraunt1_tablet@2x-96c0a755.webp 2x"
-              type="image/webp"
-            />
-            <source
-              media="(min-width: 768px)"
-              srcset="/command_project_mimino/assets/scrol_restaraunt1_tablet-7b14ca5f.jpg 1x, /command_project_mimino/assets/scrol_restaraunt1_tablet@2x-c0c8a34a.jpg 2x"
-              type="image/jpg"
-            />
             <img
-              class=""
               src="/command_project_mimino/assets/scrol_restaurant1_mobile-d785fab8.jpg"
-              alt=""
-              width="250"
-              height="429"
+              alt="Tables"
+              width="436"
+              height="580"
               loading="lazy"
             />
           </picture>
         </li>
-      </ul>
 
-      <div class="rest-hero-text-box">
-        <p class="rest-hero-text">
-          Whether you're in the mood for a hearty breakfast, a light lunch, or a
-          romantic dinner, our menu has something for everyone.
-        </p>
-      </div>
+        <!-- <li class="hero-item-img">
+          <div class="hero-img-wrapp">
+            <picture>
+              <source
+                media="(min-width: 1440px)"
+                srcset="
+                  /images/desktop/restaurant/scrol_restaurant/scrol_restaurant2_desktop.jpg    1x,
+                  /images/desktop/restaurant/scrol_restaurant/scrol_restaurant2_desktop@2x.jpg 2x
+                "
+                type="image/jpg"
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="
+                  /images/tablet/restaurant/scrol_restaurant_tablet/scrol_restaurant2_tablet.jpg    1x,
+                  /images/tablet/restaurant/scrol_restaurant_tablet/scrol_restaurant2_tablet@2x.jpg 2x
+                "
+                type="image/jpg"
+              />
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  /images/mobile/restaurant/scrol_restaurant/scrol_restaurant2_mobile.jpg    1x,
+                  /images/mobile/restaurant/scrol_restaurant/scrol_restaurant2_mobile@2x.jpg 2x
+                "
+                type="image/jpg"
+              />
+              <img
+                src="/images/mobile/restaurant/scrol_restaurant/scrol_restaurant2_mobile.jpg"
+                alt="Dishes"
+                width="436"
+                height="580"
+                loading="lazy"
+              />
+            </picture>
+          </div>
+        </li> -->
+      </ul>
+    </div>
+    <div class="rest-hero-text-box">
+      <p class="rest-hero-text">
+        Whether you're in the mood for a hearty breakfast, a light lunch, or
+        <span class="hero-accent-italic">a romantic dinner</span>, our menu has
+        something for everyone.
+      </p>
     </div>
   </div>
 </section>
