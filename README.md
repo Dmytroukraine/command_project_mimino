@@ -1,6 +1,6 @@
-<em><h1> Display: Goose; </h1></em> 
+<center><em><h1> Display: Goose; </h1></em> 
 
-<img src="https://github.com/Dmytroukraine/command_project_mimino/blob/main/src/images/photo_2023-03-09_00-41-40.jpg"  alt="goose" width=100/>
+<img src="https://github.com/Dmytroukraine/command_project_mimino/blob/main/src/images/photo_2023-03-09_00-41-40.jpg"  alt="goose" width=100/></center>
 
 <b>Dmytro Kozlovskyi</b>  - TeamLead
 
