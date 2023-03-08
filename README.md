@@ -2,31 +2,31 @@
 
 <img src="https://github.com/Dmytroukraine/command_project_mimino/blob/main/src/images/photo_2023-03-09_00-41-40.jpg"  alt="goose" width=100/></center>
 
-<b>Dmytro Kozlovskyi</b>  - TeamLead
+<b>Dmytro Kozlovskyi</b>  - TeamLead :smiling_imp:
 
-<b>Dmitry Kozhukhar</b> - ScrumMaster 
+<b>Dmitry Kozhukhar</b> - ScrumMaster :smile:
 </br>Page Home -section  Hero + animation + adaptation for desktop/tablet/mobile
 </br>modal win - Book a Room + Book a table - styles + position
 
-<b>Vitalina Shpir</b>
+<b>Vitalina Shpir</b> :star:
 </br>Header for all pages + adaptation for desktop/tablet/mobile + animation + script for desktop
 </br>Mobile menu + script
 </br>Page Room - section Hero + slider + script + adaptation for desktop/tablet/mobile
 </br>Surprise/Secret work - TeamPage + adaptation for desktop/tablet/mobile
 
-<b>Anastasiia Bezzubova</b>
+<b>Anastasiia Bezzubova</b>:boom:
 </br>Page Home - section About + adaptation for desktop/tablet/mobile
 </br>Adaptation all modal win
 </br>Animation for img on page Home + Hotel
 
-<b>Natalia Danylchak</b>
+<b>Natalia Danylchak</b>:sparkles:
 </br>Base styles
 </br>Variables styles
 </br>Reset styles
 </br>Page Room - section Amenities + adaptation for desktop/tablet/mobile
 </br>Page Restaurant -section Hero + adaptation for desktop/tablet/mobile
 
-<b>Pasha Bitelov</b>
+<b>Pasha Bitelov</b>:muscle:
 </br>Page Home - section Location + map Google + adaptation for desktop/tablet/mobile
 </br>Page Home - section Restaurant => slider
 </br>Page Hotel - section Hero + slider + adaptation for desktop/tablet/mobile + animation
