@@ -81,9 +81,9 @@
     margin-bottom: 56px;
   }
 }
-
+/* 
 .list-wrapper_restourant-menu {
-}
+} */
 @media screen and (min-width: 1440px) {
   .list-wrapper_restourant-menu {
     width: 515px;
