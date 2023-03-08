@@ -9,11 +9,8 @@
   coctail 467/934, 284/568, 157/314 
   */
 }
-li {
-  display: inline;
-}
 
-.about-kitchen {
+.about-about-kitchen {
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
@@ -22,26 +19,26 @@ li {
 }
 
 @media screen and (min-width: 768px) {
-  .about-kitchen {
+  .about-about-kitchen {
     max-width: 768px;
     padding: 80px 32px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .about-kitchen {
+  .about-about-kitchen {
     max-width: 1440px;
     padding: 100px 32px;
   }
 }
 
-.section-wrap {
+.about-section-wrap {
   position: relative;
   display: flex;
   flex-wrap: wrap;
 }
 
-.hidden-title {
+.about-hidden-title {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -52,46 +49,46 @@ li {
   overflow: hidden;
 }
 
-.kitchen-gallery {
+.about-kitchen-gallery {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
 }
 
 @media screen and (min-width: 768px) {
-  .kitchen-gallery {
+  .about-kitchen-gallery {
     flex-direction: row-reverse;
     gap: 32px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .kitchen-gallery {
+  .about-kitchen-gallery {
     flex-direction: row;
   }
 }
 
-.wrapper {
+.about-wrapper {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
 }
 
 @media screen and (min-width: 768px) {
-  .wrapper {
+  .about-wrapper {
     gap: 16px;
     flex-direction: column;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .wrapper {
+  .about-wrapper {
     gap: 32px;
     flex-direction: row;
   }
 }
 
-.list-txt-kitchen {
+.about-list-txt-kitchen {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
@@ -104,7 +101,7 @@ li {
 }
 
 @media screen and (min-width: 768px) {
-  .list-txt-kitchen {
+  .about-list-txt-kitchen {
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
@@ -119,7 +116,7 @@ li {
 }
 
 @media screen and (min-width: 1440px) {
-  .list-txt-kitchen {
+  .about-list-txt-kitchen {
     position: absolute;
     left: 543px;
     top: 389px;
@@ -128,16 +125,16 @@ li {
 }
 
 @media screen and (min-width: 1440px) {
-  .first-txt {
+  .about-first-txt {
     max-width: 334px;
     max-height: 144px;
   }
-  .second-txt {
+  .about-second-txt {
     max-width: 453px;
     max-height: 120px;
   }
 }
 
-.italic {
+.about-italic {
   font-style: italic;
 }
