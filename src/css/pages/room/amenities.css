@@ -1,5 +1,5 @@
 .amen-sect {
-  padding-top: 40px;
+  padding-top: 0px;
   padding-bottom: 64px;
   background-color: #121212;
   min-width: 375px;
@@ -7,13 +7,13 @@
 }
 @media screen and (min-width: 768px) and (max-width: 1439.98px) {
   .amen-sect {
-    padding-top: 80px;
+    padding-top: 0px;
     padding-bottom: 80px;
   }
 }
 @media screen and (min-width: 1440px) {
   .amen-sect {
-    padding-top: 94px;
+    padding-top: 0px;
     padding-bottom: 100px;
   }
 }
