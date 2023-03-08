@@ -12,14 +12,15 @@
 
         <label for="user-name" class="form-field-label">
           <input
-            minlength="2"
-            placeholder="Your name"
-            type="text"
-            class="form-input"
-            name="user-name"
-            id="user-name"
-            pattern=""
-          />
+              minlength="2"
+              placeholder="Your name"
+              type="text"
+              class="form-input"
+              name="user-name"
+              id="user-name"
+              pattern="[a-zA-Zа-яА-я]{2,20}"
+            title="Username should only contain lowercase letters"
+            />
           <span class="booking-label">Your name</span>
         </label>
         <p class="form-paragraph">who should book a room for?</p>
@@ -42,16 +43,7 @@
 
       <div class="book-chek-in-date-wrapper"> 
       <div class="form-field select">
-
-              <!--      icon       -->
-       <div class="form-field-icon-wrapper">
-                <svg class="form-field-icon"  width="10px" height="5px">
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg>
-              </div> 
-         <!--     icon     -->
- 
- 
+    
         <select name="date-first" id="date-first" class="modal-select">
           <option value="">today</option>
           <option value="">tomorrow</option>
@@ -63,12 +55,6 @@
 
       <div class="form-field select">
               
-                <!--      icon       -->
-       <div class="form-field-icon-wrapper"> 
-                 <svg class="form-field-icon"  width="10px" height="5px">
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg> </div> 
-         <!--     icon     -->
 
         <select name="date-second" id="date-second" class="modal-select">
           <option value="">25/04/2023</option>
@@ -82,14 +68,7 @@
       </div> </div> 
 
       <div class="form-field select nubmer">
-              
-                <!--      icon       -->
-        <div class="form-field-icon-wrapper">
-                <svg class="form-field-icon"  width="10px" height="5px">
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg>
-              </div>
-         <!--     icon     -->
+             
         <select name="room" id="room" class="modal-select">
           <option value="">double suite</option>
           <option value="">triple suite</option>

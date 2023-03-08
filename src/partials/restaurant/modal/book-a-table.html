@@ -17,7 +17,8 @@
               class="form-input"
               name="user-name"
               id="user-name"
-              pattern=""
+               pattern="[a-zA-Zа-яА-я]{2,20}"
+            title="Username should only contain lowercase letters"
             />
             <span class="booking-label">Your name</span>
           </label>
@@ -25,13 +26,7 @@
         </div>
 
         <div class="form-field select">
-          <!--      icon       -->
-          <div class="form-field-icon-wrapper">
-            <svg class="form-field-icon" width="10px" height="5px">
-              <use href="./images/icons.svg#icon-instagram"></use>
-            </svg>
-          </div>
-          <!--     icon     -->
+        
 
           <select
             name="number-of-people"
@@ -83,13 +78,7 @@
 
       <div class="table-chek-in-date-wrapper">
         <div class="form-field select">
-          <!--      icon       -->
-          <div class="form-field-icon-wrapper">
-            <svg class="form-field-icon" width="10px" height="5px">
-              <use href="./images/icons.svg#icon-instagram"></use>
-            </svg>
-          </div>
-          <!--     icon     -->
+          
           <select name="date-first" id="date-first" class="modal-select">
             <option value="">today</option>
             <option value="">tomorrow</option>
