@@ -1,14 +1,14 @@
-/* :root {
+:root {
   --mobile-screen: 375px;
   --tablet-screen: 768px;
-  --desktop-screen: 1440px; */
+  --desktop-screen: 1440px;
 
   /* 
   cooker 336/672, 388/776, 511/1022 
   steaks 158/316, 284/568, 334/668
   coctail 467/934, 284/568, 157/314 
   */
-/* }
+}
 li {
   display: inline;
 }
@@ -140,4 +140,4 @@ li {
 
 .italic {
   font-style: italic;
-} */
+}
