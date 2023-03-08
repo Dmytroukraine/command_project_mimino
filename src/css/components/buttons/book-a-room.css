@@ -270,6 +270,12 @@ padding: 32px 32px 60px 32px;
   appearance: none;
   padding-bottom: 18px;
   padding-right: auto;
+
+
+  background-image: url(/images/chevron-down.svg);
+  background-repeat: no-repeat, repeat;
+background-position: right 0 top 0, 0 0;
+background-size: 13px 13px; 
 }
 
 
@@ -312,6 +318,8 @@ padding: 32px 32px 60px 32px;
 
 /* ICON   */ 
 
+/*
+
 .form-field-icon-wrapper {
   position: absolute;
   top: 0;
@@ -320,6 +328,4 @@ padding: 32px 32px 60px 32px;
 
 
 .form-field-icon {fill: #d8d7d7;
-}
-
-
+}*/
