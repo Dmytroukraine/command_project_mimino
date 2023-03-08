@@ -4,16 +4,6 @@
   |============================
 */
 
-/* body {
-    padding: 0;
-    margin: 0;
-}
-
-*,
-::before,
-::after {
-    box-sizing: border-box;
-} */
 /* .container{
     outline: 2px solid red;
     outline-offset: -2px;
@@ -23,7 +13,7 @@
     padding-top: 40px;
     /* outline: 2px dashed blue;
     outline-offset: -2px; */
-    margin-top: 70px;
+    margin-top: 71px;
 }
 
 @media screen and (min-width: 768px) {
@@ -171,7 +161,6 @@
     .hotel-slider-wrapper {
         width: 703px;
         height: 662px;
-        margin-right: -32px;
         margin-bottom: 0;
     }
 }
@@ -216,12 +205,6 @@
     }
 }
 
-
-.slick-prev:before,
-.slick-next:before {
-    font-family: 'slick';
-    background-color: transparent;
-}
 
 .slick-prev,
 .slick-next {
