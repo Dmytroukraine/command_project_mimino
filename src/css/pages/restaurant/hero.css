@@ -1,6 +1,5 @@
 .rest-hero-section {
-  margin-top: 70px;
-  padding-left: 20px;
+  margin-top: 71px;
   background-color: var(--main-light-color);
 }
 
@@ -8,7 +7,6 @@
   .rest-hero-section {
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 32px;
     position: relative;
   }
 }
@@ -19,8 +17,12 @@
   }
 }
 
+.container.hidden {
+  padding-top: 40px;
+  padding-bottom: 0;
+}
+
 .rest-hero-title {
-  margin-top: 40px;
   font-size: 40px;
   letter-spacing: -0.02em;
   line-height: 1;
@@ -206,4 +208,3 @@
     max-width: 100%;
   }
 }
-

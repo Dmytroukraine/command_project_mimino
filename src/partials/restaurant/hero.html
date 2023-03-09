@@ -1,8 +1,9 @@
-
 <section class="rest-hero-section">
-  <div class="cont hidden">
+  <div class="container hidden">
     <div class="hero-1-wrapper">
-      <h1 class="rest-hero-title animate__animated animate__backInRight">Restaurant</h1>
+      <h1 class="rest-hero-title animate__animated animate__backInRight">
+        Restaurant
+      </h1>
       <ul class="rest-hero-btn-list">
         <li class="rest-hero-item-btn">
           <button type="button" class="js-open-modal btn" data-modal="2">
@@ -17,6 +18,38 @@
     <div class="hero-2-wrapper">
       <ul class="hero-list-img">
         <li class="hero-item-img">
+          <picture>
+            <source
+              media="(min-width: 1440px)"
+              srcset="
+                /images/desktop/restaurant/scrol_restaurant/scrol_restaurant1_desktop.webp    1x,
+                /images/desktop/restaurant/scrol_restaurant/scrol_restaurant1_desktop@2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                images/tablet/restaurant/restaurant_food3_tablet.jpg    1x,
+                images/tablet/restaurant/restaurant_food3_tablet@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <source
+              media="(max-width: 375px)"
+              srcset="
+                images/mobile/restaurant/restaurant_food1_mobile.jpg    1x,
+                images/mobile/restaurant/restaurant_food1_mobile@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <img
+              src="images/mobile/restaurant/restaurant_food1_mobile.jpg"
+              alt="Chef's cooking"
+              max-width="511"
+            />
+          </picture>
+
           <picture class="picc">
             <!-- desktop -->
             <source
