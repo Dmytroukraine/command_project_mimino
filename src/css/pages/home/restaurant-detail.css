@@ -56,6 +56,7 @@
   justify-content: space-around;
 }
 
+
 .item {
   height: 100%;
   margin-left: 20px;
@@ -63,6 +64,9 @@
 }
 .home-restaurant-slider-wrapper {
   margin-bottom: 80px;
+}
+.slick-prev, .slick-next{
+  opacity: 0;
 }
 
 /**
@@ -115,4 +119,6 @@
     margin-bottom: 0;
     padding-bottom: 80px;
   }
+  
+  
 }
