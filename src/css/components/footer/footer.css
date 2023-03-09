@@ -65,7 +65,7 @@
     line-height: 18px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    
+    position: relative;
     color: #121212;
 }
 @media screen and (min-width: 1440px){
@@ -77,6 +77,15 @@
         padding: 0px;
         gap: 3px;
     }
+}
+.ft-menu-link.current::after{
+    content: '.';
+    display: block;
+    font-size: 40px;
+    color: #121212;
+    position: absolute;
+    bottom: -5px;
+    right: 50%;
 }
 .footer-logo {  
     padding: 0;
