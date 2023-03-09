@@ -32,7 +32,7 @@
      
      
   <script type="module" crossorigin src="/command_project_mimino/assets/input-mask-0f8249f1.js"></script>
-  <link rel="stylesheet" href="/command_project_mimino/assets/input-mask-ce3e3690.css">
+  <link rel="stylesheet" href="/command_project_mimino/assets/input-mask-8d4895d6.css">
   <link rel="stylesheet" href="/command_project_mimino/assets/room-1ec14c7b.css">
 </head>
 <body>
@@ -733,38 +733,52 @@
 
         <div class="modal" data-modal="3">
   <div class="modal-view-price">
-    <strong class="modal-title">prices per<span>room</span></strong>
+    <h2 class="modal-title-price">prices per <span>room</span></h2>
     <button type="button" class="modal__cross js-modal-close">
       <svg class="close-modal-icon" width="12" height="12">
         <use href="/command_project_mimino/assets/icons-c213c9dd.svg#icon-menu-close"></use>
       </svg>
     </button>
     <form class="form-view-price" name="form_view_price">
+      
+  <div class="view-price-wrapper">
       <div class="form-field select">
-        <label for="fav" class="form-field-label">number of people </label>
-        <input list="nmb_of_people" name="fav" id="fav" class="form-input" />
-        <datalist id="nmb_of_people" class="datalist">
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-        </datalist>
-      </div>
+             <select
+            name="type-of-the-room"
+            id="type-of-the-room"
+            class="modal-select-room"
+          >
+            <option value="">Double luxury room</option>
+            <option value="">Triple Room</option>
+            <option value="">Four-seater room</option>
+            
+          </select> 
 
-      <div class="form-field select">
-        <select name="" id="" class="modal-select">
-          <option value="">today</option>
-          <option value="">tomorrow</option>
-          <option value="">day after tomorrow</option>
-        </select>
-        <p class="form-paragraph">check-in-date</p>
-      </div>
+        <select
+            name="number-of-nights"
+            id="number-of-nights"
+            class="modal-select"
+          >
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+            <option value="">6</option>
+          </select>
+          
+          <p class="form-paragraph">Number of nights</p>
+      </div> 
+
+      <div class="form-field select price">
+        <p class="modal-select-price">1000</p>
+        <p class="form-paragraph">UAH</p>
+      </div> </div>
       <button type="submit" class="modal-submit-btn">MAKE A RESERVATION</button>
     </form>
   </div>
 </div>
-
+<div class="overlay js-overlay-modal"></div>
   
     <script
         type="text/javascript"
