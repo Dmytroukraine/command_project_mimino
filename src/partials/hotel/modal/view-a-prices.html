@@ -7,12 +7,23 @@
       </svg>
     </button>
     <form class="form-view-price" name="form_view_price">
-        <div class="view-price-wrapper">
+      
+  <div class="view-price-wrapper">
       <div class="form-field select">
-            <span class="booking-label-price">Double suite</span>
+             <select
+            name="type-of-the-room"
+            id="type-of-the-room"
+            class="modal-select-room"
+          >
+            <option value="">Double luxury room</option>
+            <option value="">Triple Room</option>
+            <option value="">Four-seater room</option>
+            
+          </select> 
+
         <select
-            name="number-of-people"
-            id="number-of-people"
+            name="number-of-nights"
+            id="number-of-nights"
             class="modal-select"
           >
             <option value="">1</option>
@@ -24,12 +35,12 @@
           </select>
           
           <p class="form-paragraph">Number of nights</p>
-      </div>
+      </div> 
 
       <div class="form-field select price">
         <p class="modal-select-price">1000</p>
         <p class="form-paragraph">UAH</p>
-      </div></div>
+      </div> </div>
       <button type="submit" class="modal-submit-btn">MAKE A RESERVATION</button>
     </form>
   </div>
