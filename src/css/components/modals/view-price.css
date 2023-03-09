@@ -1,60 +1,3 @@
-/* BUTTONS   */
-
-.modal__cross.js-modal-close {
-  position: absolute;
-  background-color: rgba(18, 18, 18, 1);
-  width: 28px;
-  height: 28px;
-  top: 14px;
-  right: 14px;
-  padding: 8.17px;
-}
-
-@media screen and (min-width: 768px) {
-  .modal__cross.js-modal-close {
-    width: 32px;
-    height: 32px;
-    top: 24px;
-    right: 24px;
-    padding: 9.33px;
-  }
-}
-
-.close-modal-icon {
-  stroke: rgba(246, 246, 246, 1);
-}
-
-.modal-submit-btn {
-  padding: 14px 48px;
-  border: 0.8px solid #f7f7f7;
-  border-radius: 32px;
-  font-family: inherit;
-  font-size: 14px;
-  line-height: 1.29;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  background-color: transparent;
-  color: #f6f6f6;
-  cursor: pointer;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media screen and (min-width: 768px) {
-  .modal-submit-btn {
-    width: 399px;
-    height: 52px;
-    padding: 14px 130px;
-  }
-}
-
-.modal-submit-btn:hover,
-.modal-submit-btn:focus {
-  background-color: rgba(246, 246, 246, 1);
-  color: rgba(18, 18, 18, 1);
-  outline: transparent;
-}
 
 /*  STYLES FOR ALL MODALS  */
 
@@ -104,7 +47,10 @@
   visibility: visible;
 }
 
-/*  STYLES FOR BOOK A ROOM  */
+
+
+
+/*  STYLES FOR MODAL PRICE  */
 
 .modal-view-price {
   position: relative;
@@ -112,7 +58,8 @@
   margin-left: auto;
   margin-right: auto;
   width: 335px;
-  /*height: 636px; */
+  height: 414px;
+  
   background-color: rgba(18, 18, 18, 1);
   padding: 24px 24px 40px 24px;
 }
@@ -120,12 +67,12 @@
 @media screen and (min-width: 768px) {
   .modal-view-price {
     width: 628px;
-    height: 572px;
+height: 430px;
     padding: 32px 32px 60px 32px;
   }
 }
 
-.modal-title {
+.modal-title-price {
   font-weight: 500;
   font-size: 28px;
   line-height: 1.36;
@@ -135,22 +82,22 @@
 }
 
 @media screen and (min-width: 768px) {
-  .modal-title {
+  .modal-title-price {
     font-size: 36px;
     margin-bottom: 60px;
   }
 }
 
-.modal-title > span {
+.modal-title-price > span {
   font-style: italic;
 }
 
-.form-view-price {
-  /* display: flex;
-  flex-direction: column; */
+/*.form-view-price {
+  display: flex;
+  flex-direction: column;
   margin-top: 40px;
-  /* row-gap: 32px; */
-}
+  row-gap: 32px; 
+}*/
 
 .form-field {
   display: flex;
@@ -166,6 +113,11 @@
   }
 }
 
+
+@media screen and (min-width: 768px){.form-field.select {
+  margin-bottom: 0;
+}}
+
 .form-field.select.nubmer {
   margin-bottom: 40px;
 }
@@ -175,6 +127,11 @@
     margin-bottom: 80px;
   }
 }
+
+@media screen and (min-width: 768px){
+.form-field.select.price {margin-top: auto;
+margin-bottom: 0;}}
+
 
 .form-input {
   height: 36px;
@@ -200,10 +157,9 @@
   position: relative;
   text-align: left;
 }
-.booking-label {
-  position: absolute;
-  top: 0;
-  left: 0;
+.booking-label-price {text-align: left;
+    margin-bottom: 24px;
+  
 }
 .form-input:focus + .booking-label,
 .form-input:not(:placeholder-shown) + .booking-label {
@@ -264,3 +220,28 @@
     width: 266px;
   }
 }
+
+.modal-select-price {
+  height: 36px;
+  width: 287px;
+  text-align: left;
+  text-transform: uppercase;
+  background-color: rgba(18, 18, 18, 1);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #f7f7f7;
+  outline: none;
+  border: none;
+  border-bottom: 0.8px solid rgba(247, 247, 247, 0.2);
+  position: relative;
+  appearance: none;
+  padding-bottom: 18px;
+  padding-right: auto;
+}
+@media screen and (min-width: 768px) {
+.view-price-wrapper {display: flex;
+flex-direction: row;
+gap: 32px;
+margin-bottom: 80px;}}

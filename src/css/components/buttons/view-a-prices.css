@@ -1,0 +1,247 @@
+
+/*  STYLES FOR ALL MODALS  */
+
+/* Стили для подложки */
+.overlay {
+  /* Скрываем подложку  */
+  opacity: 0;
+  visibility: hidden;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 200;
+  transition: 0.3s all;
+  overflow-y: scroll;
+}
+
+/* Стили для модальных окон */
+.modal {
+  /* Скрываем окна  */
+  opacity: 0;
+  visibility: hidden;
+
+  /*  Установаем ширину окна  */
+
+  /*  Центрируем и задаем z-index */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 300; /* Должен быть выше чем у подложки*/
+
+  /*  Побочные стили   */
+  box-shadow: 0 3px 10px -0.5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-radius: 3px;
+  transition: 0.3s all;
+}
+
+/* Стили для активных классов подложки и окна */
+.modal.active,
+.overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+
+/*  STYLES FOR MODAL PRICE  */
+
+.modal-view-price {
+  position: relative;
+  /* outline: 2px dashed red; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 335px;
+  height: 414px;
+  
+  background-color: rgba(18, 18, 18, 1);
+  padding: 24px 24px 40px 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-view-price {
+    width: 628px;
+height: 430px;
+    padding: 32px 32px 60px 32px;
+  }
+}
+
+.modal-title-price {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.36;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-title-price {
+    font-size: 36px;
+    margin-bottom: 60px;
+  }
+}
+
+.modal-title-price > span {
+  font-style: italic;
+}
+
+/*.form-view-price {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  row-gap: 32px; 
+}*/
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .form-field {
+    width: 266px;
+    margin-bottom: 40;
+  }
+}
+
+
+@media screen and (min-width: 768px){.form-field.select {
+  margin-bottom: 0;
+}}
+
+.form-field.select.nubmer {
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .form-field.select.nubmer {
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (min-width: 768px){
+.form-field.select.price {margin-top: auto;
+margin-bottom: 0;}}
+
+
+.form-input {
+  height: 36px;
+  width: 287px;
+  border: none;
+  outline: none;
+  border-bottom: 0.8px solid rgba(247, 247, 247, 0.2);
+  background-color: rgba(18, 18, 18, 1);
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: white;
+  text-transform: none;
+}
+@media screen and (min-width: 768px) {
+  .form-input {
+    width: 266px;
+  }
+}
+
+.form-field-label {
+  position: relative;
+  text-align: left;
+}
+.booking-label-price {text-align: left;
+    margin-bottom: 24px;
+  
+}
+.form-input:focus + .booking-label,
+.form-input:not(:placeholder-shown) + .booking-label {
+  transform-origin: center left;
+  transform: translateY(-100%);
+  scale: 0.9;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-input:focus::placeholder {
+  opacity: 1;
+}
+
+::placeholder {
+  opacity: 0;
+  font-size: 8px;
+  line-height: 1.5;
+  letter-spacing: 0.18em;
+  color: #d8d7d7;
+  text-transform: uppercase;
+}
+.form-paragraph {
+  margin-top: 8px;
+  font-size: 8px;
+  line-height: 1.5;
+  letter-spacing: 0.18em;
+  color: #d8d7d7;
+  text-align: left;
+}
+.modal-select {
+  display: block;
+  height: 36px;
+  width: 287px;
+  text-transform: uppercase;
+  background-color: rgba(18, 18, 18, 1);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #f7f7f7;
+  outline: none;
+  border: none;
+  border-bottom: 0.8px solid rgba(247, 247, 247, 0.2);
+  position: relative;
+  appearance: none;
+  padding-bottom: 18px;
+  padding-right: auto;
+
+  background-image: url(/images/chevron-down.svg);
+  background-repeat: no-repeat, repeat;
+  background-position: right 0 top 0, 0 0;
+  background-size: 13px 13px;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-select {
+    width: 266px;
+  }
+}
+
+.modal-select-price {
+  height: 36px;
+  width: 287px;
+  text-align: left;
+  text-transform: uppercase;
+  background-color: rgba(18, 18, 18, 1);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #f7f7f7;
+  outline: none;
+  border: none;
+  border-bottom: 0.8px solid rgba(247, 247, 247, 0.2);
+  position: relative;
+  appearance: none;
+  padding-bottom: 18px;
+  padding-right: auto;
+}
+@media screen and (min-width: 768px) {
+.view-price-wrapper {display: flex;
+flex-direction: row;
+gap: 32px;
+margin-bottom: 80px;}}
