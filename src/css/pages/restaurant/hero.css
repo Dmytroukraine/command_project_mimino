@@ -1,210 +1,286 @@
-.rest-hero-section {
+/**
+  |============================
+  | Hotel-hero
+  |============================
+*/
+
+/* .container{
+    outline: 2px solid red;
+    outline-offset: -2px;
+} */
+.restaurant-hero-section {
+  background-color: #f6f6f6;
+  padding-top: 40px;
+  /* outline: 2px dashed blue;
+    outline-offset: -2px; */
   margin-top: 71px;
-  background-color: var(--main-light-color);
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-hero-section {
+    padding-bottom: 40px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-  .rest-hero-section {
+  .restaurant-hero-section {
     padding-top: 30px;
     padding-bottom: 30px;
     position: relative;
   }
 }
-@media screen and (min-width: 768px) {
-  .rest-hero-section {
-    padding-bottom: 40px;
-    padding-left: 32px;
+
+@media screen and (min-width: 1440px) {
+  .restaurant-hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
   }
 }
 
-.container.hidden {
-  padding-top: 40px;
-  padding-bottom: 0;
-}
-
-.rest-hero-title {
+.restaurant-hero-title {
   font-size: 40px;
-  letter-spacing: -0.02em;
-  line-height: 1;
   color: var(--main-black-color);
+  font-weight: inherit;
+  line-height: calc(40 / 40);
+  letter-spacing: -0.02em;
+  margin-bottom: 24px;
 }
 
 @media screen and (min-width: 768px) {
-  .rest-hero-title {
-    margin-bottom: 32px;
+  .restaurant-hero-title {
     font-size: 80px;
+    margin-bottom: 32px;
   }
 }
+
 @media screen and (min-width: 1440px) {
-  .rest-hero-title {
+  .restaurant-hero-title {
     font-size: 90px;
+    margin-top: 174px;
+    margin-bottom: 0;
   }
 }
 
-.rest-hero-btn-list {
-  display: flex;
-  column-gap: 12px;
-  margin-bottom: 40px;
-  margin-top: 24px;
-}
-
-@media screen and (min-width: 768px) {
-  .rest-hero-btn-list {
-    column-gap: 14px;
-    margin-bottom: 54px;
-    margin-top: 32px;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .rest-hero-btn-list {
-    margin-bottom: 204px;
-    margin-top: 32px;
-  }
-}
-
-.js-open-modal,
-.rest-hero-nav-link {
-  padding: 8px 18px;
-  border-radius: 32px;
-  background-color: transparent;
-  transition: color linear 250ms, background-color linear 250ms;
-  border: 0.8px solid var(--main-black-color);
-  color: var(--main-black-color);
-  text-transform: uppercase;
-  text-align: center;
-  display: block;
-  font-family: 'DM Sans';
-  font-style: normal;
-  font-weight: 400px;
-  line-height: calc(18 / 14);
-  text-align: center;
+.restaurant-hero-txt {
   font-size: 14px;
-  letter-spacing: -0.02em;
-  cursor: pointer;
-}
-
-.js-open-modal:hover,
-.js-open-modal:focus,
-.rest-hero-nav-link:hover,
-.rest-hero-nav-link:focus {
-  background-color: var(--main-black-color);
-  color: var(--main-light-color);
+  line-height: calc(18 / 14);
+  letter-spacing: 0.05em;
+  color: #121212;
 }
 
 @media screen and (min-width: 768px) {
-  .js-open-modal,
-  .rest-hero-nav-link {
-    padding: 8px 24px;
-    line-height: 1.71;
+  .restaurant-hero-txt {
+    width: 338px;
   }
 }
+
 @media screen and (min-width: 1440px) {
-  .js-open-modal,
-  .rest-hero-nav-link {
+  .restaurant-hero-txt {
+    position: absolute;
+    top: 572px;
+  }
+}
+
+.restaurant-hero-btn-list {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-hero-btn-list {
+    gap: 14px;
+    margin-bottom: 54px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .restaurant-hero-btn-list {
+    position: absolute;
+    top: 328px;
+  }
+}
+
+.restaurant-hero-btn {
+  padding: 8px 18px;
+  border: 0.8px solid #121212;
+  border-radius: 32px;
+  background-color: var(--main-light-color);
+  font-family: var(--primary-font);
+  letter-spacing: -0.02em;
+  font-size: 14px;
+  line-height: calc(18 / 14);
+  text-transform: uppercase;
+  color: #121212;
+  transition: color 250ms linear, background-color 250ms linear;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-hero-btn {
+    padding: 8px 24px;
+    line-height: calc(24 / 14);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .restaurant-hero-btn {
     padding: 9px 24px;
     font-size: 18px;
-    line-height: 1.33;
+    line-height: calc(24 / 18);
   }
 }
 
-.hidden {
-  overflow: hidden;
-  margin-left: 20px;
-  margin-right: auto;
-  min-width: 320px;
-  margin-left: auto;
-  margin-right: auto;
+.restaurant-hero-btn:focus,
+.restaurant-hero-btn:hover {
+  color: #f7f7f7;
+  background-color: #121212;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1439.98px) {
-  .hidden {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-}
-
-.hero-2-wrapper {
-  position: relative;
-}
-
-/* .hero-img-wrapp {
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: translateX(72%);
-  margin-left: 85px;
-} */
-
-.hero-item-img:first-child {
-  margin-right: 85px;
-}
-
-/* @media screen and (min-width: 768px) {
-  .hero-img-wrapp {
-    transform: translateX(85%);
-  }
-} */
-@media screen and (min-width: 1440px) {
-  .hidden {
-    position: relative;
-  }
-  .hero-2-wrapper {
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-30%);
-  }
-  .hero-1-wrapper {
-    max-width: 526px;
-    margin-top: 174px;
-  }
-}
-
-.rest-hero-text-box {
-  max-width: 338px;
-  margin-bottom: 200px;
-  margin-top: 100px;
+.restaurant-slider-wrapper {
+  height: 429px;
+  margin-right: -20px;
+  margin-bottom: 100px;
 }
 
 @media screen and (min-width: 768px) {
-  .rest-hero-text-box {
-    width: 338px;
+  .restaurant-slider-wrapper {
+    height: 548px;
+    margin-right: -32px;
     margin-bottom: 40px;
-    margin-top: 40px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .rest-hero-text-box {
-    width: 338px;
-    margin-bottom: 48px;
-    margin-top: 204px;
+  .restaurant-slider-wrapper {
+    width: 703px;
+    height: 662px;
+    margin-bottom: 0;
   }
 }
 
-.rest-hero-text {
-  font-size: 14px;
-  line-height: 1.29;
-  letter-spacing: 0.05em;
-  color: var(--main-black-color);
-  font-weight: var(--font-weight-title);
+.slick-list {
+  height: 429px;
 }
 
 @media screen and (min-width: 768px) {
-  .rest-hero-text {
-    width: 338px;
+  .slick-list {
+    height: 548px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .rest-hero-text {
-    width: 338px;
+  .slick-list {
+    height: 580px;
   }
 }
+
+/* .variable-width {
+    max-width: 375px;
+  
+}
+
 @media screen and (min-width: 768px) {
-  .picc {
-    max-width: 100%;
+    .variable-width {
+            max-width: 732px;
+        }
+} */
+
+.restaurant-item {
+  margin-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-item {
+    margin-left: 32px;
   }
+}
+
+.slick-prev,
+.slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  background: none;
+  transition: opacity 250ms linear;
+}
+
+.slick-next {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='9' height='16' fill='none'%3E%3Cpath stroke='%23121212' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m1 15 7-7-7-7'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: 7px 14px;
+  background-position: center;
+  top: 453px;
+  left: calc(100vw - 20%);
+  opacity: 1;
+}
+
+@media screen and (min-width: 375px) {
+  .slick-next {
+    left: 295px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .slick-next {
+    top: 588px;
+    left: 664px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .slick-next {
+    top: 596px;
+    left: 68px;
+  }
+}
+
+.slick-prev {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='9' height='16' fill='none'%3E%3Cpath stroke='%23121212' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M8 15 1 8l7-7'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: 7px 14px;
+  background-position: center;
+  top: 453px;
+  left: calc(100vw - 38%);
+  opacity: 0.3;
+}
+
+@media screen and (min-width: 375px) {
+  .slick-prev {
+    left: 231px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .slick-prev {
+    top: 588px;
+    left: 596px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .slick-prev {
+    top: 596px;
+    left: 0;
+  }
+}
+
+.slick-prev:focus ~ .slick-next {
+  opacity: 0.3;
+}
+
+.slick-prev:focus ~ .slick-next:hover {
+  opacity: 1;
+}
+
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+  opacity: 1;
 }

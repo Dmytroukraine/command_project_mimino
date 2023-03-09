@@ -1,24 +1,28 @@
-<section class="rest-hero-section">
-  <div class="container hidden">
-    <div class="hero-1-wrapper">
-      <h1 class="rest-hero-title animate__animated animate__backInRight">
-        Restaurant
-      </h1>
-      <ul class="rest-hero-btn-list">
-        <li class="rest-hero-item-btn">
-          <button type="button" class="js-open-modal btn" data-modal="2">
-            book a table
-          </button>
-        </li>
-        <li class="rest-hero-item-btn">
-          <a class="rest-hero-nav-link" href="#">view a menu</a>
-        </li>
-      </ul>
-    </div>
-    <div class="hero-2-wrapper">
-      <ul class="hero-list-img">
-        <li class="hero-item-img">
+<section class="restaurant-hero-section">
+  <div class="container restaurant-hero-container">
+    <h1 class="restaurant-hero-title animate__animated animate__backInRight">
+      Restaurant
+    </h1>
+    <ul class="restaurant-hero-btn-list">
+      <li>
+        <button
+          type="button"
+          class="restaurant-hero-btn js-open-modal"
+          data-modal="2"
+        >
+          book a table
+        </button>
+      </li>
+      <li>
+        <button class="restaurant-hero-btn" type="button">view a menu</button>
+      </li>
+    </ul>
+
+    <div class="restaurant-slider-wrapper">
+      <div class="variable-width">
+        <div class="restaurant-item">
           <picture>
+            <!-- desktop -->
             <source
               media="(min-width: 1440px)"
               srcset="
@@ -27,73 +31,45 @@
               "
               type="image/webp"
             />
-            <source
-              media="(min-width: 768px)"
-              srcset="
-                images/tablet/restaurant/restaurant_food3_tablet.jpg    1x,
-                images/tablet/restaurant/restaurant_food3_tablet@2x.jpg 2x
-              "
-              type="image/jpg"
-            />
-            <source
-              media="(max-width: 375px)"
-              srcset="
-                images/mobile/restaurant/restaurant_food1_mobile.jpg    1x,
-                images/mobile/restaurant/restaurant_food1_mobile@2x.jpg 2x
-              "
-              type="image/jpg"
-            />
-            <img
-              src="images/mobile/restaurant/restaurant_food1_mobile.jpg"
-              alt="Chef's cooking"
-              max-width="511"
-            />
-          </picture>
 
-          <picture class="picc">
-            <!-- desktop -->
             <source
               media="(min-width: 1440px)"
               srcset="
-                /images/desktop/restaurant/scrol_restaurant/scrol_restaurant1_desktop.webp    1x,
-                /images/desktop/restaurant/scrol_restaurant/scrol_restaurant1_desktop@2x.webp 2x
-              "
-              type="image/jpg"
-            />
-            <source
-              media="(min-width: 1440px)"
-              srcset="
-                /images/desktop/restaurant/scrol_restaurant/scrol_restaurant1_desktop.jpj    1x,
+                /images/desktop/restaurant/scrol_restaurant/scrol_restaurant1_desktop.jpg    1x,
                 /images/desktop/restaurant/scrol_restaurant/scrol_restaurant1_desktop@2x.jpg 2x
               "
               type="image/jpg"
             />
+
             <!-- tablet -->
             <source
-              media="(min-width: 768px)"
+              media="(max-width: 767px)"
               srcset="
-                /images/tablet/restaurant/scrol_restaurant_tablet/scrol_restaurant1_tablet.webp    1x,
-                /images/tablet/restaurant/scrol_restaurant_tablet/scrol_restaurant1_tablet@2x.webp 2x
+                /images/tablet/restaurant/scrol_restaurant_tablet/scrol_restaraunt1_tablet.webp    1x,
+                /images/tablet/restaurant/scrol_restaurant_tablet/scrol_restaraunt1_tablet@2x.webp 2x
               "
-              type="image/jpg"
+              type="image/webp"
             />
+
             <source
               media="(min-width: 768px)"
               srcset="
-                /images/tablet/restaurant/scrol_restaurant_tablet/scrol_restaurant1_tablet.jpg    1x,
-                /images/tablet/restaurant/scrol_restaurant_tablet/scrol_restaurant1_tablet@2x.jpg 2x
+                /images/tablet/restaurant/scrol_restaurant_tablet/scrol_restaraunt1_tablet.jpg    1x,
+                /images/tablet/restaurant/scrol_restaurant_tablet/scrol_restaraunt1_tablet@2x.jpg 2x
               "
               type="image/jpg"
             />
+
             <!-- mobile -->
             <source
-              media="(max-width: 767x)"
+              media="(max-width: 767px)"
               srcset="
                 /images/mobile/restaurant/scrol_restaurant/scrol_restaurant1_mobile.webp    1x,
                 /images/mobile/restaurant/scrol_restaurant/scrol_restaurant1_mobile@2x.webp 2x
               "
-              type="image/jpg"
+              type="image/webp"
             />
+
             <source
               media="(max-width: 767px)"
               srcset="
@@ -102,61 +78,154 @@
               "
               type="image/jpg"
             />
+
             <img
               src="/images/mobile/restaurant/scrol_restaurant/scrol_restaurant1_mobile.jpg"
-              alt="Tables"
-              width="436"
-              height="580"
+              alt="servired table"
               loading="lazy"
             />
           </picture>
-        </li>
+        </div>
 
-        <!-- <li class="hero-item-img">
-          <div class="hero-img-wrapp">
-            <picture>
-              <source
-                media="(min-width: 1440px)"
-                srcset="
-                  /images/desktop/restaurant/scrol_restaurant/scrol_restaurant2_desktop.jpg    1x,
-                  /images/desktop/restaurant/scrol_restaurant/scrol_restaurant2_desktop@2x.jpg 2x
-                "
-                type="image/jpg"
-              />
-              <source
-                media="(min-width: 768px)"
-                srcset="
-                  /images/tablet/restaurant/scrol_restaurant_tablet/scrol_restaurant2_tablet.jpg    1x,
-                  /images/tablet/restaurant/scrol_restaurant_tablet/scrol_restaurant2_tablet@2x.jpg 2x
-                "
-                type="image/jpg"
-              />
-              <source
-                media="(max-width: 767px)"
-                srcset="
-                  /images/mobile/restaurant/scrol_restaurant/scrol_restaurant2_mobile.jpg    1x,
-                  /images/mobile/restaurant/scrol_restaurant/scrol_restaurant2_mobile@2x.jpg 2x
-                "
-                type="image/jpg"
-              />
-              <img
-                src="/images/mobile/restaurant/scrol_restaurant/scrol_restaurant2_mobile.jpg"
-                alt="Dishes"
-                width="436"
-                height="580"
-                loading="lazy"
-              />
-            </picture>
-          </div>
-        </li> -->
-      </ul>
+        <div class="restaurant-item">
+          <picture>
+            <!-- desktop -->
+            <source
+              media="(min-width: 1440px)"
+              srcset="
+                /images/desktop/restaurant/scrol_restaurant/scrol_restaurant2_desktop.webp    1x,
+                /images/desktop/restaurant/scrol_restaurant/scrol_restaurant2_desktop@2x.webp 2x
+              "
+              type="image/webp"
+            />
+
+            <source
+              media="(min-width: 1440px)"
+              srcset="
+                /images/desktop/restaurant/scrol_restaurant/scrol_restaurant2_desktop.jpg    1x,
+                /images/desktop/restaurant/scrol_restaurant/scrol_restaurant2_desktop@2x.jpg 2x
+              "
+              type="image/jpeg"
+            />
+
+            <!-- tablet -->
+            <source
+              media="(min-width: 767px)"
+              srcset="
+                /images/tablet/restaurant/scrol_restaurant_tablet/scrol_restaraunt2_tablet.webp    1x,
+                /images/tablet/restaurant/scrol_restaurant_tablet/scrol_restaraunt2_tablet@2x.webp 2x
+              "
+              type="image/webp"
+            />
+
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                /images/tablet/restaurant/scrol_restaurant_tablet/scrol_restaraunt2_tablet.jpg    1x,
+                /images/tablet/restaurant/scrol_restaurant_tablet/scrol_restaraunt2_tablet@2x.jpg 2x
+              "
+              type="image/jpeg"
+            />
+
+            <!-- mobile -->
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                /images/mobile/restaurant/scrol_restaurant/scrol_restaurant2_mobile.webp    1x,
+                /images/mobile/restaurant/scrol_restaurant/scrol_restaurant2_mobile@2x.webp 2x
+              "
+              type="image/webp"
+            />
+
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                /images/mobile/restaurant/scrol_restaurant/scrol_restaurant2_mobile.jpg    1x,
+                /images/mobile/restaurant/scrol_restaurant/scrol_restaurant2_mobile@2x.jpg 2x
+              "
+              type="image/jpeg"
+            />
+
+            <img
+              src="/images/mobile/restaurant/scrol_restaurant/scrol_restaurant2_mobile.jpg"
+              alt="a plate with fish"
+              loading="lazy"
+            />
+          </picture>
+        </div>
+
+        <div class="restaurant-item">
+          <picture>
+            <!-- desktop -->
+            <source
+              media="(min-width: 1440px)"
+              srcset="
+                /images/desktop/restaurant/scrol_restaurant/scrol_restaurant3_desktop.webp    1x,
+                /images/desktop/restaurant/scrol_restaurant/scrol_restaurant3_desktop@2x.webp 2x
+              "
+              type="image/webp"
+            />
+
+            <source
+              media="(min-width: 1440px)"
+              srcset="
+                /images/desktop/restaurant/scrol_restaurant/scrol_restaurant3_desktop.jpg    1x,
+                /images/desktop/restaurant/scrol_restaurant/scrol_restaurant3_desktop@2x.jpg 2x
+              "
+              type="image/jpeg"
+            />
+
+            <!-- tablet -->
+            <source
+              media="(min-width: 767px)"
+              srcset="
+                /images/tablet/restaurant/scrol_restaurant/scrol_restaurant3_tablet.webp    1x,
+                /images/tablet/restaurant/scrol_restaurant/scrol_restaurant3_tablet@2x.webp 2x
+              "
+              type="image/webp"
+            />
+
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                /images/tablet/restaurant/scrol_restaurant/scrol_restaurant3_tablet.jpg    1x,
+                /images/tablet/restaurant/scrol_restaurant/scrol_restaurant3_tablet@2x.jpg 2x
+              "
+              type="image/jpeg"
+            />
+
+            <!-- mobile -->
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                /images/mobile/restaurant/scrol_restaurant/scrol_restaurant3_mobile.webp    1x,
+                /images/mobile/restaurant/scrol_restaurant/scrol_restaurant3_mobile@2x.webp 2x
+              "
+              type="image/webp"
+            />
+
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                /images/mobile/restaurant/scrol_restaurant/scrol_restaurant3_mobile.jpg    1x,
+                /images/mobile/restaurant/scrol_restaurant/scrol_restaurant3_mobile@2x.jpg 2x
+              "
+              type="image/jpeg"
+            />
+
+            <img
+              src="/images/mobile/restaurant/scrol_restaurant/scrol_restaurant3_mobile.jpg"
+              alt="cutting vegetables"
+              loading="lazy"
+            />
+          </picture>
+        </div>
+      </div>
     </div>
-    <div class="rest-hero-text-box">
-      <p class="rest-hero-text">
-        Whether you're in the mood for a hearty breakfast, a light lunch, or
-        <span class="hero-accent-italic">a romantic dinner</span>, our menu has
-        something for everyone.
-      </p>
-    </div>
+
+    <p class="restaurant-hero-txt">
+      Whether you're in the mood for a hearty breakfast, a light lunch, or a
+      romantic dinner, our menu has something for everyone.
+    </p>
   </div>
 </section>
