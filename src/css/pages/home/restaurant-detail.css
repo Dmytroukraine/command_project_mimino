@@ -1,124 +1,304 @@
-/**
-      |============================
-      | ---------RESTAURANT HERO STYLES ----------
-      |============================
-    */
-.home-restaurant-section {
-  background-color: var(--main-light-color);
+.restaurant-description {
+    margin-bottom: 32px;
 }
-.home-restaurant-title {
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 40px;
-  color: var(--main-black-color);
-  margin-bottom: 24px;
+
+
+
+@media screen and (min-width: 768px) {
+    .restaurant-description {
+        display: flex;
+        margin-bottom: 80px;
+    }
 }
-.home-restaurant-txt {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 18px;
-  color: var(--main-black-color);
-  max-width: 221px;
-  margin-bottom: 32px;
+
+@media screen and (min-width: 1440px) {
+    .restaurant-description {
+        padding-top: 44px;
+    }
 }
+
+.restaurant-title {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: left;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    color: var(--main-black-color);
+
+
+}
+
+@media screen and (min-width: 768px) {
+    .restaurant-title {
+        font-size: 68px;
+        line-height: 68px;
+        margin-bottom: 0;
+    }
+}
+
+.restaurant-text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    width: 239px;
+    color: var(--main-black-color);
+
+}
+
+@media screen and (min-width: 768px) {
+    .restaurant-text {
+        padding-top: 7px;
+        padding-bottom: 7px;
+        margin-left: 32px;
+    }
+}
+
+.restaurant-btns {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    gap: 12px;
+}
+
+@media screen and (min-width: 768px) {
+    .restaurant-btns {
+        gap: 14px;
+
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .restaurant-btns {
+        position: absolute;
+        margin-top: 0;
+        top: 44px;
+        left: 1090px;
+    }
+}
+
 
 .js-open-modal.white,
 .restaurant-link {
-  padding: 8px 18px;
-  /* height: 34px; */
-  border-radius: 32px;
-  background-color: transparent;
-  border: 0.8px solid #121212;
-  text-transform: uppercase;
-  color: var(--main-black-color);
-  display: block;
-  font-family: var(--primary-font);
-  font-style: normal;
-  font-weight: 400px;
-  line-height: 1.33;
-  text-align: center;
-  font-size: 18px;
-  letter-spacing: -0.02em;
-  cursor: pointer;
+    padding: 8px 18px;
+    border-radius: 32px;
+    background-color: transparent;
+    border: .8px solid #121212;
+    text-transform: uppercase;
+    color: var(--main-black-color);
+    display: block;
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 1.33;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: -.02em;
+    cursor: pointer
 }
 
 .js-open-modal:hover,
 .js-open-modal:focus,
 .restaurant-link:hover,
 .restaurant-link:focus {
-  background-color: #121212;
-  color: #f7f7f7;
+    background-color: #121212;
+    color: #f7f7f7
 }
 
-.restaurant-btn-list {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+.js-open-modal.white,
+.restaurant-link {
+    padding: 8px 18px;
+    border-radius: 32px;
+    background-color: transparent;
+    border: .8px solid #121212;
+    text-transform: uppercase;
+    color: var(--main-black-color);
+    display: block;
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 1.33;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: -.02em;
+    cursor: pointer
 }
+
+.js-open-modal:hover,
+.js-open-modal:focus,
+.restaurant-link:hover,
+.restaurant-link:focus {
+    background-color: #121212;
+    color: #f7f7f7
+}
+
+
+
+
+/* .container{
+    outline: 2px solid red;
+    outline-offset: -2px;
+} */
+.restaurant {
+    background-color: #F6F6F6;
+    /* outline: 2px dashed blue;
+                outline-offset: -2px; */
+
+}
+
+
+@media screen and (min-width: 1440px) {
+    .restaurant {
+
+        padding-bottom: 113px;
+
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .restaurant-detail-cont {
+        position: relative;
+
+    }
+}
+
+
+.rest-details-slider-wrapper {
+    height: 201px;
+    /* margin-right: -20px; */
+    margin-bottom: 82px;
+}
+
+@media screen and (min-width: 768px) {
+    .rest-details-slider-wrapper {
+        height: 309px;
+        margin-bottom: 108px;
+    }
+}
+
+
+@media screen and (min-width: 1440px) {
+    .rest-details-slider-wrapper {
+        margin-right: -32px;
+        margin-bottom: 0;
+    }
+}
+
+
+.slick-list {
+    height: 201px;
+}
+
+@media screen and (min-width: 768px) {
+    .slick-list {
+        height: 309px;
+    }
+
+}
+
 
 
 .item {
-  height: 100%;
-  margin-left: 20px;
-  margin-right: 0;
-}
-.home-restaurant-slider-wrapper {
-  margin-bottom: 80px;
-}
-.slick-prev, .slick-next{
-  opacity: 0;
+    margin-left: 20px;
 }
 
-/**
-            |============================
-            | ---------RESTAURANT HERO TABLET STYLES ----------
-            |============================
-          */
 @media screen and (min-width: 768px) {
-  .home-restaurant-title {
-    font-size: 68px;
-    line-height: 68px;
-    margin-bottom: 0;
-  }
-
-  .home-restaurant-title-box {
-    display: flex;
-    align-items: center;
-    gap: 32px;
-    margin-bottom: 80px;
-  }
-  .restaurant-btn-list {
-    display: flex;
-    justify-content: center;
-    gap: 14px;
-  }
-  .home-restaurant-txt {
-    margin-bottom: 0;
-  }
-  .item {
-    margin-left: 32px;
-  }
+    .item {
+        margin-left: 32px;
+    }
 }
 
-/**
-              |============================
-              | ---------RESTAURANT DESKTOP STYLES ----------
-              |============================
-            */
+
+.slick-prev,
+.slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    background: none;
+    transition: opacity 250ms linear;
+}
+
+
+.slick-next {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='9' height='16' fill='none'%3E%3Cpath stroke='%23121212' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m1 15 7-7-7-7'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: 7px 14px;
+    background-position: center;
+    top: 219px;
+    left: 52px;
+    opacity: 1;
+
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .slick-next {
+        top: 341px;
+        left: 64px;
+    }
+}
 
 @media screen and (min-width: 1440px) {
-  .home-restaurant-container {
-    position: relative;
-  }
-  .restaurant-btn-list {
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
-  .home-restaurant-slider-wrapper{
-    margin-bottom: 0;
-    padding-bottom: 80px;
-  }
-  
-  
+    .slick-next {
+        top: 360px;
+        left: 704px;
+    }
+}
+
+.slick-prev {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='9' height='16' fill='none'%3E%3Cpath stroke='%23121212' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M8 15 1 8l7-7'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: 7px 14px;
+    background-position: center;
+    top: 219px;
+    left: 0;
+    opacity: 0.3;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .slick-prev {
+        top: 341px;
+        left: 0;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .slick-prev {
+        top: 360px;
+        left: 636px;
+
+    }
+}
+
+
+
+.slick-prev:focus~.slick-next {
+    opacity: 0.3;
+}
+
+.slick-prev:focus~.slick-next:hover {
+    opacity: 1;
+}
+
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+    opacity: 1;
 }
