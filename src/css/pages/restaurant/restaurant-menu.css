@@ -24,7 +24,7 @@
   background-color: #121212;
   color: #f6f6f6;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1439px) {
   .section_restourant-menu_desktop {
     display: none;
   }
