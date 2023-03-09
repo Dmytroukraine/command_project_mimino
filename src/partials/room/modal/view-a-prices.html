@@ -1,0 +1,33 @@
+<div class="modal" data-modal="3">
+  <div class="modal-view-price">
+    <strong class="modal-title">prices per<span>room</span></strong>
+    <button type="button" class="modal__cross js-modal-close">
+      <svg class="close-modal-icon" width="12" height="12">
+        <use href="/images/icons.svg#icon-menu-close"></use>
+      </svg>
+    </button>
+    <form class="form-view-price" name="form_view_price">
+      <div class="form-field select">
+        <label for="fav" class="form-field-label">number of people </label>
+        <input list="nmb_of_people" name="fav" id="fav" class="form-input" />
+        <datalist id="nmb_of_people" class="datalist">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </datalist>
+      </div>
+
+      <div class="form-field select">
+        <select name="" id="" class="modal-select">
+          <option value="">today</option>
+          <option value="">tomorrow</option>
+          <option value="">day after tomorrow</option>
+        </select>
+        <p class="form-paragraph">check-in-date</p>
+      </div>
+      <button type="submit" class="modal-submit-btn">MAKE A RESERVATION</button>
+    </form>
+  </div>
+</div>
