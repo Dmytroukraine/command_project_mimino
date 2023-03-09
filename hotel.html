@@ -32,7 +32,7 @@
      
      
   <script type="module" crossorigin src="/command_project_mimino/assets/input-mask-b45a795f.js"></script>
-  <link rel="stylesheet" href="/command_project_mimino/assets/input-mask-aff91657.css">
+  <link rel="stylesheet" href="/command_project_mimino/assets/input-mask-e9e46277.css">
   <link rel="stylesheet" href="/command_project_mimino/assets/hotel-7e032d2d.css">
 </head>
   <body>
@@ -149,7 +149,7 @@
     </h1>
     <ul class="hotel-hero-btn-list">
       <li><button type="button" class="hotel-hero-btn js-open-modal" data-modal="1" >book a room</button></li>
-      <li><button class="hotel-hero-btn" type="button">View prices</button></li>
+      <li><button class="hotel-hero-btn js-open-modal" type="button" data-modal="3">View prices</button></li>
     </ul>
 
     <div class="hotel-slider-wrapper">
@@ -560,7 +560,7 @@
                     <a href="./room.html" class="double-link">More details</a>
                 </li>
                 <li>
-                    <button type="button" class="double-btn">View prices</button>
+                    <button class="hotel-hero-btn js-open-modal" type="button" data-modal="3">View prices</button>
                 </li>
             </ul> 
         </div>  
@@ -740,7 +740,7 @@
             <div class="desk-wrap-two">
                 <ul class="triple-btn-list">
                     <li><a href="./room.html" class="triple-link">More details</a></li>
-                    <li><button type="button" class="triple-btn">View prices</button></li>
+                    <li><button class="hotel-hero-btn js-open-modal" type="button" data-modal="3">View prices</button></li>
                 </ul>
             </div>
         </div>
@@ -979,7 +979,7 @@
                     <a href="./room.html" class="four-link">More details</a>
                 </li>
                 <li>
-                    <button type="button" class="four-btn">View prices</button>
+                    <button class="hotel-hero-btn js-open-modal" type="button" data-modal="3">View prices</button>
                 </li>
             </ul>
         </div>
@@ -1119,6 +1119,40 @@
 </div>
 
 <div class="overlay js-overlay-modal"></div>
+
+   <div class="modal" data-modal="3">
+  <div class="modal-view-price">
+    <strong class="modal-title">prices per<span>room</span></strong>
+    <button type="button" class="modal__cross js-modal-close">
+      <svg class="close-modal-icon" width="12" height="12">
+        <use href="/command_project_mimino/assets/icons-c213c9dd.svg#icon-menu-close"></use>
+      </svg>
+    </button>
+    <form class="form-view-price" name="form_view_price">
+      <div class="form-field select">
+        <label for="fav" class="form-field-label">number of people </label>
+        <input list="nmb_of_people" name="fav" id="fav" class="form-input" />
+        <datalist id="nmb_of_people" class="datalist">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </datalist>
+      </div>
+
+      <div class="form-field select">
+        <select name="" id="" class="modal-select">
+          <option value="">today</option>
+          <option value="">tomorrow</option>
+          <option value="">day after tomorrow</option>
+        </select>
+        <p class="form-paragraph">check-in-date</p>
+      </div>
+      <button type="submit" class="modal-submit-btn">MAKE A RESERVATION</button>
+    </form>
+  </div>
+</div>
 
 
   <script
