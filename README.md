@@ -1,10 +1,12 @@
-<center><em><h1> Display: Goose; </h1></em> 
+<h1 align="center"><em> Display: Goose;</em>
 
-<img src="https://github.com/Dmytroukraine/command_project_mimino/blob/main/src/images/photo_2023-03-09_00-41-40.jpg"  alt="goose" width=100/></center>
+<img src="https://github.com/Dmytroukraine/command_project_mimino/blob/main/src/images/photo_2023-03-09_00-41-40.jpg"  alt="goose" width=100/></h1>
 
-<b>Dmytro Kozlovskyi</b>  - TeamLead :smiling_imp:
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=3700F7&width=435&lines=A+clever+person+solves+a+problem.+;A+wise+person+avoids+it.)](https://git.io/typing-svg)
 
-<b>Dmitry Kozhukhar</b> - ScrumMaster :smile:
+<b>Dmytro Kozlovskyi</b>  - `TeamLead` :smiling_imp:
+
+<b>Dmitry Kozhukhar</b> - `ScrumMaster` :smile:
 </br>Page Home -section  Hero + animation + adaptation for desktop/tablet/mobile
 </br>modal win - Book a Room + Book a table - styles + position
 
@@ -34,21 +36,21 @@
 </br>Buttons
 </br>Animated title for Page's Hotel/Restaurant/Room 
 
-<b>Khrystyna Nahailo</b>
+<b>Khrystyna Nahailo</b>:innocent:
 </br>Footer for all page + adaptation for desktop/tablet/mobile + animation
 </br>Page Hotel - section Double room + adaptation for desktop/tablet/mobile
 </br>Page Hotel - section Four seater room + adaptation for desktop/tablet/mobile
 
-<b>Albina Vinnikova</b>
+<b>Albina Vinnikova</b>:blush:
 </br>Page Home - section Welcome + adaptation for desktop/tablet/mobile
 </br>Page Hotel - section Triple room + adaptation for desktop/tablet/mobile
 
-<b>Vladyslav Aleksyn</b>
+<b>Vladyslav Aleksyn</b>:sunglasses:
 </br>Page Home - section Hotel detail's + adaptation for desktop/tablet/mobile
 </br>Page Restaurant - section Restaurant Menu + slider + adaptation for desktop/tablet/mobile
 
-<b>Dmytro Kyianov</b>
+<b>Dmytro Kyianov</b>:smirk:
 </br>Page Home - section Restaurant without slide + adaptation for desktop/tablet/mobile
 
-<b>Volodymyr Nikolaychuk</b>
+<b>Volodymyr Nikolaychuk</b>:grin:
 </br>Page Restaurant - section About a kitchen + adaptation for desktop/tablet/mobile + modal win </br>View Prices
