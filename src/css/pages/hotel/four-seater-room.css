@@ -20,11 +20,15 @@
         max-width: 1376px;
     }
 }
+
+
+        
 @media screen and (min-width:768px) and (max-width: 1439px){
     .four-img {
         display: flex;
         flex-direction: row-reverse;
         gap:32px;
+        
     }
 }
 @media screen and (min-width:1440px){
@@ -246,3 +250,27 @@
         padding: 9px 24px;
     }
 }
+
+
+
+/* slider */ 
+
+.hotel-room-slider-wrapper {
+  position: relative;
+ 
+}
+
+
+.hotel-room-slider-img {
+position: relative;
+
+transition: all 0.7s ease-in-out;}
+
+
+
+.hotel-room-slider-img picture {
+  
+  object-fit: cover;
+  transition: transform 0.7s ease-in-out;}
+
+.hotel-room-slider-wrapper:hover .hotel-room-slider-img {transform: scale(1.07);}
