@@ -1,20 +1,18 @@
 .about-about-kitchen {
   background-color: #f7f7f7;
+  padding-bottom: 64px;
 }
 
-.about-about-kitchen .container {
-  padding-top: 64px;
-}
 
 @media screen and (min-width: 768px) {
-  .about-about-kitchen .container {
+  .about-about-kitchen {
     padding-top: 80px;
     padding-bottom: 80px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .about-about-kitchen .container {
+  .about-about-kitchen  {
     padding-top: 100px;
     padding-bottom: 100px;
   }
