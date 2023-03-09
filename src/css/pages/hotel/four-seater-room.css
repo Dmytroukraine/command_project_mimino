@@ -1,16 +1,5 @@
 .four-section {
     background-color: var(--main-light-color);
-    padding-top: 64px;
-}
-@media screen and (min-width:768px) {
-    .four-section {
-        padding-top: 80px;
-    }
-}
-@media screen and (min-width:1440px) {
-    .four-section{
-        padding-top: 100px;
-    }
 }
 .conteiner {
     max-width: 375px;
