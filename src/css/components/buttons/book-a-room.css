@@ -312,6 +312,7 @@ background-size: 13px 13px;
   display: flex;
   flex-direction: row;
   gap: 32px;
+  margin-bottom: 40px;
 }}
 
 
