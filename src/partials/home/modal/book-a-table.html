@@ -19,6 +19,7 @@
               id="user-name"
                pattern="[a-zA-Zа-яА-я]{2,20}"
             title="Username should only contain lowercase letters"
+            required
             />
             <span class="booking-label">Your name</span>
           </label>
@@ -32,6 +33,7 @@
             name="number-of-people"
             id="number-of-people"
             class="modal-select"
+            required
           >
             <option value="">number of people</option>
             <option value="">1</option>
@@ -95,9 +97,8 @@
               class="form-input"
               name="user-phone"
               id="user-phone"
-              pattern="[\+]\d{2}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
-              minlength="13"
-              maxlength="13"
+              pattern="[0-9]{12}"
+              required
             /><span class="booking-label">+ 38 ()</span>
           </label>
           <p class="form-paragraph">phone number</p>
