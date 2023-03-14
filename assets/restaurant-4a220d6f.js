@@ -1,1 +1,0 @@
-import"./input-mask-0f8249f1.js";var l=1;i(l);function i(a){var e,s=document.getElementsByClassName("item"),t=document.getElementsByClassName("slider-dots_item");for(a>s.length&&(l=1),a<1&&(l=s.length),e=0;e<s.length;e++)s[e].style.display="none";for(e=0;e<t.length;e++)t[e].className=t[e].className.replace(" active","");s[l-1].style.display="block",t[l-1].className+=" active"}
